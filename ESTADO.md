@@ -75,13 +75,13 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
   de gráficos (`$00:865D` guarda o nº do descritor, `$00:86EF` chama `FontUploadAll` se for #000/#001), que
   envia logo todos os segmentos da fonte inglesa para a VRAM. `fonte_rom.py` removido. **Testado OK no Mesen (2026-10-10).**
 - **Patch BPS:** `python ferramentas\criar_bps.py <rom original> 3x3Eyes_EN.sfc <saída.bps>` (codificador
-  próprio; verifica o patch reaplicando-o). v0.1-beta: 126954 bytes, resultado CRC32 D97935D1.
+  próprio; verifica o patch reaplicando-o). v0.1-beta: 126954 bytes, resultado CRC32 D97935D1. v0.2-beta: 130541 bytes, CRC32 A9A3BC49.
 - Desmontador simples de 65816: `ferramentas/analise/dis65816.py <rom> <banco:endereço> [n]`.
 
 - **Livros lidos no menu** (Atlas, Pyramid Book, livros de talismãs/pentáculos/Nauthiz): não estão no guião
   principal. Tabela `$0E:8000` (10 livros × ponteiro de 3 bytes → [nº de páginas][ponteiros das páginas];
   páginas acabam em `FF 0B`), lida em `$00:CF79`. `livros_en.txt` → `ferramentas/livros.py` (dados no banco $33).
-  Referência japonesa: `python ferramentas\livros.py extrair <rom> livros_jp.txt` (fora do git). **Por testar.**
+  Referência japonesa: `python ferramentas\livros.py extrair <rom> livros_jp.txt` (fora do git). Testado OK (2026-10-10).
 - **Ron → Long** (Stephen Long, como no anime).
 - **Nomes completos de inimigos e ataques especiais** (até 12 letras, via `FF 2E`): Hunchback, Bone Lizard,
   Mystery Claw, Queen Moth, Ice Breath, Scale Powder... "dodged swiftly" → "dodged it" (cabe com 12 letras).
@@ -100,7 +100,7 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
 
 1. Jogar do início ao fim e corrigir a tradução à medida (enviar correções em lista, como em 2026-10-09).
 2. Procurar e traduzir os restantes ecrãs gráficos de texto (#1EE com conjunto de glifos desconhecido, final do jogo).
-3. Releases seguintes (v0.2…) com as correções dos testers: `criar_bps.py` + `gh release create`. v0.1-beta publicada em 2026-10-10.
+3. Releases seguintes (v0.2…) com as correções dos testers: `criar_bps.py` + `gh release create`. v0.1-beta e v0.2-beta publicadas em 2026-10-10.
 4. Mais tarde: fonte de largura variável (VWF); gráficos do título e kanji de cidades (ex.: 香港).
 
 ## Dúvidas de tradução em aberto
