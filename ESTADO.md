@@ -85,7 +85,7 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
 - **Ron → Long** (Stephen Long, como no anime).
 - **Nomes completos de inimigos e ataques especiais** (até 12 letras, via `FF 2E`): Hunchback, Bone Lizard,
   Mystery Claw, Queen Moth, Ice Breath, Scale Powder... "dodged swiftly" → "dodged it" (cabe com 12 letras).
-  **Por testar.**
+  Testado OK (2026-10-10).
 
 ## Por testar
 
