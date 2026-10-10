@@ -113,69 +113,69 @@ feitico	114	きんせいのごふ	Venus
 feitico	115	きんせいのごふ	Venus
 feitico	116	きんせいのごふ	Venus
 inimigo	0	スライム	Slime
-inimigo	1	オークジュエリーゾ	OrcJewl
+inimigo	1	オークジュエリーゾ	Orc Jewel
 inimigo	2	アメーバ	Amoeba
 inimigo	3	アントマン	Antman
-inimigo	4	ファイアーアントゾ	FireAnt
-inimigo	5	マダラグモ	Spider
-inimigo	6	デウチチュウ	Deuchu
-inimigo	7	ボーンリザード	BoneLiz
-inimigo	8	ボーンウイング	BoneWng
-inimigo	9	ミステリークロー	MystClw
-inimigo	10	アヤシキキジン	Kijin
+inimigo	4	ファイアーアントゾ	Fire Ant
+inimigo	5	マダラグモ	Spot Spider
+inimigo	6	デウチチュウ	Deuchichu
+inimigo	7	ボーンリザード	Bone Lizard
+inimigo	8	ボーンウイング	Bone Wing
+inimigo	9	ミステリークロー	Mystery Claw
+inimigo	10	アヤシキキジン	Eerie Kijin
 inimigo	11	ミュータント	Mutant
-inimigo	12	ダストイーター	DustEat
-inimigo	13	プレシオマン	Plesio
-inimigo	14	はんぎょじん	Fishman
-inimigo	15	ガおんな	MothGal
-inimigo	16	じょおうガ	QnMoth
-inimigo	17	いしのばんにん	StoneGd
+inimigo	12	ダストイーター	Dust Eater
+inimigo	13	プレシオマン	Plesioman
+inimigo	14	はんぎょじん	Half-Fishman
+inimigo	15	ガおんな	Moth Woman
+inimigo	16	じょおうガ	Queen Moth
+inimigo	17	いしのばんにん	Stone Guard
 inimigo	18	ゴーレム	Golem
 inimigo	19	ガルーダ	Garuda
 inimigo	20	かるら	Karura
-inimigo	21	しのドクバリ	Stinger
+inimigo	21	しのドクバリ	Deathstinger
 inimigo	22	キマイラ	Chimera
 inimigo	23	ヒリュウ	Wyvern
-inimigo	24	せむしおとこ	Hunchbk
-inimigo	25	ポイズマン	Poisman
-inimigo	26	グリムロック	Grimlok
-inimigo	27	カラコルム	Karakor
-inimigo	28	デュアルヘッド	TwoHead
-inimigo	29	ケルベロス	Cerbrus
-inimigo	30	もえるばんけん	Firedog
-inimigo	31	じんめんガ	FaceMth
-inimigo	32	りんぷんつかい	Duster
-inimigo	33	パピヨン	Papilon
-inimigo	34	フライシーカー	Flyseek
-inimigo	35	イーヤンチヨン	Iyanchy
+inimigo	24	せむしおとこ	Hunchback
+inimigo	25	ポイズマン	Poisonman
+inimigo	26	グリムロック	Grimlock
+inimigo	27	カラコルム	Karakorum
+inimigo	28	デュアルヘッド	Dual Head
+inimigo	29	ケルベロス	Cerberus
+inimigo	30	もえるばんけん	Fire Hound
+inimigo	31	じんめんガ	Manface Moth
+inimigo	32	りんぷんつかい	Scale Duster
+inimigo	33	パピヨン	Papillon
+inimigo	34	フライシーカー	Fly Seeker
+inimigo	35	イーヤンチヨン	Iyanchiyon
 inimigo	36	フーカイ	Fukai
-inimigo	37	チャオフーカイ	ChFukai
-inimigo	38	エレキスネーク	E.Snake
-inimigo	39	センチビード	Centped
-inimigo	40	ヒョウマコウモリ	DemnBat
-inimigo	41	コウモリのまい	BatSwrm
+inimigo	37	チャオフーカイ	Chao Fukai
+inimigo	38	エレキスネーク	Electrosnake
+inimigo	39	センチビード	Centipede
+inimigo	40	ヒョウマコウモリ	Demon Bat
+inimigo	41	コウモリのまい	Bat Dance
 inimigo	42	タイソエイ	Taisoei
-inimigo	43	ランパオパオ	Ranpao
-inimigo	44	パエール	Paer
-inimigo	45	テンタクルス	Tentacl
+inimigo	43	ランパオパオ	Ranpaopao
+inimigo	44	パエール	Pael
+inimigo	45	テンタクルス	Tentacles
 inimigo	46	ナウシズ	Nauthiz
 inimigo	47	ガルガ	Garga
-inimigo	48	ガッシンガルガ	G.Garga
+inimigo	48	ガッシンガルガ	Fused Garga
 inimigo	49	ツオウリン	Tsuorin
 inimigo	50	コアンヤア	Koanyaa
 inimigo	51	ホウチャオ	Houchao
-inimigo	52	ナオシカイ	Naoshi
+inimigo	52	ナオシカイ	Naoshikai
 inimigo	53	あかなめ	Akaname
 inimigo	54	ヤァロン	Yaron
 inimigo	55	ヨクリュウ	Yokuryu
-inimigo	56	ミノタウロス	Minotr
-inimigo	57	ゴーストカウ	GhstCow
+inimigo	56	ミノタウロス	Minotaur
+inimigo	57	ゴーストカウ	Ghost Cow
 inimigo	58	チョウカイ	Chokai
 inimigo	59	リョウコ	Ryoko
-inimigo	60	きよだいハムシ	BigBug
-inimigo	61	シペトテック	Xipe
-inimigo	62	コアトリクエ	Coatlic
-inimigo	63	シのダイシンカンドイ	Doi
+inimigo	60	きよだいハムシ	Giant Insect
+inimigo	61	シペトテック	Xipe Totec
+inimigo	62	コアトリクエ	Coatlicue
+inimigo	63	シのダイシンカンドイ	Priest Doi
 inimigo	64	とおりま	Slasher
 inimigo	65	グプター	Gupta
 inimigo	66	グプター	Gupta
@@ -332,25 +332,25 @@ item	0x94	魔	Wind
 item	0x95	術	Air
 item	0x96	きんせいのごふ	Venus
 item	0x97	ようとうまさむね	Yoto Masamune
-ataque	0	アイスブレス	IceBlast
-ataque	1	アイスブレス	IceBlast
-ataque	2	アイスブレス	IceBlast
-ataque	3	リンプンこうげき	Powder
-ataque	4	リンプンこうげき	Powder
-ataque	5	リンプンこうげき	Powder
-ataque	6	リンプンこうげき	Powder
+ataque	0	アイスブレス	Ice Breath
+ataque	1	アイスブレス	Ice Breath
+ataque	2	アイスブレス	Ice Breath
+ataque	3	リンプンこうげき	Scale Powder
+ataque	4	リンプンこうげき	Scale Powder
+ataque	5	リンプンこうげき	Scale Powder
+ataque	6	リンプンこうげき	Scale Powder
 ataque	7	ドクバリ！	Stinger!
 ataque	8	ドクバリ！	Stinger!
 ataque	9	ドクバリ！	Stinger!
 ataque	10	ドクバリ！	Stinger!
-ataque	11	ファイアーブレス	Flames
-ataque	12	ファイアーブレス	Flames
-ataque	13	ファイアーブレス	Flames
-ataque	14	ファイアーブレス	Flames
+ataque	11	ファイアーブレス	Fire Breath
+ataque	12	ファイアーブレス	Fire Breath
+ataque	13	ファイアーブレス	Fire Breath
+ataque	14	ファイアーブレス	Fire Breath
 ataque	15	イナゴのあらし！	Locusts!
-ataque	16	アグニマーヤー	AgniMaya
-ataque	18	はばたきこうげき	Wingbeat
-ataque	20	サンダーブレス	Thunder
-ataque	21	サンダーブレス	Thunder
-ataque	22	ドクキリ	Miasma
-ataque	23	サイミンハ	Hypnosis
+ataque	16	アグニマーヤー	Agni Maya
+ataque	18	はばたきこうげき	Wing Flap
+ataque	20	サンダーブレス	Shock Breath
+ataque	21	サンダーブレス	Shock Breath
+ataque	22	ドクキリ	Poison Mist
+ataque	23	サイミンハ	Hypno Wave

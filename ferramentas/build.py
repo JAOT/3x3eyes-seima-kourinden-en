@@ -32,6 +32,7 @@ def main():
     subprocess.run([sys.executable, str(TOOLS / 'nomes.py'), str(src), str(ROOT / 'nomes_en.tsv'), str(gen)], check=True)
     subprocess.run([sys.executable, str(TOOLS / 'campos.py'), 'gerar', str(src), str(ROOT / 'campos_en.tsv'), str(gen)], check=True)
     subprocess.run([sys.executable, str(TOOLS / 'blocos.py'), str(src), str(ROOT / 'blocos_en.txt'), str(gen)], check=True)
+    subprocess.run([sys.executable, str(TOOLS / 'livros.py'), 'gerar', str(src), str(ROOT / 'livros_en.txt'), str(gen)], check=True)
     subprocess.run([sys.executable, str(TOOLS / 'intro.py'), str(src), str(ROOT / 'intro_en.txt'), str(gen)], check=True)
     subprocess.run([str(TOOLS / 'asar' / 'asar.exe'), '--fix-checksum=on', str(TOOLS / 'hack.asm'), str(out)], check=True)
     subprocess.run([sys.executable, str(TOOLS / 'inserir_texto.py'), str(out), str(ROOT / 'traducao_en.txt')], check=True)

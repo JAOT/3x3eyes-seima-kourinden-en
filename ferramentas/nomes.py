@@ -20,7 +20,7 @@ NAME_LEN = 8
 # Nomes longos: o registo fica com FF 2E ll hh bb 00 (código "saltar para", ver hack.asm) e o nome
 # completo vai para LONG_BASE. Os nomes são sempre lidos pelo motor de texto, que segue o salto.
 # Limite em letras (8 px cada): o japonês tinha até 8 carateres de 16 px.
-LONG_MAX = {'item': 16, 'feitico': 14}
+LONG_MAX = {'item': 16, 'feitico': 14, 'inimigo': 12, 'ataque': 12}   # inimigos/ataques: caixa de combate
 LONG_BASE = 0x308000
 # tabela: (offset na ROM do primeiro registo, tamanho do registo (None = offset de uma tabela de ponteiros no banco $0C), nº de registos, terminador obrigatório)
 # Os ataques dos inimigos são lidos por {08:03}, que pára aos 8 carateres: o nome pode ocupar os 8 bytes.

@@ -32,7 +32,7 @@ Nomes e termos com tradução fixa. Usar sempre a mesma forma em todo o guião.
 | 三只眼魔術 (em mapas/diálogos) | Earth / Water / Fire / Wind / Air | Espaços de glifos que, fora dos menus, mostram 地水火風空; labirintos de Kunlun. Ordem por confirmar no jogo. |
 
 Referência externa usada: guia de "ritchie" no GameFAQs (snes/564894, faqs/27823) — nomes de locais, itens e chefes.
-Mantidos contra o guia: Kowloon (guia: "Coulomb"), Kafenion ("Cafe Neon"), Garga ("Galga"), Huang ("Joan"), Ron ("Long").
+Mantidos contra o guia: Kowloon (guia: "Coulomb"), Kafenion ("Cafe Neon"), Garga ("Galga"), Huang ("Joan"). Ron → **Long** (Stephen Long, como no anime; 2026-10-10).
 | カイヤンごしょう | Five Kaiyan Generals | Estátuas em Kunlun. |
 | ましょうのいし | Demon Stone | Item ("DemonStn" no inventário). |
 | ようかい | youkai | Mantido em japonês. |

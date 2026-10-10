@@ -17,7 +17,7 @@
  Yes{n}
  No
 
-; ===== Ron (Yogekisha): escolher bomba de plástico ou granada =====
+; ===== Long (Yogekisha): escolher bomba de plástico ou granada =====
 @ 0F:A17C 0F:A18E
  Plastic Bomb{n}
  Grenade

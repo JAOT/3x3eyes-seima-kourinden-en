@@ -155,6 +155,7 @@ A tabela completa está no `inserir_texto.py`/`extrair_texto.ps1` (`Params`).
 | Ataques especiais dos inimigos | `$0C:8C4D` | 24 × 14 bytes, nome 8 bytes sem terminador |
 | Itens (todos) | `$0C:AFE3` (ponteiros em `$0C:AEB3`) | 152 × 30 bytes, nome = 8 primeiros bytes |
 | Locais | `$0C:CD9E` e `$0C:CF1B` | campos de 12 bytes, nomes centrados com espaços; lidos como sub-texto com limite 13 (`$00:E67C`, `$00:E6AE`) |
+| Livros lidos no menu (Atlas, Pyramid Book...) | `$0E:8000` (lida em `$00:CF79`, livro nº `$060E`) | 10 ponteiros de 3 bytes → [nº de páginas][ponteiros de 3 bytes]; páginas acabam em `FF 0B` |
 | Países (aeroporto) | `$0C:CF0B` | 4 campos de 4 bytes |
 | Menus / janelas | banco `$0F` | texto com códigos de controlo e posições fixas |
 
@@ -239,7 +240,7 @@ Mapa de memória usado:
 1. **Guião** (`traducao_en.txt`): texto ASCII + etiquetas. Só as mensagens presentes são reapontadas. Limite ~21 carateres por linha, 3 linhas por caixa.
 2. **Nomes em tabelas** (`nomes_en.tsv`): escritos no próprio registo. Limite 7 letras (8 nos itens e ataques). Verificado que o enchimento original era zero.
    **Nomes longos:** se o nome não cabe, o registo fica com `FF 2E` + ponteiro para o nome completo no banco `$30`
-   (itens até 16 letras, feitiços/objetos de combate até 14). Funciona porque os nomes são sempre desenhados pelo motor de texto.
+   (itens até 16 letras, feitiços/objetos de combate até 14, inimigos e ataques até 12). Funciona porque os nomes são sempre desenhados pelo motor de texto.
 3. **Pares de letras** (`menus_en.tsv`): 1 byte = 2 letras = 16 px. Mantêm exatamente o tamanho e a largura dos menus. Recurso limitado (63 códigos; 53 usados).
 4. **Campos fixos** (`campos_en.tsv`): ASCII num campo de N bytes (máx. N letras), centrado ou à esquerda.
    Os locais podem ter até 20 letras (mesmo mecanismo de salto, centrados com espaços ASCII).

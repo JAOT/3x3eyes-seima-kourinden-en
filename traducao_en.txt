@@ -155,7 +155,7 @@ with power!!
 {clr}{05:02}Copybug!!
 
 #### 002C
-{clr}{05:00}{08:00} dodged swiftly!
+{clr}{05:00}{08:00} dodged it!
 
 #### 002D
 {clr}{05:02}Come forth! Touchao!!
@@ -3091,7 +3091,7 @@ from here on.{w}
 plastic bombs and{n}
 grenades.{w}
 {clr}If you need any, just{n}
-ask Ron over there!{w}
+ask Long over there!{w}
 
 #### 01BB
 {clr}{05:03}Got it, Lin-Lin!{w}

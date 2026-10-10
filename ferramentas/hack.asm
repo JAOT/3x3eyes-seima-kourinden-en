@@ -348,3 +348,6 @@ incsrc "gerado/font_en.asm"
 org $218000
 FontGfx:
     incbin "gerado/font_en.bin"
+
+; livros e textos lidos no menu (Atlas, Pyramid Book...): tabela $0E:8000 reapontada para o banco $33 (livros.py)
+incsrc "gerado/livros.asm"

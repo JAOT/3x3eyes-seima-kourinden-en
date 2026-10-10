@@ -1,0 +1,218 @@
+; Livros e textos lidos no menu (tabela $0E:8000) -> ferramentas/livros.py
+; "@ livro N", depois "--- página" antes de cada página (o nº de páginas tem de ser igual ao original).
+; Máx. 24 carateres por linha e 8 linhas por página. "　" = linha em branco (espaço largo).
+; Referência japonesa: livros_jp.txt (gerado com "livros.py extrair"; não vai para o git).
+
+@ livro 0
+; janela de teste dos programadores
+--- página
+
+--- página
+ 3x3 EYES{n}
+ SAMPLE{n}
+ WINDOW{n}
+ NOVA{n}
+ 1992{n}
+--- página
+ SAMPLE{n}
+ THE END{n}
+
+@ livro 1
+; papel branco: talismãs dos espíritos
+--- página
+{clr}{05:00}If thou wouldst borrow{n}
+the mighty power of{n}
+the four spirits,{n}
+draw the talisman that{n}
+summons a spirit{n}
+and chant the spell.
+
+@ livro 2
+; talismã de Salomão
+--- página
+{clr}{05:00}If thou hast a mighty{n}
+foe, use the Solomon{n}
+Talisman to summon{n}
+Satan.{n}
+Then the dread Satan{n}
+shall raise for thee{n}
+a mighty barrier.
+
+@ livro 3
+; talismãs de Lúcifer, Astaroth e Belzebu
+--- página
+{clr}{05:00}   Lucifer Talisman{n}
+　{n}
+If thou wouldst use{n}
+Lucifer of Hell{n}
+to destroy{n}
+thy foes,
+--- página
+{clr}{05:00}draw his sigil{n}
+and summon Lucifer.{n}
+Then Lucifer's{n}
+destructive power{n}
+shall in time{n}
+bring death upon{n}
+thy foes.
+--- página
+{clr}{05:00}   Astaroth Talisman{n}
+　{n}
+If thou wouldst use{n}
+Astaroth of Hell{n}
+to destroy{n}
+thy foes,
+--- página
+{clr}{05:00}draw his sigil{n}
+and summon Astaroth.{n}
+Then Astaroth's{n}
+destructive power{n}
+shall in time{n}
+bring death upon{n}
+thy foes.
+--- página
+{clr}{05:00}  Beelzebub Talisman{n}
+　{n}
+If thou wouldst use{n}
+Beelzebub of Hell{n}
+to destroy{n}
+thy foes,
+--- página
+{clr}{05:00}draw his sigil{n}
+and summon Beelzebub.{n}
+Then Beelzebub's{n}
+destructive power{n}
+shall in time{n}
+bring death upon{n}
+thy foes.
+
+@ livro 4
+; os 12 familiares
+--- página
+     The 12 Familiars{n}
+　{n}
+If thou wouldst summon{n}
+the dread 12 familiars{n}
+to possess thy foes,{n}
+draw and use{n}
+the 12 Pentacles.
+
+@ livro 5
+; pentáculo da tempestade
+--- página
+{clr}{05:00}If thou wouldst stir{n}
+up foul weather{n}
+to harm thy foes,{n}
+use this pentacle.{n}
+Then a fierce rain{n}
+shall strike them.
+
+@ livro 6
+; pentáculo que devolve a magia
+--- página
+{clr}{05:00}If thou wouldst turn{n}
+back the magic cast{n}
+upon thee by thy foes,{n}
+use this pentacle.{n}
+Then the spell shall{n}
+rebound upon{n}
+the foe.
+
+@ livro 7
+; Atlas (as mesmas palavras da estátua de Zeus, mensagem 0278)
+--- página
+{clr}{05:00}In the southwest city{n}
+is a temple: Hera.{n}
+　{n}
+Who bears a shard of{n}
+my statue shall hold{n}
+the key to its seal.
+--- página
+{clr}{05:00}That temple holds the{n}
+hall of Altis; past{n}
+it lies my second{n}
+temple.{n}
+　{n}
+There is enshrined{n}
+the Holy Stone.
+--- página
+{clr}{05:00}One who bears the{n}
+Holy Stone shall climb{n}
+the holy mountain as{n}
+the gods' messenger.
+
+@ livro 8
+; provas do templo de Nauthiz
+--- página
+{clr}{05:00}   The First Trial{n}
+　{n}
+Find the 9 statues{n}
+of Nauthiz and{n}
+destroy them!{n}
+Then the stone that{n}
+solves the magic circle{n}
+shall appear.
+--- página
+{clr}{05:00}   The Second Trial{n}
+　{n}
+Make a magic circle{n}
+with the pedestals{n}
+forming a square!{n}
+A magic circle must be{n}
+perfect from every{n}
+direction.
+--- página
+{clr}{05:00}There is no other way{n}
+to complete the{n}
+magic circle!
+--- página
+{clr}{05:00}Soothe the hateful,{n}
+and the prison of{n}
+nothingness shall open!
+
+@ livro 9
+; Pyramid Book: Kunlun e as cinco chaves (三只眼魔術 = Earth/Water/Fire/Wind/Air)
+--- página
+{clr}{05:00}In the lower city of{n}
+the Heavenly Emperor,{n}
+Kunlun, enshrine me{n}
+and revive me.{n}
+Then, by the pact of{n}
+the Five Kaiyan{n}
+Generals, I shall lead{n}
+thee to the Sanctuary.
+--- página
+{clr}{05:00}       Holy Sword{n}
+　{n}
+The Holy Sword is the{n}
+key that rules Fire;{n}
+its nature, they say,{n}
+is body heat.
+--- página
+{clr}{05:00}         Censer{n}
+　{n}
+The Censer is the key{n}
+that rules Water;{n}
+its nature, they say,{n}
+is blood.
+--- página
+{clr}{05:00}       Holy Spear{n}
+　{n}
+The Holy Spear is the{n}
+key that rules Earth;{n}
+its nature, they say,{n}
+is flesh.
+--- página
+{clr}{05:00}       Holy Grail{n}
+　{n}
+The Holy Grail is the{n}
+key that rules Wind;{n}
+its nature, they say,{n}
+is the organs.
+--- página
+{clr}{05:00}       Pyramidion{n}
+　{n}
+The Pyramidion is the{n}
+key that rules Air;{n}
+its nature, they say,{n}
+is breath.

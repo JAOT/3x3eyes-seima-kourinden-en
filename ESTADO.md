@@ -78,6 +78,15 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
   próprio; verifica o patch reaplicando-o). v0.1-beta: 126954 bytes, resultado CRC32 D97935D1.
 - Desmontador simples de 65816: `ferramentas/analise/dis65816.py <rom> <banco:endereço> [n]`.
 
+- **Livros lidos no menu** (Atlas, Pyramid Book, livros de talismãs/pentáculos/Nauthiz): não estão no guião
+  principal. Tabela `$0E:8000` (10 livros × ponteiro de 3 bytes → [nº de páginas][ponteiros das páginas];
+  páginas acabam em `FF 0B`), lida em `$00:CF79`. `livros_en.txt` → `ferramentas/livros.py` (dados no banco $33).
+  Referência japonesa: `python ferramentas\livros.py extrair <rom> livros_jp.txt` (fora do git). **Por testar.**
+- **Ron → Long** (Stephen Long, como no anime).
+- **Nomes completos de inimigos e ataques especiais** (até 12 letras, via `FF 2E`): Hunchback, Bone Lizard,
+  Mystery Claw, Queen Moth, Ice Breath, Scale Powder... "dodged swiftly" → "dodged it" (cabe com 12 letras).
+  **Por testar.**
+
 ## Por testar
 
 - Monólogo e falas das cenas com o negrito novo.
@@ -96,7 +105,7 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
 
 ## Dúvidas de tradução em aberto
 
-- Ron/Long, Huang/Joan, Garga/Galga.
+- Huang/Joan, Garga/Galga. (Ron → Long decidido em 2026-10-10.)
 - Familiares de demónios (Naam, Yoea, Hippolopos, Haiamon, Ashinel...): romanizações por rever.
 - Ordem dos elementos no labirinto de Kunlun (Earth/Water/Fire/Wind/Air): confirmar no jogo.
 
