@@ -34,15 +34,15 @@ Nomes e termos com tradução fixa. Usar sempre a mesma forma em todo o guião.
 Referência externa usada: guia de "ritchie" no GameFAQs (snes/564894, faqs/27823) — nomes de locais, itens e chefes.
 Mantidos contra o guia: Kowloon (guia: "Coulomb"), Kafenion ("Cafe Neon"), Garga ("Galga"), Huang ("Joan"). Ron → **Long** (Stephen Long, como no anime; 2026-10-10).
 | カイヤンごしょう | Five Kaiyan Generals | Estátuas em Kunlun. |
-| ましょうのいし | Demon Stone | Item ("DemonStn" no inventário). |
+| ましょうのいし | Demon Stone | Item ("Demon Stone" no inventário). |
 | ようかい | youkai | Mantido em japonês. |
 | ようま | youma | Mantido em japonês. |
 | ゆめのしま | Yumenoshima | Local em Tóquio. |
 | せいち | holy land / Sanctuary | "Sanctuary" no nome do local. |
+$L
 
 ## Regras do guião (`guiao_jp.txt`)
 
 - Não alterar as linhas `#### xxxx @..` nem as etiquetas entre chavetas (`{n}`, `{w}`, `{clr}`, `{05:xx}`, `{07:xx}`, `{08:xx}`, `{0B}`, …).
 - `{n}` = mudança de linha; `{w}` = esperar botão; `{clr}` = limpar a caixa.
 - Limite de caracteres por linha: **a definir** depois do teste da fonte latina.
-| せいなるいし | Holy Stone | Objeto (2.º templo de Zeus); usar sempre "Holy Stone" (não "Holy Rock"). |
