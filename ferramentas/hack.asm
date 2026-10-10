@@ -1,0 +1,283 @@
+; 3x3 Eyes - Seima Kourinden: patch para texto em inglês (Asar)
+;
+; 1) Texto: bytes $20-$7E (ASCII) passam a ser letras de meia largura (8x16).
+;    Os restantes códigos continuam a usar a rotina original ($00:E378).
+; 2) Fonte: o NMI envia a fonte inglesa para os tiles do BG3 que eram só dos kana,
+;    um segmento por frame, enquanto houver texto em inglês a ser desenhado.
+;
+; Mapa de memória (ROM expandida para 2 MB):
+;   $00:FC00  stubs no banco 00 (zona livre)
+;   $20:8000  código e tabelas
+;   $21:8000  gráficos da fonte
+
+lorom
+
+incsrc "gerado/font_en_defs.asm"
+
+!Timer  = $7FFF00   ; frames que faltam de reenvio da fonte
+!SegIdx = $7FFF02   ; próximo segmento a enviar
+
+; --- ganchos no código original -------------------------------------------
+; A rotina de glifos $00:E378 é chamada de ~30 sítios (diálogo, menus, combate),
+; por isso o desvio fica na entrada da própria rotina. Original: PHX / JSR $E9D5.
+org $00E378
+    JMP TextHook
+
+org $00FFEA          ; vetor NMI (modo nativo): era $80F9
+    dw NmiStub
+
+; --- código de controlo novo: FF 2E ll hh bb = continuar a ler o texto em $bb:hhll ----
+; A tabela de saltos dos códigos FF xx ($00:E809, códigos $00-$2D) é copiada para $00:F600
+; e ganha a entrada $2E. Serve para reescrever pedaços de menus noutro sítio (blocos_en.txt).
+org $00E413
+    LDA.w CtrlTable,y
+org $00F600
+CtrlTable:
+    !i = 0
+    while !i < $2E
+        dw read2($00E809+(!i*2))
+        !i #= !i+1
+    endwhile
+    dw CtrlGoto          ; $2E
+CtrlGoto:                ; X = contexto do texto; E8F9 devolve o byte seguinte em A (16 bits)
+    JSR $E8F9            ; endereço: byte baixo
+    PHA
+    LDA $14,x            ; sub-texto com limite de carateres (nomes de itens, locais...)?
+    BEQ +
+    LDA.w #$0040         ; o destino acaba em 0: limite alargado para nomes longos
+    STA $14,x
++   PLA
+    PHA
+    JSR $E8F9            ; byte alto
+    XBA
+    ORA 1,s
+    STA 1,s
+    JSR $E8F9            ; banco
+    STA $1A,x
+    PLA
+    STA $18,x
+    RTS
+assert pc() <= $00FC00
+
+; --- nomes das personagens ------------------------------------------------
+; As rotinas em $01:9A62/$01:9A77 copiavam 5 bytes (4 kana + 0) da tabela $01:D5A4
+; para os buffers $7E:2252/$7E:2272. Agora copiam 9 bytes da tabela NameTable (banco $20).
+org $019A68
+    LDA.l NameTable,x
+org $019A71
+    LDA.w #$0008         ; MVN copia A+1 bytes
+    MVN $7E,NameTable>>16
+org $019A7D
+    LDA.l NameTable,x
+org $019A86
+    LDA.w #$0008
+    MVN $7E,NameTable>>16
+
+; A rotina em $01:AF44 copia 4 palavras da tabela $01:D5D0 (banco 01).
+; Passa a copiar 5 palavras (10 bytes); os nomes ficam no espaço da tabela antiga.
+org $01AF4B
+    LDA.w #$0005
+org $01D5D0
+    dw Name2_0, Name2_1, Name2_2
+org $01D5A4
+Name2_0: db "Takuhi",0,0,0,0
+Name2_1: db "Fei-Oh",0,0,0,0
+Name2_2: db "Hon-Nyan",0,0
+assert pc() <= $01D5D0
+
+; Segunda tabela de nomes ($00:ED32 -> nomes de 5 bytes em $00:ED40), usada pelo
+; menu de estado ($00:DBC0) e pelos códigos {1A:xx} ($00:E5CA) e {2A:xx} ($00:E74F).
+; Os ponteiros passam a apontar para os nomes ingleses e o banco da sub-string passa a $20.
+org $00ED32
+    dw NameTable_yakumo, NameTable_pai, NameTable_haan, NameTable_linlin
+    dw NameTable_jake, NameTable_gupta, NameTable_sanjiyan
+org $00DBC5
+    LDA.w #NameTable>>16
+org $00E5CF
+    LDA.w #NameTable>>16
+org $00E754
+    LDA.w #NameTable>>16
+
+; --- comandos de combate --------------------------------------------------
+; Tabela $01:D3A9 -> 6 conjuntos de 6 comandos, 8 bytes cada (máx. 7 letras + 0).
+; A rotina em $01:9ED3 copia um conjunto (48 bytes) para $7E:2200.
+org $01D3B7
+    db "Attack",0,0, "Magic",0,0,0, "Item",0,0,0,0, "Defend",0,0, "Run",0,0,0,0,0, "Regen",0,0,0
+    db "Attack",0,0, "Magic",0,0,0, "Item",0,0,0,0, "Defend",0,0, "Run",0,0,0,0,0, "Awaken",0,0
+    db "Attack",0,0, "Magic",0,0,0, "Item",0,0,0,0, "Defend",0,0, "Run",0,0,0,0,0, 0,0,0,0,0,0,0,0
+    db "Attack",0,0, "Item",0,0,0,0, "Defend",0,0, "Run",0,0,0,0,0, 0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0
+    db "Attack",0,0, "Item",0,0,0,0, "Defend",0,0, "Run",0,0,0,0,0, 0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0
+    db "Attack",0,0, "Magic",0,0,0, "Item",0,0,0,0, "Defend",0,0, "Run",0,0,0,0,0, 0,0,0,0,0,0,0,0
+assert pc() == $01D4D7
+
+; --- atributos (subida de nível) -------------------------------------------
+; Ponteiros em $01:DB45 -> 7 nomes de 8 bytes em $01:DB53, copiados (8 bytes) para $7E:2252 em $01:9AB6.
+; たいりょく/せいしんりょく/わんりょく/きゃくりょく/しゅびりょく/ちりょく/うん
+org $01DB53
+    db "Body",0,0,0,0, "Mind",0,0,0,0, "Power",0,0,0, "Speed",0,0,0
+    db "Defense",0, "Wisdom",0,0, "Luck",0,0,0,0
+assert pc() == $01DB8B
+
+; --- Body/Mind -------------------------------------------------------------
+; Cada kanji de largura inteira (16 px) passa a mostrar duas letras inglesas:
+; 体力 (A3 A4) -> "Body", 精神 (A1 A2) -> "Mind". Não muda nenhum menu.
+; Entrada na tabela de glifos $00:ED89 (código-1)*8: cima-esq, baixo-esq, cima-dir, baixo-dir.
+macro wide(code, c1, c2)
+    org $00ED89+((<code>-1)*8)
+    dw !GT_<c1>, !GB_<c1>, !GT_<c2>, !GB_<c2>
+endmacro
+%wide($A3, 42, 6F)   ; 体 -> "Bo"
+%wide($A4, 64, 79)   ; 力 -> "dy"
+%wide($A1, 4D, 69)   ; 精 -> "Mi"
+%wide($A2, 6E, 64)   ; 神 -> "nd"
+
+; janela de quantidade: o contador "コ" a seguir ao número passa a espaço
+org $0F9852 : db $C1
+
+; rótulos dos menus (menus_en.tsv -> menus.py): pares de letras em códigos de katakana
+incsrc "gerado/menus.asm"
+
+; nomes de feitiços, inimigos e itens (nomes_en.tsv -> nomes.py)
+incsrc "gerado/nomes.asm"
+
+; campos de largura fixa: locais e sim/não (campos_en.tsv -> campos.py)
+incsrc "gerado/campos.asm"
+
+; blocos de menus reescritos no banco $21 (blocos_en.txt -> blocos.py), via código FF 2E
+incsrc "gerado/blocos.asm"
+
+; fonte de diálogo do jogo (#000/#001) já com as letras inglesas (fonte_rom.py): sem kana nos primeiros frames
+incsrc "gerado/fonte_rom.asm"
+
+; páginas gráficas da introdução (intro_en.txt -> intro.py): glifos e mapas novos no banco $38
+incsrc "gerado/intro.asm"
+
+; 精神力 (força mental) nos menus: o 力 passa a espaço, para ficar "Mind" e não "Minddy"
+org $0F99F1 : db $AF
+org $0F9E40 : db $AF
+org $0F9F07 : db $AF
+
+; 体　力 (com espaço, alinhado com 精神力) -> 体力　, para ficar "Body" e não "Bo  dy"
+org $0F99D4 : db $A4,$AF
+org $0F9E25 : db $A4,$AF
+org $0F9EEC : db $A4,$AF
+
+; --- estado de saúde no ecrã de estado -------------------------------------
+; {08:06}/{08:07} usam as entradas 6 e 7 da tabela $00:ECF0 (ponteiros de 3 bytes)
+; para "けんこう" e "　　どく" no banco 00. Passam a apontar para inglês no banco $20.
+org $00ECF0+(6*3)
+    dl StatusHealthy, StatusPoison
+
+; --- stubs no banco 00 ----------------------------------------------------
+org $00FC00
+TextHook:            ; A/X 16 bits, X = estrutura da janela, $04 = código do carácter
+    PHX              ; (instruções originais de $E378)
+    JSR $E9D5        ; calcula X = posição no mapa de tiles ($7E:3000)
+    LDA $04
+    CMP.w #$0020
+    BCC .orig
+    CMP.w #$007F
+    BCS .orig
+    JSL LatinGlyph
+    PLX
+    LDA.w #$0002     ; avanço: 1 tile
+    RTS
+.orig
+    LDA.w #$0010         ; glifos da tabela original também podem usar letras inglesas (Body/Mind)
+    STA.l !Timer
+    JMP $E37C            ; resto da rotina original (termina com PLX / RTS)
+
+NmiStub:
+    JML NmiFar
+
+; --- código no banco $20 --------------------------------------------------
+org $208000
+LatinGlyph:
+    PHB
+    PHY
+    PHK
+    PLB
+    LDA $04
+    SEC
+    SBC.w #$0020
+    ASL
+    ASL
+    TAY
+    LDA.w GlyphMap,y
+    STA.l $7E3000,x
+    LDA.w GlyphMap+2,y
+    STA.l $7E3040,x
+    LDA.w #$0010
+    STA.l !Timer
+    PLY
+    PLB
+    RTL
+
+NmiFar:
+    PHP
+    REP #$30
+    PHA
+    PHX
+    LDA.l !Timer
+    BEQ .done
+    DEC
+    STA.l !Timer
+    LDA.l !SegIdx
+    CMP.w #!FontSegCount
+    BCC +
+    LDA.w #$0000
++   TAX
+    INC
+    CMP.w #!FontSegCount
+    BCC +
+    LDA.w #$0000
++   STA.l !SegIdx
+    TXA
+    ASL
+    ASL
+    ASL
+    TAX
+    SEP #$20
+    LDA.b #$80
+    STA.l $002115
+    REP #$20
+    LDA.l FontSegs,x
+    CLC
+    ADC.l $0000DC        ; base de caracteres do BG3 (cópia do jogo: $3000 no campo, $2000 no combate)
+    STA.l $002116
+    LDA.w #$1801         ; DMA canal 7: modo 1 (2 registos) -> $2118
+    STA.l $004370
+    LDA.l FontSegs+2,x
+    STA.l $004372
+    LDA.l FontSegs+4,x
+    STA.l $004375
+    SEP #$20
+    LDA.b #FontGfx>>16
+    STA.l $004374
+    LDA.b #$80
+    STA.l $00420B
+.done
+    REP #$30
+    PLX
+    PLA
+    PLP
+    JML $0080F9          ; NMI original
+
+NameTable:           ; ponteiros (banco $20) para nomes de 9 bytes
+    dw .yakumo, .pai, .haan, .linlin, .jake, .gupta, .sanjiyan
+.yakumo:   db "Yakumo",0,0,0
+.pai:      db "Pai",0,0,0,0,0,0
+.haan:     db "Haan",0,0,0,0,0
+.linlin:   db "Lin-Lin",0,0
+.jake:     db "Jake",0,0,0,0,0
+.gupta:    db "Gupta",0,0,0,0
+.sanjiyan: db "Sanjiyan",0
+
+StatusHealthy: db "Healthy",0
+StatusPoison:  db "Poison",0
+
+incsrc "gerado/font_en.asm"
+
+org $218000
+FontGfx:
+    incbin "gerado/font_en.bin"

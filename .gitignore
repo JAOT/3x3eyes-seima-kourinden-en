@@ -1,0 +1,29 @@
+# ROMs e patches gerados (nunca distribuir ROMs; os patches vão para os releases)
+*.sfc
+*.smc
+*.bps
+*.ips
+
+# conversas arquivadas
+historico/
+
+# ficheiros gerados pelo build (fonte_*.bin contém a fonte original do jogo)
+ferramentas/gerado/
+
+# ferramenta de terceiros (descarregar o Asar à parte; ver README)
+ferramentas/asar/
+
+# Python
+__pycache__/
+*.pyc
+
+# Windows / OneDrive
+Thumbs.db
+desktop.ini
+
+# conteúdo do jogo original (copyright): guião japonês extraído, partes japonesas, capturas/renders do jogo
+# (o guião japonês gera-se a partir da ROM com ferramentas/extrair_texto.ps1)
+guiao_jp.txt
+traducao_trabalho/
+*.png
+

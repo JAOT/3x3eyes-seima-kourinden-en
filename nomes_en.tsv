@@ -1,0 +1,356 @@
+# Nomes de feitiços, inimigos, itens e ataques dos inimigos (banco $0C).
+# Máximo: 7 letras (ataques: 8 letras).
+# tabela <TAB> índice <TAB> japonês (referência) <TAB> inglês
+# O japonês serve de verificação: o build falha se não coincidir com a ROM.
+feitico	0	こう術	Kojutsu
+feitico	1	こう術	Kojutsu
+feitico	2	かえんじごく	Inferno
+feitico	3	とうけつじごく	Glacier
+feitico	4	ティン	Ting
+feitico	5	ティン	Ting
+feitico	6	ケッカイ	Barrier
+feitico	7	ケッカイ	Barrier
+feitico	8	ケッカイ	Barrier
+feitico	9	アグニマーヤ	Agni
+feitico	10	ヴァーユマーヤ	Vayu
+feitico	11	ふくせいチュウ	Copybug
+feitico	12	テイチンチィ	Teichin
+feitico	13	タクヒ	Takuhi
+feitico	14	フェイオー	Fei-Oh
+feitico	15	ホンニャン	HonNyan
+feitico	16	トウチャオ	Touchao
+feitico	17	チンクウ	Chinkuu
+feitico	18	ツオウリン	Tsuorin
+feitico	19	コアンヤア	Koanyaa
+feitico	20	ホウチャオ	Houchao
+feitico	21	かめい	Kamei
+feitico	22	すいせいのごふ	Mercury
+feitico	23	かせいのごふ	Mars
+feitico	24	もくせいのごふ	Jupiter
+feitico	25	どせいのごふ	Saturn
+feitico	26	ソロモンのごふ	Solomon
+feitico	27	ルシフェルのごふ	Lucifer
+feitico	28	ベルゼブブのごふ	Beelzebub
+feitico	29	アスタロトのごふ	Astaroth
+feitico	30	1のほうけい	Pentacle 1
+feitico	31	2のほうけい	Pentacle 2
+feitico	32	3のほうけい	Pentacle 3
+feitico	33	4のほうけい	Pentacle 4
+feitico	34	5のほうけい	Pentacle 5
+feitico	35	6のほうけい	Pentacle 6
+feitico	36	7のほうけい	Pentacle 7
+feitico	37	8のほうけい	Pentacle 8
+feitico	38	9のほうけい	Pentacle 9
+feitico	39	10のほうけい	Pentacle 10
+feitico	40	11のほうけい	Pentacle 11
+feitico	41	12のほうけい	Pentacle 12
+feitico	42	か神のほうけい	Fire Pentacle
+feitico	43	すい神のほうけい	Water Pentacle
+feitico	44	ふう神のほうけい	Wind Pentacle
+feitico	45	らい神のほうけい	Bolt Pentacle
+feitico	46	10しょう	Chapter 10
+feitico	47	バクレツカン	Grenade
+feitico	48	バクレツ術ふ	Blast Talisman
+feitico	49	かいふく術ふ	Heal Talisman
+feitico	50	魔せいごふ	Magic Talisman
+feitico	51	げどくざい	Antidote
+feitico	52	アルコール	Alcohol
+feitico	53	プラスチックボム	Plastic Bomb
+feitico	54	ほういん	Seal
+feitico	55	アゴラのせき像	Agora Statue
+feitico	56	コロキテス	Kolokite
+feitico	57	ゼウス像のかけら	Zeus Shard
+feitico	58	サバイバルナイフ	Survival Knife
+feitico	59	ハドリアヌスの鍵	Hadrian's Key
+feitico	60	プロピライアの鍵	Propylaea Key
+feitico	61	メデューサのめ	Medusa's Eye
+feitico	62	せいなるいし	Holy Stone
+feitico	63	プラスチックボム	Plastic Bomb
+feitico	64	マスターキー	Master Key
+feitico	65	マスターキー	Master Key
+feitico	66	ましょうのいし	Demon Stone
+feitico	67	せいそう	Holy Spear
+feitico	68	せいはい	Holy Grail
+feitico	69	せいけん	Holy Sword
+feitico	70	こうろ	Censer
+feitico	71	ピラミディオン	Pyramidion
+feitico	72	フレスコ	Fresco
+feitico	73	ラビリンスの鍵	Labyrinth Key
+feitico	74	ダイダロスのはね	Daedalus Wings
+feitico	75	ベレッタM84	Beretta M84
+feitico	76	ベレッタM92F	Beretta M92F
+feitico	77	92ペンタグラム	Pentagram 92
+feitico	78	357マグナム	.357 Magnum
+feitico	79	44マグナム	.44 Magnum
+feitico	80	シグ・ザウエル	SIG Sauer
+feitico	81	イングラム	Ingram
+feitico	82	M1カービン	M1 Carbine
+feitico	83	げどくざい	Antidote
+feitico	84	アルコール	Alcohol
+feitico	85	すいせいのごふ	Mercury
+feitico	86	かせいのごふ	Mars
+feitico	87	もくせいのごふ	Jupiter
+feitico	88	どせいのごふ	Saturn
+feitico	89	こもん書	Old Document
+feitico	90	ナウシズ神殿の書	Nauthiz Book
+feitico	91	ピラミッドの書	Pyramid Book
+feitico	92	ソロモンの鍵	Key of Solomon
+feitico	93	アルマデルの書	Almadel
+feitico	94	5しょうの書	Chapter 5
+feitico	95	8しょうの書	Chapter 8
+feitico	96	10しょうの書	Chapter 10
+feitico	97	ヒスイ	Jade
+feitico	98	ちり書	Atlas
+feitico	106	ナウシズ神殿の鍵	Nauthiz Key
+feitico	107	かいふく術ふ	Heal Talisman
+feitico	108	じゅんぱくのかみ	White Paper
+feitico	109	タクヒのつえ	Takuhi's Staff
+feitico	110	きんせいのごふ	Venus
+feitico	111	きんせいのごふ	Venus
+feitico	112	きんせいのごふ	Venus
+feitico	113	きんせいのごふ	Venus
+feitico	114	きんせいのごふ	Venus
+feitico	115	きんせいのごふ	Venus
+feitico	116	きんせいのごふ	Venus
+inimigo	0	スライム	Slime
+inimigo	1	オークジュエリーゾ	OrcJewl
+inimigo	2	アメーバ	Amoeba
+inimigo	3	アントマン	Antman
+inimigo	4	ファイアーアントゾ	FireAnt
+inimigo	5	マダラグモ	Spider
+inimigo	6	デウチチュウ	Deuchu
+inimigo	7	ボーンリザード	BoneLiz
+inimigo	8	ボーンウイング	BoneWng
+inimigo	9	ミステリークロー	MystClw
+inimigo	10	アヤシキキジン	Kijin
+inimigo	11	ミュータント	Mutant
+inimigo	12	ダストイーター	DustEat
+inimigo	13	プレシオマン	Plesio
+inimigo	14	はんぎょじん	Fishman
+inimigo	15	ガおんな	MothGal
+inimigo	16	じょおうガ	QnMoth
+inimigo	17	いしのばんにん	StoneGd
+inimigo	18	ゴーレム	Golem
+inimigo	19	ガルーダ	Garuda
+inimigo	20	かるら	Karura
+inimigo	21	しのドクバリ	Stinger
+inimigo	22	キマイラ	Chimera
+inimigo	23	ヒリュウ	Wyvern
+inimigo	24	せむしおとこ	Hunchbk
+inimigo	25	ポイズマン	Poisman
+inimigo	26	グリムロック	Grimlok
+inimigo	27	カラコルム	Karakor
+inimigo	28	デュアルヘッド	TwoHead
+inimigo	29	ケルベロス	Cerbrus
+inimigo	30	もえるばんけん	Firedog
+inimigo	31	じんめんガ	FaceMth
+inimigo	32	りんぷんつかい	Duster
+inimigo	33	パピヨン	Papilon
+inimigo	34	フライシーカー	Flyseek
+inimigo	35	イーヤンチヨン	Iyanchy
+inimigo	36	フーカイ	Fukai
+inimigo	37	チャオフーカイ	ChFukai
+inimigo	38	エレキスネーク	E.Snake
+inimigo	39	センチビード	Centped
+inimigo	40	ヒョウマコウモリ	DemnBat
+inimigo	41	コウモリのまい	BatSwrm
+inimigo	42	タイソエイ	Taisoei
+inimigo	43	ランパオパオ	Ranpao
+inimigo	44	パエール	Paer
+inimigo	45	テンタクルス	Tentacl
+inimigo	46	ナウシズ	Nauthiz
+inimigo	47	ガルガ	Garga
+inimigo	48	ガッシンガルガ	G.Garga
+inimigo	49	ツオウリン	Tsuorin
+inimigo	50	コアンヤア	Koanyaa
+inimigo	51	ホウチャオ	Houchao
+inimigo	52	ナオシカイ	Naoshi
+inimigo	53	あかなめ	Akaname
+inimigo	54	ヤァロン	Yaron
+inimigo	55	ヨクリュウ	Yokuryu
+inimigo	56	ミノタウロス	Minotr
+inimigo	57	ゴーストカウ	GhstCow
+inimigo	58	チョウカイ	Chokai
+inimigo	59	リョウコ	Ryoko
+inimigo	60	きよだいハムシ	BigBug
+inimigo	61	シペトテック	Xipe
+inimigo	62	コアトリクエ	Coatlic
+inimigo	63	シのダイシンカンドイ	Doi
+inimigo	64	とおりま	Slasher
+inimigo	65	グプター	Gupta
+inimigo	66	グプター	Gupta
+# Itens (todos, $0C:AFE3): índice = número do item no jogo. Máximo: 8 letras.
+item	0x01	こもん書	Old Document
+item	0x02	パスポート	Passport
+item	0x03	せいけん	Holy Sword
+item	0x04	こうろ	Censer
+item	0x05	せいそう	Holy Spear
+item	0x06	せいはい	Holy Grail
+item	0x07	ピラミディオン	Pyramidion
+item	0x08	ふうまきゅう	Sealing Bow
+item	0x09	アゴラのせき像	Agora Statue
+item	0x0A	ハドリアヌスの鍵	Hadrian's Key
+item	0x0B	せいなるいし	Holy Stone
+item	0x0C	ゼウス像のかけら	Zeus Shard
+item	0x0D	きれいなほうせき	Pretty Jewel
+item	0x0E	プロピライアの鍵	Propylaea Key
+item	0x0F	ナウシズ神殿の書	Nauthiz Book
+item	0x10	ナウシズ神殿の鍵	Nauthiz Key
+item	0x11	フレスコ	Fresco
+item	0x12	ほういん	Seal
+item	0x13	ラビリンスの鍵	Labyrinth Key
+item	0x14	シヴァのつめ	Shiva's Claw
+item	0x15	ピラミッドの書	Pyramid Book
+item	0x16	ソロモンの鍵	Key of Solomon
+item	0x17	アルマデルの書	Book of Almadel
+item	0x18	5しょうの書	Chapter 5
+item	0x19	8しょうの書	Chapter 8
+item	0x1A	10しょうの書	Chapter 10
+item	0x1B	じゅんぱくのかみ	White Paper
+item	0x1C	ばくれつごふ	Blast Talisman
+item	0x1D	かいふくごふ	Heal Talisman
+item	0x1E	ませいごふ	Magic Talisman
+item	0x1F	バクレツカン	Grenade
+item	0x20	プラスチックボム	Plastic Bomb
+item	0x21	マスターキー	Master Key
+item	0x22	げどくざい	Antidote
+item	0x23	アルコール	Alcohol
+item	0x24	ヒスイ	Jade
+item	0x25	ましょうのいし	Demon Stone
+item	0x26	タクヒのつえ	Takuhi's Staff
+item	0x27	ちり書	Atlas
+item	0x28	こうくうけん	Plane Ticket
+item	0x29	オニキス	Onyx
+item	0x2A	ジェイダイト	Jadeite
+item	0x2B	ネフライト	Nephrite
+item	0x2C	くじゃくせき	Malachite
+item	0x2D	トルコいし	Turquoise
+item	0x2E	ラピスラーズリ	Lapis Lazuli
+item	0x2F	ファイアンス	Faience
+item	0x30	アラバスター	Alabaster
+item	0x31	せんりょくがん	Diorite
+item	0x32	ダイヤモンド	Diamond
+item	0x33	オパール	Opal
+item	0x34	サファイヤ	Sapphire
+item	0x35	きん	Gold
+item	0x36	ぎん	Silver
+item	0x37	メデューサのめ	Medusa's Eye
+item	0x38	オリーヴ	Olive
+item	0x39	チェストス	Chestos
+item	0x3A	コロキテス	Kolokite
+item	0x3B	バタニエス	Batanies
+item	0x3C	ブルカ	Burqa
+item	0x3D	パピルスのかみ	Papyrus Paper
+item	0x3E	モスクランプ	Mosque Lamp
+item	0x3F	ジルのつぼ	Jill's Jar
+item	0x40	ゴールドビーンズ	Gold Beans
+item	0x41	ペーパークラフト	Paper Craft
+item	0x42	ペーパーフラワー	Paper Flower
+item	0x43	きぼりにんぎょう	Wooden Doll
+item	0x44	むぎわらざいく	Straw Craft
+item	0x45	べっこうざいく	Tortoiseshell
+item	0x46	サラッペ	Sarape
+item	0x47	サングレピチョン	Sangre Pichon
+item	0x48	ようとうまさむね	Yoto Masamune
+item	0x49	サンセツコン	3-Sect Staff
+item	0x4A	サイ	Sai
+item	0x4B	トンファー	Tonfa
+item	0x4C	せいりゅうとう	Guandao
+item	0x4D	メリケンサック	Brass Knuckles
+item	0x4E	つめ	Claws
+item	0x4F	ベレッタM84	Beretta M84
+item	0x50	ベレッタM92F	Beretta M92F
+item	0x51	92ペンタグラム	Pentagram 92
+item	0x52	357マグナム	.357 Magnum
+item	0x53	44マグナム	.44 Magnum
+item	0x54	シグ・ザウエル	SIG Sauer
+item	0x55	イングラム	Ingram
+item	0x56	M1カービン	M1 Carbine
+item	0x57	ファキルズボンズ	Fakir's Bones
+item	0x58	テラコッタソード	Terracotta Sword
+item	0x59	タロンオブキング	Talon of King
+item	0x5A	エンゼルティアラ	Angel Tiara
+item	0x5B	せんこうとう	Flash Blade
+item	0x5C	カマンソード	Kaman Sword
+item	0x5D	ビスコンティ	Visconti
+item	0x5E	フェアリー	Fairy
+item	0x5F	デザイアー	Desire
+item	0x60	ブラサム	Blossom
+item	0x61	カイザー	Kaiser
+item	0x62	ジョーカー	Joker
+item	0x63	せんこうとう＋2	Flash Blade+2
+item	0x64	せんこうとう＋3	Flash Blade+3
+item	0x65	カマンソード＋2	Kaman Sword+2
+item	0x66	カマンソード＋3	Kaman Sword+3
+item	0x67	ビスコンティ＋2	Visconti+2
+item	0x68	ビスコンティ＋3	Visconti+3
+item	0x69	フェアリー＋2	Fairy+2
+item	0x6A	フェアリー＋3	Fairy+3
+item	0x6B	デザイアー＋2	Desire+2
+item	0x6C	デザイアー＋3	Desire+3
+item	0x6D	ブラサム＋2	Blossom+2
+item	0x6E	ブラサム＋3	Blossom+3
+item	0x6F	カイザー＋2	Kaiser+2
+item	0x70	カイザー＋3	Kaiser+3
+item	0x71	ジョーカー＋2	Joker+2
+item	0x72	ジョーカー＋3	Joker+3
+item	0x73	せいめいの像	Statue of Life
+item	0x74	せいぼ像	Madonna Statue
+item	0x75	チャクのかめ	Chac's Jar
+item	0x76	かりの像	Hunting Statue
+item	0x77	つりの像	Fishing Statue
+item	0x78	アポロンのゆみ	Apollo's Bow
+item	0x79	みつまたぼこ	Trident
+item	0x7A	きんのりんご	Golden Apple
+item	0x7B	おうごんのひつじ	Golden Ram
+item	0x7C	ダイダロスのはね	Daedalus Wings
+item	0x7D	サバイバルナイフ	Survival Knife
+item	0x7E	ジャケット	Jacket
+item	0x7F	すいせいのごふ	Mercury
+item	0x80	かせいのごふ	Mars
+item	0x81	もくせいのごふ	Jupiter
+item	0x82	どせいのごふ	Saturn
+item	0x83	ソロモンのごふ	Solomon
+item	0x84	ルシフェルのごふ	Lucifer
+item	0x85	ベルゼブブのごふ	Beelzebub
+item	0x86	アスタロトのごふ	Astaroth
+item	0x87	くない	Kunai
+item	0x88	しゅりけん	Shuriken
+item	0x89	フェザーナイフ	Feather Knife
+item	0x8A	スロウナイフ	Throwing Knife
+item	0x8B	カタール	Katar
+item	0x8C	ダガー	Dagger
+item	0x8D	トリプルダガー	Triple Dagger
+item	0x8E	つちほこ	Halberd
+item	0x8F	ロングソード	Long Sword
+item	0x90	モーニングスター	Morning Star
+# 0x91-0x95: os kanji 三只眼魔術 são, nestas cenas, os elementos 地水火風空 (nomes dos labirintos de Kunlun)
+item	0x91	三	Earth
+item	0x92	只	Water
+item	0x93	眼	Fire
+item	0x94	魔	Wind
+item	0x95	術	Air
+item	0x96	きんせいのごふ	Venus
+item	0x97	ようとうまさむね	Yoto Masamune
+ataque	0	アイスブレス	IceBlast
+ataque	1	アイスブレス	IceBlast
+ataque	2	アイスブレス	IceBlast
+ataque	3	リンプンこうげき	Powder
+ataque	4	リンプンこうげき	Powder
+ataque	5	リンプンこうげき	Powder
+ataque	6	リンプンこうげき	Powder
+ataque	7	ドクバリ！	Stinger!
+ataque	8	ドクバリ！	Stinger!
+ataque	9	ドクバリ！	Stinger!
+ataque	10	ドクバリ！	Stinger!
+ataque	11	ファイアーブレス	Flames
+ataque	12	ファイアーブレス	Flames
+ataque	13	ファイアーブレス	Flames
+ataque	14	ファイアーブレス	Flames
+ataque	15	イナゴのあらし！	Locusts!
+ataque	16	アグニマーヤー	AgniMaya
+ataque	18	はばたきこうげき	Wingbeat
+ataque	20	サンダーブレス	Thunder
+ataque	21	サンダーブレス	Thunder
+ataque	22	ドクキリ	Miasma
+ataque	23	サイミンハ	Hypnosis

@@ -1,0 +1,156 @@
+; Ecrãs gráficos de texto (introdução, monólogo inicial, falas das cenas animadas).
+; "@ mapa [glifos] [centro|orig]" seguido das linhas da página (máx. 12 linhas).
+;   glifos: descritor dos glifos (por omissão 1C8, o da introdução)
+;   centro: texto centrado (por omissão); orig: começa onde começava o texto japonês
+; Uma linha vazia separa parágrafos.
+
+; ===== Introdução (glifos 1C8) =====
+
+@ 1C9
+The Sanjiyan are a race
+who mastered the arts of
+immortality...
+
+A people who followed a
+path of evolution apart
+from that of "humans":
+the "youkai."
+
+@ 1CA
+This story began with an
+ordinary boy, Yakumo
+Fujii, and Pai, the last
+of the Sanjiyan, who
+longed to become human.
+
+@ 1CB
+By an unexpected turn of
+events, Yakumo was given
+an immortal body by Pai
+and became her "Wu."
+
+Together they set out to
+find a way to make Pai
+human. It was also a war
+against the "youkai" who
+craved her immortality...
+
+@ 1CC
+And at last they faced
+their mightiest foe:
+"Benares."
+
+He was the one who had
+destroyed the Sanjiyan,
+the Demon King,
+"Kaiyanwang."
+
+@ 1D0
+Before the final battle
+with Benares, Pai said
+farewell to Yakumo.
+
+Even an immortal body was
+no match for his power.
+And she did not want to
+trouble the many friends
+they had made...
+
+@ 1CF
+A fierce light engulfed
+the streets of Hong Kong,
+and Pai did not return.
+
+But Yakumo knows that Pai
+is still alive.
+
+@ 1CE
+For as her Wu, Yakumo's
+life is bound to Pai's.
+
+If Pai were to die,
+something would surely
+happen to him as well.
+
+@ 1CD
+Pai is alive somewhere.
+Believing this, Yakumo
+waits for the day they
+will meet again...
+
+This time, the two of
+them will travel the
+world to find a way to
+become human, and live
+on together...
+
+; ===== Monólogo do Yakumo, depois de escolher o ficheiro (glifos 1E8) =====
+; ordem no jogo: 1ED, 1E9, 1EA, 1EB, 1EC
+
+@ 1ED 1E8 orig
+It all started with
+a single phone call...
+
+@ 1E9 1E8 orig
+My name is Yakumo Fujii.
+A working student at a
+cooking school. I work
+part-time at a gay bar.
+Special skill: immortality.
+Girlfriend: still waiting.
+
+@ 1EA 1E8 orig
+The one I'm waiting for,
+Pai, is still shut away in
+the Sanctuary, and hasn't
+come back.
+Since that battle, the
+harmony between youma and
+humans that lasted three
+hundred years seems to be
+crumbling.
+
+@ 1EB 1E8 orig
+Every day the TV reports
+strange sights over Tokyo
+Bay and phantom slasher
+attacks, but none of that
+concerns me.
+I quit youkai hunting.
+
+@ 1EC 1E8 orig
+These days I just live for
+the day Pai comes back
+and we meet again.
+But I never imagined our
+journey would begin again
+like this...
+
+; ===== Fim do jogo (derrota): mapa 1AE, glifos 1AD =====
+; Paleta (#1AF): paleta 0 = cor 1 branco, cor 2 preto -> tinta=1 sombra=2.
+; Os glifos originais guardam duas letras por tile (uma em cada plano de bits; a paleta 0 mostra o plano 0,
+; a paleta 1 mostra o plano 1). Os novos usam só a cor 1 com a paleta 0 (tinta=1 attr=0), tiles 0-127 (base=0 fim=128).
+; Texto em cima (y=2) para não tapar a estátua.
+
+@ 1AE 1AD centro tinta=1 sombra=2 attr=0 base=0 fim=128 y=2
+Sanjiyan Unkara...
+
+Fair of form and ageless,
+youkai with three eyes.
+They devour human lives
+to make undying servants.
+
+Yet their one wish
+is to become human...
+
+; ===== Falas das cenas animadas (glifos 1E1) =====
+
+@ 1E3 1E1 orig
+Yakumooo...
+
+@ 1E4 1E1 orig
+Welcome back, Pai...
+
+@ 1E5 1E1 orig
+Yakumo, please, there's no
+time... Save Pai!

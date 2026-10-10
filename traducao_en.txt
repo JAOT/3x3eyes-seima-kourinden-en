@@ -1,0 +1,5303 @@
+; Tradução para inglês. Mesmo formato que guiao_jp.txt; só as mensagens aqui
+; presentes são substituídas na ROM. Linhas começadas por ';' são comentários.
+; Máximo: ~21 carateres por linha, 3 linhas por caixa.
+; {08:xx} = nome (até 8 letras), {07:xx} = número.
+
+; ===== Combate (0000-0027) =====
+#### 0000
+{clr}{05:02}{08:00} appears!
+
+#### 0001
+{clr}{05:02}What will {08:00} do?
+
+#### 0002
+{clr}{05:02}{08:00} attacks!
+
+#### 0003
+{clr}{05:02}{08:00} takes{n}
+{07:00} damage!
+
+#### 0004
+{clr}{05:02}Defeated {08:00}!
+
+#### 0005
+{clr}{05:00}Behold the power{n}
+of Sanjiyan Unkara!!
+
+#### 0006
+{clr}{05:02}Hmph! No effect...
+
+#### 0007
+{clr}{05:02}Damn!! The youma{n}
+struck first!!
+
+#### 0008
+{clr}{05:00}A chance!! It hasn't{n}
+noticed us yet.
+
+#### 0009
+{clr}{05:02}{08:00} took {07:00}{n}
+points of damage!!
+
+#### 000A
+{clr}{05:02}{08:00} ran away.
+
+#### 000B
+{clr}{05:02}Let's run for now!!
+
+#### 000C
+{clr}{05:02}Uh-oh!! Cut off!
+
+#### 000D
+{clr}{05:00}Ordering me around,{n}
+your master!!
+
+#### 000E
+{clr}{05:02}Ughhh!!{n}
+{08:00} has died...
+
+#### 000F
+{clr}{05:02}{08:00} leveled up!!
+
+#### 0010
+{clr}{05:00}{08:00} went up by {07:00}!{w}
+
+#### 0011
+{clr}{05:02}Obtained {08:02}.
+
+#### 0012
+{clr}{05:00}Used {08:02}!
+
+#### 0013
+{clr}{05:02}Used {08:00}!
+
+#### 0014
+{clr}{05:02}Threw away {08:00}{n}
+and got {08:01}.{w}
+{n}
+
+#### 0015
+{clr}{05:02}No good! Not enough Mind!
+
+#### 0016
+{clr}{05:02}Use how much Mind?
+
+#### 0017
+{clr}{05:02}Use it on whom?
+
+#### 0018
+{clr}{05:02}Which formation?
+
+#### 0019
+{clr}{05:02}What is it, Yakumo?{n}
+Is my face dirty???{w}
+{n}
+
+#### 001A
+{clr}{05:02}{08:00} takes a{n}
+defensive stance!!{w}
+{n}
+
+#### 001B
+{clr}{05:02}Shiva's Claw is equipped.{w}
+{n}
+
+#### 001C
+{clr}{05:04}Your wounds heal...{n}
+{05:02}Recovered {07:00} pts.{w}
+{n}
+
+#### 001D
+{clr}{05:02}Use which one?
+
+#### 001E
+{clr}{05:02}Critical hit!!!
+
+#### 001F
+{clr}{05:00}{08:01} was poisoned!!{w}
+{clr}
+
+#### 0020
+{clr}{05:00}No good! Not enough Body!!
+
+#### 0021
+{clr}{05:02}{08:00} used {08:01}!{w}
+
+#### 0022
+{clr}{05:02}You fooool!!!
+
+#### 0023
+{clr}{05:02}Baras Vidahi!!
+
+#### 0024
+{clr}{05:02}Inferno!!
+
+#### 0025
+{clr}{05:02}Glacier!!
+
+#### 0026
+{clr}{05:02}Ting!!
+
+#### 0027
+{clr}{05:02}Barrier!!
+
+#### 0028
+{clr}{05:02}Agni Maya!!
+
+#### 0029
+{clr}{05:04}Teichinchi!!{clr}{05:02}{08:01} is filled{n}
+with power!!
+
+#### 002A
+{clr}{05:02}Vayu Maya!!
+
+#### 002B
+{clr}{05:02}Copybug!!
+
+#### 002C
+{clr}{05:00}{08:00} dodged swiftly!
+
+#### 002D
+{clr}{05:02}Come forth! Touchao!!
+
+#### 002E
+{clr}{05:04}Come forth! Chinkuu!!{clr}{05:02}Light resistance up!
+
+#### 002F
+{clr}{05:04}Come forth! Tsuorin!!{clr}{05:02}Speed rose by {07:00}!
+
+#### 0030
+{clr}{05:02}Come forth! Koanyaa!!
+
+#### 0031
+{clr}{05:02}Come forth! Houchao!!
+
+#### 0032
+{clr}{05:02}Lowered {08:01}'s{n}
+defense!
+
+#### 0033
+{clr}{05:02}Emperor Lucifer's{n}
+flames burn the foe!!
+
+#### 0034
+{clr}{05:02}Grand Duke Astaroth's{n}
+light wraps the foe!!
+
+#### 0035
+{clr}{05:02}Beelzebub's poison{n}
+invades the foe!{n}
+
+#### 0036
+{clr}{05:02}{08:01} can no{n}
+longer move!
+
+#### 0037
+{clr}{05:02}{08:01}'s defense rose!{fim}
+
+#### 0038
+{clr}{05:02}{08:01} recovered{n}
+{07:00} Body.
+
+#### 0039
+{clr}{05:02}{08:01} recovered{n}
+{07:00} Mind.
+
+#### 003A
+{clr}{05:02}{08:01}'s Body...{n}
+{07:00} points!!
+
+#### 003B
+{clr}{05:02}{08:01} can't move.
+
+#### 003C
+{clr}{05:02}The poison left{n}
+{08:01}'s body.
+
+#### 003D
+{clr}{05:02}The numbness left{n}
+{08:01}'s body.
+
+#### 003E
+{clr}{05:00}Lowered {08:01}'s{n}
+defense!{w}
+{clr}
+
+#### 003F
+{clr}{05:02}Satan's power raised{n}
+a mighty barrier.
+
+#### 0040
+{clr}{05:02}Naam's familiar lulls{n}
+the foe to sleep.
+
+#### 0041
+{clr}{05:02}Yoea's familiar{n}
+spreads madness.
+
+#### 0042
+{clr}{05:02}Tagora's familiar{n}
+controls the foe.
+
+#### 0043
+{clr}{05:02}Hippolopos' familiar{n}
+raised our Power!
+
+#### 0044
+{clr}{05:02}Haiamon's familiar{n}
+drives the foe mad.
+
+#### 0045
+{clr}{05:02}Ashinel's familiar{n}
+brings the party luck
+
+#### 0046
+{clr}{05:02}Hiris's familiar{n}
+floods the foe.
+
+#### 0047
+{clr}{05:02}Marata's familiar{n}
+chokes the foe.
+
+#### 0048
+{clr}{05:02}Sabnac's familiar{n}
+weakens the foe.
+
+#### 0049
+{clr}{05:02}Furasis's familiar{n}
+bursts the foe from{n}
+within.
+
+#### 004A
+{clr}{05:02}Horas's familiar{n}
+slashes the foe.
+
+#### 004B
+{clr}{05:02}Osreil's familiar{n}
+dooms the foe.
+
+#### 004C
+{clr}{05:02}The fire god burns{n}
+the foe to ash.
+
+#### 004D
+{clr}{05:02}The water god{n}
+engulfs the foe.
+
+#### 004E
+{clr}{05:02}The wind god blows{n}
+a freezing gale{n}
+at the foe.
+
+#### 004F
+{clr}{05:02}The thunder god{n}
+strikes the foe with{n}
+lightning!!!
+
+#### 0050
+{clr}{05:00}All magic effects{n}
+were sealed!!{w}
+{n}
+
+#### 0051
+{clr}{05:00}Watch, Yakumo.{n}
+This is how to fight.
+
+#### 0052
+{clr}{05:00}All magic effects{n}
+fell silent.
+
+#### 0054
+{clr}{05:00}Attack whom?
+
+#### 0055
+{clr}{05:02}{08:01}'s defense up.
+
+#### 0056
+{clr}{05:02}{08:01} is numb{n}
+and can't move!!!
+
+#### 0057
+{clr}{05:02}Summoned Fei-Oh!{clr}
+
+#### 0058
+{clr}{05:02}Summoned Hon-Nyan!{clr}
+
+#### 0059
+{clr}{05:00}{08:00}'s{n}
+{08:03}!
+
+#### 005A
+{clr}{05:02}{08:01} went berserk.
+
+#### 005B
+{clr}{05:02}Who should attack?{w}
+{clr}
+
+#### 005C
+{clr}{05:02}{08:01}'s Wisdom{n}
+rose by {07:00} points.{clr}
+
+#### 005D
+{clr}{05:02}{08:01}'s Power{n}
+rose by {07:00} points.{clr}
+
+#### 005E
+{clr}{05:04}Got {07:00} Exp{n}
+and {07:01} dollars.{w}
+
+#### 005F
+{clr}{05:02}A barrier surrounds{n}
+{08:01}!{w}
+{n}
+
+#### 0060
+{clr}{05:02}Yakumo has been defeated!!{w}
+{clr}
+
+#### 0061
+{clr}{05:02}Summoned Takuhi!{clr}
+
+#### 0062
+{clr}{05:02}Everyone's Body{n}
+was restored!{w}
+{clr}
+
+#### 0063
+{clr}{05:02}{08:01}'s Body{n}
+fully recovered!!{w}
+{clr}
+
+#### 0064
+{clr}{05:02}{08:01} is healthy again!{w}
+{clr}
+
+#### 0065
+{clr}{05:07}But nothing{n}
+happened.{w}
+
+#### 0066
+{clr}{05:0A}It'd be a waste{n}
+to throw this away.{w}
+
+#### 0067
+{clr}{05:07}{08:01}'s body{n}
+feels better...{n}
+The numbness is gone.{w}
+
+#### 0068
+{clr}{05:07}Using {08:02}{n}
+here would be{n}
+a disaster...{w}
+
+#### 0069
+{clr}{05:07}{08:01}'s wounds{n}
+are healing...{w}
+
+#### 006A
+{clr}{05:07}A pale, translucent{n}
+"hand" touches{n}
+{08:01}...{w}
+{clr}{08:01} feels power{n}
+welling up...{w}
+
+#### 006B
+{clr}{05:07}Fierce flames burn{n}
+in {08:01}'s heart.{w}
+{n}
+{08:01}'s spirit{n}
+is rising...{w}
+
+#### 006C
+{clr}{05:07}Cold air wraps{n}
+around {08:01}.{w}
+{clr}All poison leaves{n}
+the body...{w}
+
+#### 006D
+{clr}{05:07}Yakumo threw{n}
+away {08:02}.{w}
+
+#### 006E
+{clr}{05:07}Yakumo used{n}
+{08:02}.{w}
+
+#### 006F
+{clr}{05:07}A warm light wraps{n}
+Yakumo's party.{w}
+{clr}Their wounds{n}
+are healing...{w}
+
+; ===== História =====
+; Ordem de jogo (não é a ordem das mensagens na ROM). Máx. ~21 carateres por linha, 4 linhas por caixa.
+
+; --- Bloco 1: abertura (telefonema da Lin-Lin, Yumenoshima, reencontro com a Pai) ---
+
+#### 023F
+{clr}{05:03}Hello?{n}
+This is Fujii...{w}
+{clr}
+
+#### 0240
+{clr}{05:03}Oh! Yakumo?{w}
+{n}
+Long time no see!{n}
+It's Lin-Lin!{w}
+{clr}
+
+#### 0241
+{clr}{05:03}Huh?! Lin-Lin?!{n}
+Is that you?{w}
+{n}
+It's been ages!{w}
+{clr}
+
+#### 0242
+{clr}{05:03}So?{n}
+How have you been?{w}
+{clr}
+
+#### 0243
+{clr}{05:03}Fine!{n}
+How about you?{w}
+{clr}But there's still{n}
+no word from Pai...{w}
+{clr}
+
+#### 0244
+{clr}{05:03}I see. Pai still{n}
+hasn't come back...{w}
+{clr}Oh, by the way, I'm{n}
+in Tokyo right now{n}
+for work. Can we{n}
+meet?{w}
+{clr}
+
+#### 0289
+{clr}{05:03}Work? Another youkai{n}
+extermination?{w}
+{n}
+I quit that stuff,{n}
+you know!{w}
+{clr}
+
+#### 028A
+{clr}{05:03}Nothing like that!{n}
+I'm covering a story{n}
+for a magazine!{n}
+A story!!{w}
+{clr}
+
+#### 028B
+{clr}{05:03}Oh, all right...{n}
+So? Where should{n}
+I go?{w}
+{clr}
+
+#### 028C
+{clr}{05:03}I'm sure you've{n}
+heard about it too...{n}
+I'm here to look into{n}
+the mysterious light!{w}
+{clr}
+
+#### 028D
+{clr}{05:03}Oh, that thing!{n}
+So that means{n}
+Yumenoshima!!{n}
+I'll be right there.{w}
+{clr}
+
+#### 028E
+{clr}{05:03}See you there, then!{w}
+{clr}
+
+#### 02A0
+{clr}{05:03}Eek! What is this?!!{w}
+{clr}What is this light?!{w}
+{clr}
+
+#### 029B
+{clr}{05:03}Welcome back... Pai{w}
+
+#### 029C
+{clr}{05:03}I'm sorry, Yakumo.{n}
+I stayed at the holy{n}
+land so I wouldn't{n}
+cause any trouble...{w}
+{clr}
+
+#### 029D
+{clr}{05:03}What are you saying?!{n}
+Let's have fun{n}
+together again!!{w}
+{clr}If a hole has opened,{n}
+there must be a "key"{n}
+somewhere. Let's go{n}
+find it!{w}
+{clr}
+
+#### 029E
+{clr}{05:03}Yeah!!{w}
+{clr}
+
+#### 029F
+{clr}{05:03}{n}
+　A few days later...{n}
+{w}
+{clr}
+
+#### 02A2
+{clr}{05:03}And so, I was{n}
+reunited with Pai.{w}
+{clr}Let's start our{n}
+journey again!{n}
+Yes, the two of us...{w}
+{clr}
+
+#### 02A3
+{clr}{05:03}But Pai, the way you{n}
+came from is blocked,{n}
+isn't it?{w}
+{clr}
+
+#### 02A4
+{clr}{05:03}We'll have to find{n}
+another way...{w}
+{clr}{05:00}There is another way!{w}
+{n}
+{05:03}Find the "Sanctuary{n}
+Keys"!{w}
+{clr}Then make a pact with{n}
+the statues of the{n}
+Five Kaiyan Generals{n}
+in Kunlun...{w}
+{clr}...and you'll be able{n}
+to reach the{n}
+Sanctuary!{w}
+{clr}
+
+; --- Mensagens de sistema usadas desde o início ---
+
+#### 028F
+{clr}{05:03}Looks like something{n}
+to protect the head!{w}
+{clr}
+
+#### 0290
+{clr}{05:03}Looks like something{n}
+to protect the body!{w}
+{clr}
+
+#### 0291
+{clr}{05:03}Looks like something{n}
+to protect the arms!{w}
+{clr}
+
+#### 0292
+{clr}{05:03}Looks like it could{n}
+be used as a weapon!{w}
+{clr}
+
+#### 0293
+{clr}{05:03}There are 2 Demon{n}
+Stones here.{w}
+{clr}Yakumo took a{n}
+Demon Stone.{w}
+
+#### 0294
+{clr}{05:03}There are 3 Demon{n}
+Stones here.{w}
+{clr}Yakumo took a{n}
+Demon Stone.{w}
+
+#### 0295
+{clr}{05:03}There are 4 Demon{n}
+Stones here.{w}
+{clr}Yakumo took a{n}
+Demon Stone.{w}
+
+#### 0296
+{clr}{05:03}There are 5 Demon{n}
+Stones here.{w}
+{clr}Yakumo took a{n}
+Demon Stone.{w}
+
+#### 0297
+{clr}{05:03}There are 6 Demon{n}
+Stones here.{w}
+{clr}Yakumo took a{n}
+Demon Stone.{w}
+
+#### 0298
+{clr}{05:03}There are 7 Demon{n}
+Stones here.{w}
+{clr}Yakumo took a{n}
+Demon Stone.{w}
+
+#### 0299
+{clr}{05:03}There are 8 Demon{n}
+Stones here.{w}
+{clr}Yakumo took a{n}
+Demon Stone.{w}
+
+#### 029A
+{clr}{05:03}There are 9 Demon{n}
+Stones here.{w}
+{clr}Yakumo took a{n}
+Demon Stone.{w}
+
+; --- Blocos 2-8: resto do guião (traduzido em paralelo, por ordem de ID) ---
+
+#### 0070
+{clr}{05:07}{08:01}'s body{n}
+is cured of poison.{w}
+
+#### 0071
+{clr}{05:07}Pai summoned Takuhi.{w}
+
+#### 0072
+{clr}{05:07}Yakumo took out{n}
+{08:02}.{w}
+
+#### 0073
+{clr}{05:0A}Yakumo, I can't call{n}
+Takuhi here!{w}
+
+#### 0074
+{clr}{05:07}It seems only Pai{n}
+can use the Takuhi{n}
+Staff.{w}
+
+#### 0075
+{clr}{05:07}No point using{n}
+this here...{w}
+
+#### 0076
+{clr}{05:07}Yakumo placed{n}
+{08:02} x{07:00}{n}
+on the pedestal.{w}
+{clr}This pedestal holds{n}
+{07:01} Demon Stones.{w}
+
+#### 0077
+{clr}{05:07}Not enough of them!{w}
+
+#### 0078
+{05:00}Tag {07:00}: success!{n}
+{05:00}Making{n}
+talismans...
+
+#### 0079
+{05:00}Making{n}
+talismans...
+
+#### 007A
+{clr}{05:07}Yakumo made {07:00}{n}
+talismans!{w}
+
+#### 007B
+{clr}{05:07}Yakumo set the{n}
+Plastic Bomb.{w}
+{clr}The Plastic Bomb{n}
+will soon explode!{w}
+
+#### 007C
+{clr}{05:07}{08:01}{n}
+took {08:02}.{w}
+
+#### 007D
+{clr}{05:07}The seal on the door{n}
+seems broken...{w}
+
+#### 007E
+{clr}{05:07}Yakumo placed{n}
+{08:02} on the{n}
+pedestal.{w}
+
+#### 007F
+{clr}{05:07}Yakumo drew the{n}
+Survival Knife across{n}
+his arm.{w}
+{clr}Blood drips from{n}
+Yakumo's arm...{w}
+
+#### 0080
+{clr}{05:07}{08:02}{n}
+reacts to the blood{n}
+and begins to{n}
+regenerate...{w}
+
+#### 0081
+{clr}{05:07}Yakumo got a{n}
+scratch.{w}
+
+#### 0082
+{clr}{05:07}There's a chest.{w}
+{n}
+Yakumo searched{n}
+the chest.{w}
+
+#### 0083
+{clr}{05:07}There was nothing{n}
+inside the chest.{w}
+
+#### 0084
+{clr}{05:07}Inside the chest was{n}
+{08:02}.{w}
+
+#### 0085
+{clr}{05:07}Yakumo got{n}
+{08:02}.{w}
+
+#### 0086
+{clr}{05:07}But Yakumo can't{n}
+carry any more!{w}
+
+#### 0087
+{clr}{05:07}Yakumo stared at it{n}
+for a while.{w}
+
+#### 0088
+{clr}{05:07}Firing a gun here{n}
+is too dangerous!{w}
+
+#### 0089
+{clr}{05:07}This seems to have{n}
+archaeological value.{w}
+
+#### 008A
+{clr}{05:07}It shines even more{n}
+in the sunlight...{w}
+
+#### 008B
+{clr}{05:07}Yakumo raised{n}
+{08:02} high!{w}
+{clr}O spirit of{n}
+{08:02}, I summon{n}
+thee now!{w}
+{clr}Grant me thy{n}
+boundless power!{w}
+
+#### 008C
+{clr}{05:00}　　{08:00}{n}
+　　　　　　　　　　　　{n}
+If thou wouldst borrow{n}
+the mighty power of{n}
+the {08:02} spirit,{n}
+draw the talisman that{n}
+calls the spirit, and{n}
+chant the incantation.{0B}{clr}{05:00}　　 Solomon Talisman{n}
+　　　　　　　　　　　　{n}
+If thou hast a mighty{n}
+foe, use the Solomon{n}
+Talisman to summon{n}
+Satan. Then dread{n}
+Satan shall raise a{n}
+mighty barrier.{0B}{clr}{05:00}　　{08:00}{n}
+　　　　　　　　　　　　{n}
+If thou wouldst slay{n}
+thy foes with the{n}
+{08:02} of hell,{n}
+draw "{08:00}"{n}
+and summon{n}
+{08:02}.{w}
+{clr}Then the destructive{n}
+power of {08:02}{n}
+shall bring death{n}
+upon thy foes.{0B}{clr}{05:00}　　 The 12 Familiars{n}
+　　　　　　　　　　　　{n}
+If thou wouldst call{n}
+the dread 12 familiars{n}
+to possess thy foes,{n}
+draw and use the{n}
+Square of 12.{0B}{clr}{05:00}　　Square No. 3{n}
+　　　　　　　　　　　　{n}
+If thou wouldst stir{n}
+up foul weather to{n}
+harm thy foes, use{n}
+this square. Then a{n}
+fierce rain shall{n}
+strike thy foes.{0B}{clr}{05:00}　　Square No. 1{n}
+　　　　　　　　　　　　{n}
+If thou wouldst turn{n}
+back the magic thy{n}
+foes cast upon thee,{n}
+use this square. Then{n}
+the spell shall{n}
+rebound upon them.{0B}{clr}{05:00}　　The First Trial{n}
+　　　　　　　　　　　　　{n}
+Find the Nauthiz{n}
+statue and destroy it!{n}
+Then the stone that{n}
+unlocks the magic{n}
+circle shall appear.{0B}{clr}{05:00}　　The Second Trial{n}
+　　　　　　　　　　　　　{n}
+Form a magic circle{n}
+with the pedestals{n}
+shaped as a square!{n}
+A magic circle must{n}
+be perfect from{n}
+every direction.{0B}{clr}{05:00}There is no other{n}
+way to complete the{n}
+magic circle!{0B}
+
+#### 008D
+{clr}{05:00}　　 Solomon Talisman{n}
+　　　　　　　　　　　　{n}
+If thou hast a mighty{n}
+foe, use the Solomon{n}
+Talisman to summon{n}
+Satan. Then dread{n}
+Satan shall raise a{n}
+mighty barrier.{0B}{clr}{05:00}　　{08:00}{n}
+　　　　　　　　　　　　{n}
+If thou wouldst slay{n}
+thy foes with the{n}
+{08:02} of hell,{n}
+draw "{08:00}"{n}
+and summon{n}
+{08:02}.{w}
+{clr}Then the destructive{n}
+power of {08:02}{n}
+shall bring death{n}
+upon thy foes.{0B}{clr}{05:00}　　 The 12 Familiars{n}
+　　　　　　　　　　　　{n}
+If thou wouldst call{n}
+the dread 12 familiars{n}
+to possess thy foes,{n}
+draw and use the{n}
+Square of 12.{0B}{clr}{05:00}　　Square No. 3{n}
+　　　　　　　　　　　　{n}
+If thou wouldst stir{n}
+up foul weather to{n}
+harm thy foes, use{n}
+this square. Then a{n}
+fierce rain shall{n}
+strike thy foes.{0B}{clr}{05:00}　　Square No. 1{n}
+　　　　　　　　　　　　{n}
+If thou wouldst turn{n}
+back the magic thy{n}
+foes cast upon thee,{n}
+use this square. Then{n}
+the spell shall{n}
+rebound upon them.{0B}{clr}{05:00}　　The First Trial{n}
+　　　　　　　　　　　　　{n}
+Find the Nauthiz{n}
+statue and destroy it!{n}
+Then the stone that{n}
+unlocks the magic{n}
+circle shall appear.{0B}{clr}{05:00}　　The Second Trial{n}
+　　　　　　　　　　　　　{n}
+Form a magic circle{n}
+with the pedestals{n}
+shaped as a square!{n}
+A magic circle must{n}
+be perfect from{n}
+every direction.{0B}{clr}{05:00}There is no other{n}
+way to complete the{n}
+magic circle!{0B}
+
+#### 008E
+{clr}{05:00}　　{08:00}{n}
+　　　　　　　　　　　　{n}
+If thou wouldst slay{n}
+thy foes with the{n}
+{08:02} of hell,{n}
+draw "{08:00}"{n}
+and summon{n}
+{08:02}.{w}
+{clr}Then the destructive{n}
+power of {08:02}{n}
+shall bring death{n}
+upon thy foes.{0B}{clr}{05:00}　　 The 12 Familiars{n}
+　　　　　　　　　　　　{n}
+If thou wouldst call{n}
+the dread 12 familiars{n}
+to possess thy foes,{n}
+draw and use the{n}
+Square of 12.{0B}{clr}{05:00}　　Square No. 3{n}
+　　　　　　　　　　　　{n}
+If thou wouldst stir{n}
+up foul weather to{n}
+harm thy foes, use{n}
+this square. Then a{n}
+fierce rain shall{n}
+strike thy foes.{0B}{clr}{05:00}　　Square No. 1{n}
+　　　　　　　　　　　　{n}
+If thou wouldst turn{n}
+back the magic thy{n}
+foes cast upon thee,{n}
+use this square. Then{n}
+the spell shall{n}
+rebound upon them.{0B}{clr}{05:00}　　The First Trial{n}
+　　　　　　　　　　　　　{n}
+Find the Nauthiz{n}
+statue and destroy it!{n}
+Then the stone that{n}
+unlocks the magic{n}
+circle shall appear.{0B}{clr}{05:00}　　The Second Trial{n}
+　　　　　　　　　　　　　{n}
+Form a magic circle{n}
+with the pedestals{n}
+shaped as a square!{n}
+A magic circle must{n}
+be perfect from{n}
+every direction.{0B}{clr}{05:00}There is no other{n}
+way to complete the{n}
+magic circle!{0B}
+
+#### 008F
+{clr}{05:00}　　 The 12 Familiars{n}
+　　　　　　　　　　　　{n}
+If thou wouldst call{n}
+the dread 12 familiars{n}
+to possess thy foes,{n}
+draw and use the{n}
+Square of 12.{0B}{clr}{05:00}　　Square No. 3{n}
+　　　　　　　　　　　　{n}
+If thou wouldst stir{n}
+up foul weather to{n}
+harm thy foes, use{n}
+this square. Then a{n}
+fierce rain shall{n}
+strike thy foes.{0B}{clr}{05:00}　　Square No. 1{n}
+　　　　　　　　　　　　{n}
+If thou wouldst turn{n}
+back the magic thy{n}
+foes cast upon thee,{n}
+use this square. Then{n}
+the spell shall{n}
+rebound upon them.{0B}{clr}{05:00}　　The First Trial{n}
+　　　　　　　　　　　　　{n}
+Find the Nauthiz{n}
+statue and destroy it!{n}
+Then the stone that{n}
+unlocks the magic{n}
+circle shall appear.{0B}{clr}{05:00}　　The Second Trial{n}
+　　　　　　　　　　　　　{n}
+Form a magic circle{n}
+with the pedestals{n}
+shaped as a square!{n}
+A magic circle must{n}
+be perfect from{n}
+every direction.{0B}{clr}{05:00}There is no other{n}
+way to complete the{n}
+magic circle!{0B}
+
+#### 0090
+{clr}{05:00}　　Square No. 3{n}
+　　　　　　　　　　　　{n}
+If thou wouldst stir{n}
+up foul weather to{n}
+harm thy foes, use{n}
+this square. Then a{n}
+fierce rain shall{n}
+strike thy foes.{0B}{clr}{05:00}　　Square No. 1{n}
+　　　　　　　　　　　　{n}
+If thou wouldst turn{n}
+back the magic thy{n}
+foes cast upon thee,{n}
+use this square. Then{n}
+the spell shall{n}
+rebound upon them.{0B}{clr}{05:00}　　The First Trial{n}
+　　　　　　　　　　　　　{n}
+Find the Nauthiz{n}
+statue and destroy it!{n}
+Then the stone that{n}
+unlocks the magic{n}
+circle shall appear.{0B}{clr}{05:00}　　The Second Trial{n}
+　　　　　　　　　　　　　{n}
+Form a magic circle{n}
+with the pedestals{n}
+shaped as a square!{n}
+A magic circle must{n}
+be perfect from{n}
+every direction.{0B}{clr}{05:00}There is no other{n}
+way to complete the{n}
+magic circle!{0B}
+
+#### 0091
+{clr}{05:00}　　Square No. 1{n}
+　　　　　　　　　　　　{n}
+If thou wouldst turn{n}
+back the magic thy{n}
+foes cast upon thee,{n}
+use this square. Then{n}
+the spell shall{n}
+rebound upon them.{0B}{clr}{05:00}　　The First Trial{n}
+　　　　　　　　　　　　　{n}
+Find the Nauthiz{n}
+statue and destroy it!{n}
+Then the stone that{n}
+unlocks the magic{n}
+circle shall appear.{0B}{clr}{05:00}　　The Second Trial{n}
+　　　　　　　　　　　　　{n}
+Form a magic circle{n}
+with the pedestals{n}
+shaped as a square!{n}
+A magic circle must{n}
+be perfect from{n}
+every direction.{0B}{clr}{05:00}There is no other{n}
+way to complete the{n}
+magic circle!{0B}
+
+#### 0092
+{clr}{05:00}　　The First Trial{n}
+　　　　　　　　　　　　　{n}
+Find the Nauthiz{n}
+statue and destroy it!{n}
+Then the stone that{n}
+unlocks the magic{n}
+circle shall appear.{0B}{clr}{05:00}　　The Second Trial{n}
+　　　　　　　　　　　　　{n}
+Form a magic circle{n}
+with the pedestals{n}
+shaped as a square!{n}
+A magic circle must{n}
+be perfect from{n}
+every direction.{0B}{clr}{05:00}There is no other{n}
+way to complete the{n}
+magic circle!{0B}
+
+#### 0093
+{clr}{05:00}　　The Second Trial{n}
+　　　　　　　　　　　　　{n}
+Form a magic circle{n}
+with the pedestals{n}
+shaped as a square!{n}
+A magic circle must{n}
+be perfect from{n}
+every direction.{0B}{clr}{05:00}There is no other{n}
+way to complete the{n}
+magic circle!{0B}
+
+#### 0094
+{clr}{05:00}There is no other{n}
+way to complete the{n}
+magic circle!{0B}
+
+#### 0095
+{clr}{05:07}Welcome! This shop{n}
+deals in gems.{w}
+{clr}How may I help you?
+
+#### 0096
+{clr}{05:07}Welcome! This shop{n}
+deals in ritual{n}
+tools.{w}
+{clr}What can I do for{n}
+you?
+
+#### 0097
+{clr}{05:07}Welcome! This shop{n}
+deals in folk crafts.{w}
+{clr}How may I help you?
+
+#### 0098
+{clr}{05:07}How may I help you?
+
+#### 0099
+{clr}{05:07}What will you buy?
+
+#### 009A
+{clr}{05:07}What will you sell?
+
+#### 009B
+{clr}{05:07}{08:02}, then!{w}
+{clr}How many would{n}
+you like?
+
+#### 009C
+{clr}{05:07}You can't carry that{n}
+many!{w}
+
+#### 009D
+{clr}{05:07}That'll be {07:00}{n}
+dollars. All right?
+
+#### 009E
+{clr}{05:07}You don't have{n}
+enough money!{w}
+
+#### 009F
+{clr}{05:07}Thank you very much!{w}
+
+#### 00A0
+{clr}{05:07}Anything else?
+
+#### 00A1
+{clr}{05:07}{08:02}, is it?{w}
+{clr}How many will you{n}
+sell?
+
+#### 00A2
+{clr}{05:07}You don't have that{n}
+many!{w}
+
+#### 00A3
+{clr}{05:07}Thank you for your{n}
+business!{w}
+
+#### 00A4
+{clr}{05:07}Welcome! If you have{n}
+the materials, I'll{n}
+make you a weapon.{w}
+{clr}Want me to make{n}
+something?
+
+#### 00A5
+{clr}{05:07}What'll I make?
+
+#### 00A6
+{clr}{05:07}To make {08:02}{n}
+I need {07:00} dollars{n}
+and {08:01} x{07:01}.{n}
+Is that all right?
+
+#### 00A7
+{clr}{05:07}Can't make it with{n}
+that, I'm afraid.{w}
+
+#### 00A9
+{clr}{05:07}I'll get to work.{n}
+Wait a bit...{w}
+
+#### 00AA
+{clr}{05:07}Sorry to keep you!{n}
+{08:02}{n}
+is finished.{w}
+
+#### 00AC
+{clr}{05:07}Come back anytime!{w}
+
+#### 00AD
+{clr}{05:07}Welcome! Thank you{n}
+for choosing our{n}
+hotel.{w}
+{clr}Will you be staying{n}
+with us?
+
+#### 00AE
+{clr}{05:07}It's {07:00} dollars{n}
+a night. All right?
+
+#### 00AF
+{clr}{05:07}Then please, have a{n}
+good rest.{w}
+
+#### 00B0
+{clr}{05:07}Good morning! I hope{n}
+you rested well.{w}
+
+#### 00B1
+{clr}{05:07}We hope to see you{n}
+again.{w}
+
+#### 00B2
+{clr}{05:03}Saving data.{w}
+{clr}Previous data will{n}
+be erased.{n}
+Is that OK?
+
+#### 00B3
+{clr}{05:07}Please rest and heal{n}
+the weariness of{n}
+your journey.{w}
+
+#### 00B4
+{clr}{05:07}Welcome! Thank you{n}
+for using our{n}
+airport.{w}
+{clr}How may I help you?
+
+#### 00B5
+{clr}{05:07}A plane ticket is{n}
+{07:00} dollars.{n}
+Is that all right?
+
+#### 00B6
+{clr}{05:07}You can't leave the{n}
+country without a{n}
+ticket!{w}
+
+#### 00B7
+{clr}{05:07}Where would you like{n}
+to go?
+
+#### 00B8
+{clr}{05:07}{08:02}, then!{n}
+Is that correct?
+
+#### 00B9
+{clr}{05:07}Then I'll check your{n}
+passport. One moment,{n}
+please.
+
+#### 00BA
+{clr}{05:07}You don't have a{n}
+passport. You can't{n}
+leave the country{n}
+without one!{w}
+
+#### 00BB
+{clr}{05:07}Passport checked.{w}
+{clr}You're cleared for{n}
+departure.{w}
+{n}
+Enjoy a pleasant{n}
+flight!{w}
+
+#### 00BC
+{clr}{05:07}Oh... Yakumo, what{n}
+can I do for you?
+
+#### 00BD
+{clr}{05:07}Lin-Lin's special{n}
+{08:02}, eh...{w}
+{n}
+So, how many do you{n}
+want?
+
+#### 00BE
+{clr}{05:07}Hey hey, Yakumo, can{n}
+you carry that many?{w}
+
+#### 00BF
+{clr}{05:07}Anything else?
+
+#### 00C0
+{clr}{05:07}Even for you, Yakumo,{n}
+I can't go any{n}
+lower.{w}
+
+#### 00C1
+{clr}{05:07}Lin-Lin's special{n}
+{08:02}, eh...{w}
+{clr}Since it's you,{n}
+Yakumo, I'll make it{n}
+{07:00} dollars.{w}
+{clr}How's that?
+
+#### 00C2
+{clr}{05:07}Drop by anytime{n}
+you're back in{n}
+Hong Kong!{w}
+
+#### 00C3
+{clr}{05:07}Welcome! We deal in{n}
+items of{n}
+archaeological value.{w}
+
+#### 00C4
+{clr}{05:07}What will you sell{n}
+me?
+
+#### 00C5
+{clr}{05:07}I only buy things{n}
+of archaeological{n}
+value!{w}
+
+#### 00C6
+{clr}{05:07}Hmm, I'll buy it for{n}
+{07:00} dollars.{n}
+Is that acceptable?{w}
+
+#### 00C7
+{clr}{05:07}This is said to be{n}
+a legendary demon{n}
+blade, but as you{n}
+can see, it's rusted.{w}
+{clr}I can't tell if it's{n}
+truly valuable,{w}
+{clr}so I can't price it{n}
+right now.{w}
+{clr}But if you really{n}
+want it, I'd trade it{n}
+for the Aztec Fresco{n}
+I'm looking for.{w}
+
+#### 00C8
+{clr}{05:07}Ah, an old scroll...{n}
+I'll sell it to you{n}
+for 600 dollars.{w}
+
+#### 00C9
+{clr}{05:07}Sorry, I've nothing{n}
+to sell right now.{w}
+
+#### 00CA
+{clr}{05:07}It looks like a book{n}
+of magic. I'll sell{n}
+it for 560 dollars.{n}
+All right?
+
+#### 00CB
+{clr}{05:07}Oh, I'm so sorry!{n}
+That was sold just{n}
+a while ago.{w}
+{clr}The buyer said his{n}
+name was Jake, and{n}
+that he was going{n}
+to Tibet...{w}
+{clr}If you really want{n}
+it, you'll have to{n}
+follow him to Tibet.{w}
+
+#### 00CC
+{clr}{05:07}I found this by{n}
+chance when I went to{n}
+Greece looking for{n}
+the Daedalus Wing,{w}
+{clr}but I can't tell{n}
+how valuable it is.{w}
+{n}
+I can't price it{n}
+right now.{w}
+{clr}But I'd trade it for{n}
+the Daedalus Wing.{w}
+
+#### 00CD
+{clr}{05:07}Please come again...{w}
+
+#### 00CE
+{clr}{05:07}Welcome! I collect{n}
+folk crafts.{w}
+{clr}Would you sell me{n}
+something?
+
+#### 00CF
+{clr}{05:07}I can't really buy{n}
+that, I'm afraid!{w}
+
+#### 00D0
+{clr}{05:07}There are switches.{w}
+{n}
+Which switch will{n}
+you press?
+
+#### 00D1
+{clr}{05:07}A mechanism seems to{n}
+have activated{n}
+somewhere.{w}
+
+#### 00D2
+{clr}{05:03}Hey, Fujii! You{n}
+finally made it!{w}
+{clr}
+
+#### 00D3
+{clr}{05:03}Long time no see,{n}
+Haan.{w}
+{n}
+So, what did you{n}
+want with me?{w}
+{clr}
+
+#### 00D4
+{clr}{05:03}The reason I called{n}
+you here is that I{n}
+want to give you this{n}
+"Beast Egg."{w}
+{clr}I found this egg by{n}
+chance while I was in{n}
+Tibet,{w}
+{clr}searching for a book{n}
+of sorcery.{w}
+{clr}Besides, it's safe to{n}
+hatch a beast here,{n}
+and that suits you{n}
+too, right?{w}
+{clr}
+
+#### 00D5
+{clr}{05:03}A "Beast Egg," huh...{w}
+{n}
+A chance to get a{n}
+new beast!{w}
+{clr}All right, I'll hatch{n}
+the beast!{w}
+{n}
+Stand back!{w}
+
+#### 00D6
+{clr}{05:03}The first one is{n}
+Tsuorin...{w}
+{clr}It moves fast, so be{n}
+careful!{w}
+
+#### 00D7
+{clr}{05:03}You did it, Fujii!{n}
+You beat Tsuorin!{w}
+{clr}Now, what's next?{w}
+
+#### 00D8
+{clr}{05:03}Number two is...!?{w}
+{clr}K-Koanyaa! The beast{n}
+used by the great{n}
+sorcerer Benares...{w}
+{clr}This one might be{n}
+a bit of a problem.{w}
+
+#### 00D9
+{clr}{05:03}Fujii, I can't{n}
+believe you beat that{n}
+Koanyaa!{w}
+{clr}
+
+#### 00DA
+{clr}{05:03}Yeah, at first I{n}
+thought I was in{n}
+trouble, too,{w}
+{clr}but hey, I got{n}
+Koanyaa, the toughest{n}
+beast, so I{n}
+guess it worked out.{w}
+{clr}
+
+#### 00DB
+{clr}{05:03}Heh heh...{n}
+How naive, Fujii!{w}
+{clr}Did you really think{n}
+I'd give you a beast{n}
+for free?{w}
+{clr}
+
+#### 00DC
+{clr}{05:03}What! Haan, you...{w}
+{clr}
+
+#### 00DD
+{clr}{05:03}Hey, now,{n}
+don't get so mad!{w}
+{clr}You just have to help{n}
+me look for a book{n}
+of sorcery,{n}
+that's all.{w}
+{clr}
+
+#### 00DE
+{clr}{05:03}A book of sorcery!?{w}
+{clr}
+
+#### 00DF
+{clr}{05:03}Yeah. It's in a{n}
+nasty spot in Greece,{n}
+and I'd feel uneasy{n}
+going alone.{w}
+{clr}So I thought I'd{n}
+have you come along,{n}
+Fujii.{w}
+{clr}Well, you got your{n}
+beast, so no{n}
+complaints, right?{w}
+{clr}
+
+#### 00E0
+{clr}{05:03}.....{w}
+{clr}
+
+#### 00E1
+{clr}{05:03}A strange pedestal.{w}
+
+#### 00E2
+{clr}{05:03}Words are carved on{n}
+the front wall.{w}
+
+#### 00E3
+{clr}{05:00}"Pai is held in the{n}
+ Garhapatyam house{n}
+ of Bijaria.{w}
+{clr} The key to open the{n}
+ Garhapatyam gate{n}
+ is in the pedestal.{n}
+ 　　　　　Kinkara"{w}
+
+#### 00E4
+{clr}{05:03}There's a master key{n}
+inside.{w}
+
+#### 00E5
+{clr}{05:03}Yakumo, did you find{n}
+Pai?{w}
+
+#### 00E6
+{clr}{05:03}Fujii, hurry and{n}
+go save Pai!{w}
+
+#### 00E7
+{clr}{05:03}Pai, I'm so glad{n}
+you're safe!{w}
+
+#### 00E8
+{clr}{05:03}Fujii, way to go{n}
+rescuing Pai!{w}
+
+#### 00E9
+{clr}{05:03}So, you're that{n}
+Sanjiyan's Wu!{w}
+{n}
+Came all this way{n}
+to rescue her, eh...{w}
+{clr}If you'd just run,{n}
+you might have lived{n}
+to tell of it...{w}
+{clr}As you wish, then.{n}
+The great Garga will{n}
+kill you all!{w}
+{clr}It seems I won't get{n}
+immortality from that{n}
+Sanjiyan after all!{w}
+
+#### 00EA
+{clr}{05:03}Ah, it's the boy from{n}
+the other day!{w}
+{n}
+So where on earth{n}
+did Garga go?{w}
+{clr}
+
+#### 00EB
+{clr}{05:03}Garga? We just{n}
+beat him.{w}
+{clr}
+
+#### 00EC
+{clr}{05:03}Hmph. You're naive,{n}
+boy.{w}
+{n}
+Garga is still{n}
+alive!{w}
+{clr}He's surely aiming to{n}
+Hyoma-fuse with{n}
+the Majin statue.{w}
+{clr}If Garga fuses with{n}
+the Majin statue, we{n}
+won't stand a chance{n}
+against him.{w}
+{clr}Come, let's hurry!{w}
+{n}
+The Majin statue{n}
+should be on the{n}
+third floor!{w}
+
+#### 00ED
+{clr}{05:03}Up ahead is the room{n}
+where the Majin{n}
+statue is enshrined!{w}
+
+#### 00EE
+{clr}{05:03}Ah! The Majin statue{n}
+is gone!{w}
+{clr}I see! Garga has{n}
+already fused with{n}
+the Majin statue!{w}
+{clr}Kuh...{n}
+Now that it's come{n}
+to this, there's no{n}
+other way!{w}
+
+#### 00EF
+{clr}{05:03}Boy, take the others{n}
+and run, quickly!{w}
+{clr}
+
+#### 00F0
+{clr}{05:03}What? Run away?{w}
+{n}
+No way! I won't feel{n}
+right until I beat{n}
+that guy!{w}
+{clr}
+
+#### 00F1
+{clr}{05:03}Don't talk nonsense!{w}
+{clr}Boy, hurry and take{n}
+Sanjiyan and run!{w}
+{clr}If this goes on, the{n}
+last of the Sanjiyan{n}
+will die too!{w}
+
+#### 00F2
+{clr}{05:03}Lady Seima, please{n}
+flee, quickly!{w}
+{clr}
+
+#### 00F3
+{clr}{05:03}No! Pai will fight{n}
+with you too!{w}
+{clr}Running away and{n}
+leaving Gupta behind?{n}
+No way!{w}
+{clr}
+
+#### 00F4
+{clr}{05:03}Lady Seima...{w}
+
+#### 00F5
+{clr}{05:03}Gupta...{n}
+Trust in us.{w}
+{n}
+There's no way{n}
+we'll lose...{w}
+{clr}Besides, even if we{n}
+ran away,{w}
+{clr}there's no telling{n}
+that you Hyoma would{n}
+be saved!{w}
+{clr}
+
+#### 00F6
+{clr}{05:03}Boy...{w}
+{n}
+Very well. I'll trust{n}
+in your strength.{w}
+{clr}Let us join forces{n}
+and defeat Garga.{w}
+
+#### 00F7
+{clr}{05:03}Yakumo, something's{n}
+coming!{w}
+{clr}
+
+#### 00F8
+{clr}{05:03}Here it comes.{n}
+Everyone, be careful!{w}
+
+#### 00F9
+{clr}{05:03}Ha ha ha ha...{n}
+Three fools, all{n}
+lined up!{w}
+{clr}I was careless then,{n}
+but it won't go that{n}
+way this time!{w}
+{clr}Have a good taste of{n}
+the Majin statue's{n}
+power!{w}
+
+#### 00FA
+{clr}{05:03}Ah, Lady Seima...{n}
+Please forgive my{n}
+rudeness earlier...{w}
+{clr}I am the old king of{n}
+the Hyoma clan and{n}
+Garga's father, Danda{n}
+Garhapatyam.{w}
+{clr}The women here all{n}
+suffered cruelly at{n}
+Garga's hands.{w}
+{clr}I no longer know{n}
+what goes on in that{n}
+one's mind.{w}
+{clr}I believed he brought{n}
+you here, Lady Seima,{n}
+for the survival of{n}
+the Hyoma clan,{w}
+{clr}never dreaming he{n}
+sought immortality{n}
+for his own ambition.{w}
+{clr}It is beyond my power{n}
+now.{w}
+{n}
+I beg you, save{n}
+us, the Hyoma clan!{w}
+
+#### 00FB
+{clr}{05:03}Garga is beyond our{n}
+control now!{n}
+Please, help us!{w}
+
+#### 00FC
+{clr}{05:03}No, Lady Seima! It's{n}
+dangerous to come any{n}
+closer.{w}
+{clr}This girl could{n}
+undergo Hyoma fusion{n}
+at any moment.{w}
+{n}
+Please stay back!{w}
+
+#### 00FD
+{clr}{05:03}Hm? Who's there!{w}
+{clr}Anyone who interferes{n}
+just as the sacred{n}
+rite begins won't{n}
+leave here alive!{w}
+
+#### 00FE
+{clr}{05:03}Now, are you next?{w}
+{clr}
+
+#### 00FF
+{clr}{05:03}....!?{n}
+Who on earth{n}
+are you?{w}
+{clr}
+
+#### 0100
+{clr}{05:03}....I see!{n}
+You must be{n}
+Kinkara!{w}
+
+#### 0101
+{clr}{05:03}Kinkara nodded.{w}
+{n}
+Then he made some{n}
+sign with his finger.{w}
+{clr}He was signaling{n}
+Yakumo to come near.{w}
+
+#### 0102
+{clr}{05:03}Kinkara took out a{n}
+lovely crystal ball.{w}
+{clr}Then he signaled{n}
+Yakumo to look into{n}
+the crystal ball.{w}
+{clr}Yakumo peered into{n}
+the crystal ball...{w}
+{clr}It showed a man{n}
+treating a woman{n}
+cruelly.{w}
+
+#### 0103
+{clr}{05:03}Gar...ga...{w}
+{clr}
+
+#### 0104
+{clr}{05:03}Kinkara spoke for{n}
+the first time.{w}
+{n}
+He signaled again to{n}
+look at the ball.{w}
+{clr}Yakumo gazed into{n}
+the crystal ball...{w}
+{n}
+It showed the same{n}
+scene as before.{w}
+
+#### 0105
+{clr}{05:03}Huh? Isn't that woman{n}
+Gupta!?{w}
+{n}
+Why would Gupta be{n}
+in a place like this?{w}
+
+#### 0106
+{clr}{05:03}The scene in the{n}
+crystal ball changed.{w}
+{clr}Now it showed some{n}
+kind of ritual being{n}
+performed.{w}
+{clr}That man, Garga, was{n}
+there too.{w}
+{clr}Then the scene{n}
+changed again.{w}
+{clr}It showed something{n}
+like a huge lump{n}
+of flesh.{w}
+
+#### 0107
+{clr}{05:03}Th-This is Taisoei!{w}
+{n}
+But I already beat{n}
+Taisoei long ago!{w}
+
+#### 0108
+{clr}{05:03}Kinkara nodded.{w}
+{n}
+He signaled again to{n}
+look at the ball.{w}
+{clr}The crystal ball{n}
+showed Taisoei's{n}
+seal being{n}
+broken.{w}
+
+#### 0109
+{clr}{05:03}I-I see! This guy,{n}
+Garga, broke{n}
+Taisoei's seal!{w}
+{clr}But what on earth{n}
+for?{w}
+
+#### 010A
+{clr}{05:03}The scene in the{n}
+crystal ball changed.{w}
+{n}
+This time, it showed{n}
+Pai.{w}
+{clr}It was a scene Yakumo{n}
+could hardly bear{n}
+to watch.{w}
+{clr}For Pai was being{n}
+tortured by that{n}
+man, Garga.{w}
+
+#### 010B
+{clr}{05:03}P-Pai...{n}
+Where is Pai!?{n}
+Tell me!{w}
+
+#### 010C
+{clr}{05:03}Yakumo shouted at{n}
+Kinkara.{w}
+{n}
+Kinkara calmly{n}
+pointed to a room{n}
+on the right.{w}
+
+#### 010D
+{clr}{05:03}Is that the emblem?{w}
+{n}
+So you're a member!{w}
+
+#### 010E
+{clr}{05:03}Outsiders are not{n}
+allowed here!{w}
+{clr}Please leave!{w}
+
+#### 010F
+{clr}{05:07}The "Sanctuary Keys"{n}
+are reacting to the{n}
+light!{w}
+
+#### 0110
+{clr}{05:07}Yakumo showed{n}
+the {08:02}.{w}
+
+#### 0111
+{clr}{05:03}So this is Taisoei.{w}
+
+#### 0112
+{clr}{05:03}That seals the hole{n}
+to the Sanctuary...{w}
+{clr}
+
+#### 0113
+{clr}{05:03}That's right, Yakumo.{w}
+
+#### 0114
+{clr}{05:07}Mr. McDonald, what{n}
+will you do now?{w}
+{clr}
+
+#### 0115
+{clr}{05:0A}Well, I think I'll go{n}
+back to America.{w}
+{clr}My only regret is{n}
+that I never got to{n}
+meet Sanjiyan.{w}
+{clr}
+
+#### 0116
+{clr}{05:0A}Yakumo and the others{n}
+headed for{n}
+Yumenoshima...{w}
+{clr}
+
+#### 0117
+{clr}{05:03}Oh, Yakumo! Long{n}
+time no see!{w}
+
+#### 0118
+{clr}{05:03}Sanjiyan, huh...{n}
+Say, Mr. McDonald?{w}
+{clr}
+
+#### 0119
+{clr}{05:0A}Hm? What is it?{w}
+{clr}
+
+#### 011A
+{clr}{05:03}You've already met{n}
+Sanjiyan, you know...{w}
+{clr}
+
+#### 011B
+{clr}{05:03}Heh, I thought so...{n}
+That's a relief to{n}
+hear!{w}
+{clr}So I finally got{n}
+to meet Sanjiyan...{w}
+{clr}No, I guess I should{n}
+say I fought at{n}
+Sanjiyan's side?{w}
+{clr}....Well,{w}
+{n}
+shall we head home?{w}
+{clr}
+
+#### 011C
+{clr}{05:03}Yeah...{w}
+{clr}Pai...{n}
+Let's go back to{n}
+Yogekisha too!{w}
+
+#### 011D
+{clr}{05:03}A crest with a{n}
+three-eyed pattern...{w}
+{n}
+Never heard of it.{w}
+{clr}But I do know about{n}
+Hadrian's Key.{w}
+{clr}It's the key to the{n}
+Zeus Temple people{n}
+are talking about...{w}
+{clr}But that key is kept{n}
+at the Archaeology{n}
+Museum now,{w}
+{clr}so I can't say if{n}
+the rumors are true.{w}
+{clr}They say the temple{n}
+is full of treasure.{n}
+I'd love to go, too.{w}
+{clr}
+
+#### 011E
+{clr}{05:07}This museum exhibits{n}
+items of great{n}
+archaeological value.{w}
+{clr}Please, take your{n}
+time and enjoy them.{w}
+
+#### 011F
+{clr}{05:07}What! You want me to{n}
+give you Hadrian's{n}
+Key?{w}
+{clr}Hmm, that's tricky.{w}
+{n}
+It's not that I can't{n}
+part with it...{w}
+{clr}I know! There's the{n}
+Agora statue...{w}
+{clr}I've been searching{n}
+for the Agora statue,{n}
+but I just can't{n}
+seem to find it.{w}
+{clr}So here's my offer:{n}
+how about a trade for{n}
+the Agora statue?{w}
+
+#### 0120
+{clr}{05:07}Well? Have you found{n}
+the Agora statue?{w}
+
+#### 0121
+{clr}{05:07}Did you get into the{n}
+Zeus Temple?{w}
+
+#### 0122
+{clr}{05:07}Oh!{n}
+Isn't that the{n}
+Agora statue!?{w}
+{clr}As promised, I'll{n}
+trade you Hadrian's{n}
+Key for it!{w}
+
+#### 0123
+{clr}{05:07}Yakumo drew water{n}
+from the Castalia.{w}
+{clr}The water was cool{n}
+and very delicious.{w}
+
+#### 0124
+{clr}{05:07}It's the Castalian{n}
+Spring.{w}
+
+#### 0125
+{clr}{05:07}It's the Altar of{n}
+Oaths.{w}
+
+#### 0126
+{clr}{05:07}Yakumo placed the{n}
+Zeus statue shard on{n}
+the altar.{w}
+
+#### 0127
+{clr}{05:07}The Zeus statue shard{n}
+is dyed red with{n}
+Yakumo's "blood"...{w}
+{clr}Yakumo picked up the{n}
+Zeus statue shard.{w}
+
+#### 0128
+{clr}{05:07}Nothing of interest{n}
+here.{w}
+
+#### 0129
+{clr}{05:07}Yakumo set the Zeus{n}
+statue shard into{n}
+the pedestal.{w}
+
+#### 012A
+{clr}{05:07}It's the "Zeus Statue{n}
+Pedestal."{w}
+
+#### 012B
+{clr}{05:07}It's the "Statue of{n}
+Medusa."{w}
+
+#### 012C
+{clr}{05:07}Yakumo touched the{n}
+Zeus statue!{w}
+
+#### 012D
+{clr}{05:07}But the phantom of{n}
+Zeus didn't appear...{w}
+
+#### 012E
+{clr}{05:07}I am Zeus...{w}
+{clr}You who summoned me,{n}
+what do you want{n}
+of me!?{w}
+
+#### 012F
+{clr}{05:0A}Zeus...{w}
+{n}
+Tell me about the{n}
+Sanctuary Keys that{n}
+legend tells of here!{w}
+{clr}And where they are!{w}
+
+#### 0130
+{clr}{05:07}That I cannot tell!{w}
+{n}
+But I shall show you{n}
+the path to take.{w}
+{clr}Take this book.{w}
+
+#### 0131
+{clr}{05:07}There's a Zeus statue{n}
+shard.{w}
+{clr}Yakumo picked up the{n}
+Zeus statue shard.{w}
+
+#### 0132
+{clr}{05:07}There's a broken Zeus{n}
+statue.{w}
+
+#### 0133
+{clr}{05:07}I've studied the Hera{n}
+Temple for years.{w}
+{clr}Leave anything on the{n}
+Hera Temple to me.{w}
+
+#### 0134
+{clr}{05:07}Oh! Isn't that a{n}
+Zeus statue shard!?{w}
+{n}
+With that, you can{n}
+break Hera's seal!{w}
+{clr}To break the seal,{n}
+first go to the{n}
+"Altar of Oaths."{w}
+{clr}Place the Zeus statue{n}
+shard on the altar{n}
+and pour your own{n}
+"blood" on it.{w}
+{clr}Then set the blooded{n}
+shard into the "Zeus{n}
+Statue Pedestal,"{w}
+{clr}and you should be{n}
+able to break Hera's{n}
+seal.{w}
+
+#### 0135
+{clr}{05:07}Well?{w}
+{n}
+Is the seal on the{n}
+Hera Temple broken?{w}
+
+#### 0136
+{clr}{05:03}Th-that is the{n}
+Holy Rock...{w}
+{clr}So you are an envoy{n}
+of Lord Zeus!{w}
+{clr}And what does Lord{n}
+Zeus wish of me?{w}
+
+#### 0137
+{clr}{05:05}Zeus showed me the{n}
+way here.{w}
+{clr}I want to get the{n}
+Sanctuary Keys!{w}
+{n}
+To seal the hole in{n}
+the Sanctuary!{w}
+
+#### 0138
+{clr}{05:03}I see. So that is{n}
+how it is.{w}
+{clr}Now that creatures of{n}
+darkness have come{n}
+even to the Holy{n}
+Mountain,{w}
+{clr}I have no choice but{n}
+to trust you.{w}
+{clr}The Sanctuary Key{n}
+you seek lies in the{n}
+Parthenon.{w}
+{clr}But we have sealed{n}
+the Parthenon.{w}
+{clr}To break that seal,{n}
+you need the{n}
+Propylaea Key, kept{n}
+in the Sky Temple.{w}
+{clr}But to go to the Sky{n}
+Temple, you must{n}
+receive Apollo's{n}
+oracle.{w}
+{clr}And before entering{n}
+the Apollo Temple,{n}
+be sure to drink the{n}
+water of Castalia.{w}
+
+#### 0139
+{clr}{05:03}I leave everything{n}
+in your hands.{w}
+
+#### 013A
+{clr}{05:03}Those without the{n}
+gods' leave must{n}
+depart at once.{w}
+
+#### 013B
+{clr}{05:03}Yakumo touched the{n}
+statue of Apollo!{w}
+
+#### 013C
+{clr}{05:03}I am Apollo...{w}
+{clr}You who summoned me,{n}
+what is your wish?!{w}
+
+#### 013D
+{clr}{05:05}Apollo...{w}
+{n}
+Please grant me{n}
+your oracle!{w}
+
+#### 013E
+{clr}{05:03}To grant an oracle,{n}
+I require the{n}
+"Medusa Eye".{w}
+
+#### 013F
+{clr}{05:03}If you have no need,{n}
+never summon me{n}
+again!{w}
+
+#### 0140
+{clr}{05:03}Without the{n}
+"Medusa Eye", the{n}
+oracle rite has no{n}
+meaning!{w}
+
+#### 0141
+{clr}{05:03}You who received the{n}
+oracle, go to Medusa!{w}
+
+#### 0142
+{clr}{05:03}You who bear the{n}
+"Medusa Eye", I grant{n}
+you my oracle.{w}
+
+#### 0143
+{clr}{05:03}I am Zeus...{w}
+{clr}You have done well{n}
+to come this far.{w}
+{clr}As you wish, I give{n}
+you the Holy Spear,{n}
+this land's{n}
+Sanctuary Key!{w}
+{clr}But never let it{n}
+fall into the hands{n}
+of the dark ones.{w}
+{clr}Surely they have no{n}
+wish to be sealed in{n}
+the Sanctuary again.{w}
+
+#### 0144
+{clr}{05:03}Welcome!{w}
+
+#### 0145
+{clr}{05:03}You hear a heartbeat.{w}
+
+#### 0146
+{clr}{05:03}Leave how many?
+
+#### 0147
+{clr}{05:03}Eerie lumps of flesh{n}
+cling to the wall{n}
+ahead.{w}
+{clr}The heartbeat seems{n}
+to come from this{n}
+room.{w}
+
+#### 0148
+{clr}{05:05}Yakumo, doesn't this{n}
+statue look like{n}
+Takuhi?{w}
+{clr}Pai can hear{n}
+Takuhi's voice!{w}
+
+#### 0149
+{clr}{05:03}They say a strange{n}
+monster has been{n}
+showing up lately, so{n}
+nobody goes out.{w}
+{clr}Not that I believe{n}
+it, though.{w}
+
+#### 014A
+{clr}{05:03}Lately the town{n}
+seems a bit strange.{w}
+{clr}Or is it just me?{w}
+
+#### 014B
+{clr}{05:03}"......"{w}
+
+#### 014C
+{clr}{05:03}Evil shall rain down{n}
+from the heavens...{w}
+{clr}and bring disaster{n}
+upon this land.{w}
+
+#### 014D
+{clr}{05:03}A foul stench hangs{n}
+in the air.{w}
+{clr}There lies the{n}
+body of a priest...{w}
+
+#### 014E
+{clr}{05:03}A wounded priest{n}
+is here.{w}
+{n}
+The priest began to{n}
+speak hoarsely.{w}
+{clr}At last, the "dark{n}
+ones" have come to{n}
+this land too.{w}
+{clr}They must be after{n}
+this land's Sanctuary{n}
+Key, the Grail.{w}
+{clr}But our order has{n}
+sealed the Grail{n}
+away.{w}
+{clr}Even they will not{n}
+find it so easily...{w}
+{clr}The priest breathed{n}
+his last in the{n}
+middle of his words.{w}
+
+#### 014F
+{clr}{05:03}The priest has{n}
+already breathed{n}
+his last...{w}
+
+#### 0150
+{clr}{05:03}An old man is dead...{w}
+{clr}Was this old man{n}
+also killed by the{n}
+"dark ones"...?{w}
+
+#### 0151
+{clr}{05:03}There is a statue{n}
+of Quetzalcoatl.{w}
+
+#### 0152
+{clr}{05:03}An entrance{n}
+has appeared!{w}
+
+#### 0153
+{clr}{05:03}There is a statue{n}
+of Coatlicue.{w}
+{clr}It is a dreadful{n}
+statue, adorned with{n}
+skulls and hearts,{w}
+{clr}with snakes coiled{n}
+around its waist.{w}
+
+#### 0154
+{clr}{05:03}There is a statue{n}
+of Xipe Totec.{w}
+{clr}A grotesque statue{n}
+with deep, hollow{n}
+eye sockets,{w}
+{clr}its body covered in{n}
+the skin of victims.{w}
+
+#### 0155
+{clr}{05:03}There is a statue of{n}
+the High Priest of{n}
+Death.{w}
+{clr}Its skin is red and{n}
+peeling away. It is{n}
+a horrible sight.{w}
+
+#### 0156
+{clr}{05:03}There is a statue of{n}
+a legendary beast.{w}
+
+#### 0157
+{clr}{05:03}There is a statue of{n}
+the moon god.{w}
+
+#### 0158
+{clr}{05:03}The Medusa Eye{n}
+glowed!{w}
+
+#### 0159
+{clr}{05:03}Mt. Athos, near this{n}
+town, is called the{n}
+"Holy Mountain"!{w}
+{n}
+Did you know?{w}
+
+#### 015A
+{clr}{05:03}The Kolokite sold in{n}
+Priam makes a really{n}
+handy canteen!{w}
+
+#### 015B
+{clr}{05:03}You'd better stay out{n}
+of the Apollo Temple!{w}
+
+#### 015C
+{clr}{05:03}Everyone uses the{n}
+"Medusa Eye" as a{n}
+charm, but it seems{n}
+to hide great power!{w}
+
+#### 015D
+{clr}{05:03}If you want to know{n}
+about this town, ask{n}
+the regulars at the{n}
+Kafenion.{w}
+
+#### 015E
+{clr}{05:03}The temples here all{n}
+look the same. It's{n}
+confusing!{w}
+{clr}Up top is the Zeus{n}
+Temple, and below is{n}
+the Parthenon. Don't{n}
+forget it!{w}
+
+#### 015F
+{clr}{05:03}A strange entrance{n}
+appeared in the{n}
+temple. What could{n}
+it be?{w}
+
+#### 0160
+{clr}{05:03}The temples here look{n}
+alike, but the upper{n}
+one is Hera's Temple,{w}
+{clr}and the lower one is{n}
+the Zeus Temple!{w}
+{clr}Tourists always mix{n}
+them up...{w}
+
+#### 0161
+{clr}{05:03}The phone is ringing.
+
+#### 0162
+{clr}{05:03}Yakumo picked up the{n}
+receiver.{w}
+
+#### 0163
+{clr}{05:03}The call was from{n}
+Lin-Lin in Hong Kong.{w}
+
+#### 0164
+{clr}{05:03}Lin-Lin said she was{n}
+in Tokyo right now.{w}
+{clr}And it seems she was{n}
+looking into a{n}
+"mysterious light"{n}
+above Yumenoshima,{w}
+{clr}and she asked me{n}
+to help her.{w}
+
+#### 0165
+{clr}{05:03}Yakumo, the{n}
+"mysterious light"{n}
+is just ahead!{w}
+
+#### 0166
+{clr}{05:03}This is it!{n}
+This "mysterious{n}
+light"!{w}
+{clr}
+
+#### 0167
+{clr}{05:03}.......!?{w}
+{n}
+Huh? Lin-Lin, it{n}
+looks like someone's{n}
+inside the light!{w}
+{clr}
+
+#### 0168
+{clr}{05:03}What...!?{w}
+
+#### 0169
+{clr}{05:03}.....!!!{w}
+
+#### 016A
+{clr}{05:03}Pai, what is all{n}
+this... What do you{n}
+mean, no time?{w}
+{clr}
+
+#### 016B
+{clr}{05:03}...Listen, Yakumo.{w}
+{n}
+A hole has opened{n}
+in the Sanctuary...{w}
+{clr}
+
+#### 016C
+{clr}{05:03}What, a hole in the{n}
+Sanctuary? What does{n}
+that...{w}
+{n}
+I get it now!{w}
+
+#### 016D
+{clr}{05:03}This light is the{n}
+cause, right? Pai...{w}
+
+#### 016E
+{clr}{05:03}No! It's because a{n}
+hole opened in the{n}
+holy land! And inside{n}
+it, Taisoei...{w}
+{clr}
+
+#### 016F
+{clr}{05:03}Huh? What's Taisoei?{w}
+{clr}
+
+#### 0170
+{clr}{05:03}Taisoei is a scary{n}
+thing that turns{n}
+living things into{n}
+mummies.{w}
+{clr}People long ago{n}
+sealed it away, but{n}
+someone broke the{n}
+seal!{w}
+{clr}It's still in its{n}
+"cocoon", but once{n}
+it hatches, Pai{n}
+can't handle it!!{w}
+{clr}It's growing bigger{n}
+and bigger, it even{n}
+blocked the path Pai{n}
+came through!{w}
+{clr}At this rate it{n}
+might even come out{n}
+to the surface!{w}
+{clr}Pai thought she{n}
+could handle it{n}
+alone, but...{w}
+{clr}So, please, Yakumo!{w}
+{clr}Help Pai seal{n}
+this hole!{w}
+{clr}
+
+#### 0171
+{clr}{05:03}All right, Pai...{w}
+{n}
+But how are we{n}
+supposed to seal{n}
+the hole?{w}
+{clr}Does it have to do{n}
+with that thing from{n}
+before?{w}
+{clr}
+
+#### 0172
+{clr}{05:03}I don't know about{n}
+that. Listen, to seal{n}
+the hole we have to{n}
+go to the Sanctuary{w}
+{clr}and defeat Taisoei!{w}
+{clr}
+
+#### 0173
+{clr}{05:03}Sanctuary Keys...?{n}
+You mean we have to{n}
+find them, Pai...?{w}
+{clr}
+
+#### 0174
+{clr}{05:03}Yes... something{n}
+bearing the crest of{n}
+the three eyes...{w}
+{clr}I need your help to{n}
+look for it!{w}
+{clr}
+
+#### 0175
+{clr}{05:03}Hold on, Pai! Look{n}
+for it? We don't even{n}
+know where the key{n}
+is!{w}
+
+#### 0176
+{clr}{05:03}Yakumo, at least help{n}
+her that much. Pai's{n}
+finally come back,{n}
+after all...{w}
+{clr}
+
+#### 0177
+{clr}{05:03}But Lin-Lin! This is{n}
+so sudden, I'm all{n}
+confused...{w}
+{clr}
+
+#### 0178
+{clr}{05:03}I'll look it up for{n}
+you when I get to{n}
+Yogekisha!{w}
+{clr}You two keep{n}
+looking around here{n}
+a little longer!{w}
+{clr}
+
+#### 0179
+{clr}{05:03}Really? You will,{n}
+Lin-Lin?{w}
+{clr}
+
+#### 017A
+{clr}{05:03}Sure!!{n}
+But if you find{n}
+anything, come to{n}
+Hong Kong right away!{w}
+{clr}
+
+#### 017B
+{clr}{05:03}Got it. Once we find{n}
+a clue, we'll head{n}
+to Hong Kong at once.{w}
+{clr}
+
+#### 017C
+{clr}{05:03}See you in{n}
+Hong Kong, then!{w}
+
+#### 017D
+{clr}{05:03}Take care, Pai!{w}
+{clr}
+
+#### 017E
+{clr}{05:03}Okay, thanks,{n}
+Lin-Lin!{w}
+{clr}
+
+#### 017F
+{clr}{05:03}Hey, something's{n}
+stuck in here!{w}
+{clr}
+
+#### 0180
+{clr}{05:03}Huh? What, Yakumo?{w}
+{clr}
+
+#### 0181
+{clr}{05:03}This thing here...{n}
+looks like a sword.{w}
+{clr}
+
+#### 0182
+{clr}{05:03}.....!?{w}
+{n}
+Yakumo, this sword{n}
+has a three-eyed{n}
+crest on it!{w}
+{clr}
+
+#### 0183
+{clr}{05:03}What!?{w}
+{n}
+Then this sword is{n}
+a Sanctuary Key?{w}
+{clr}But why here??? And{n}
+if the key is here,{n}
+why can't we get to{n}
+Kunlun?{w}
+{clr}
+
+#### 0184
+{clr}{05:03}Yakumo, there might{n}
+be more than one Key{n}
+to the Sanctuary.{w}
+{clr}I'm sure other keys{n}
+are needed too!{w}
+{clr}
+
+#### 0185
+{clr}{05:03}I see...{w}
+{n}
+Then for now,{w}
+{clr}let's go to Hong{n}
+Kong and have{n}
+Lin-Lin take a look{n}
+at this sword!{w}
+
+#### 0186
+{clr}{05:03}Pai... Pai's in the{n}
+next room, isn't she!{w}
+
+#### 0187
+{clr}{05:03}As Yakumo frantically{n}
+tried to go into the{n}
+next room, Kinkara{n}
+grabbed his arm.{w}
+{clr}He meant for Yakumo{n}
+to watch the crystal{n}
+ball to the end.{w}
+{clr}Yakumo turned his{n}
+eyes to the ball.{w}
+{clr}Now Garga had shut{n}
+himself in a room,{n}
+muttering something{n}
+to himself.{w}
+{clr}Then Kinkara raised{n}
+his left hand high.{w}
+{n}
+He was pointing up.{w}
+
+#### 0188
+{clr}{05:03}Garga is up there,{n}
+isn't he?{w}
+{n}
+And you want me to{n}
+defeat Garga?{w}
+
+#### 0189
+{clr}{05:03}Kinkara nodded.{w}
+{n}
+He handed something{n}
+to Yakumo.{w}
+{n}
+It was Shiva's Claw!{w}
+{clr}Why Kinkara had{n}
+Shiva's Claw was{n}
+unknown.{w}
+{clr}Rather, to Yakumo,{n}
+that didn't matter{n}
+at all.{w}
+{clr}Taking Shiva's Claw,{n}
+Yakumo hurried off{n}
+to Pai.{w}
+
+#### 018A
+{clr}{05:03}....!?{w}
+{n}
+Pai! Pai!{n}
+Open your eyes, Pai!{w}
+
+#### 018B
+{clr}{05:03}....Mm!?{w}
+{n}
+Y-Yakumo... It's{n}
+Yakumo! You came to{n}
+save me, Yakumo!{w}
+{clr}
+
+#### 018C
+{clr}{05:03}Of course I did!{n}
+Pai...{w}
+
+#### 018D
+{clr}{05:03}Listen, Yakumo.{w}
+{n}
+Gupta and the Hyoma{n}
+people... they're{n}
+not bad people...{w}
+{clr}
+
+#### 018E
+{clr}{05:03}Yeah,{n}
+I know, Pai.{w}
+{clr}The only villain is{n}
+Garga, up above.{w}
+{n}
+Let's go, Pai!{w}
+{clr}
+
+#### 018F
+{clr}{05:03}The gate seems to{n}
+have opened.{w}
+
+#### 0190
+{clr}{05:03}Lin-Lin, there's no{n}
+telling what dangers{n}
+wait in this mansion.{w}
+{clr}So from here on,{n}
+I'll go alone.{w}
+{clr}
+
+#### 0191
+{clr}{05:03}I see...{w}
+{n}
+Then we'll wait at{n}
+the coffee shop over{n}
+there.{w}
+{clr}Be sure to rescue{n}
+Pai, Yakumo!{w}
+
+#### 0192
+{clr}{05:03}Be sure to rescue{n}
+Pai, Fujii!{w}
+
+#### 0193
+{clr}{05:03}There is a big gate.{w}
+{n}
+It's locked with a{n}
+sturdy lock, so it{n}
+won't open!{w}
+
+#### 0194
+{clr}{05:03}You must not wander{n}
+in and out of the{n}
+monastery like this.{n}
+Please leave!{w}
+
+#### 0195
+{clr}{05:03}Ah, I have been{n}
+waiting for you!{w}
+{clr}You must be the{n}
+people from{n}
+Yogekisha!{w}
+{clr}I'd like you to go{n}
+to the Nauthiz Temple{n}
+in the Himalayas,{w}
+{clr}but first, there is{n}
+something you should{n}
+know about Nauthiz.{w}
+{clr}Nauthiz is protected{n}
+by someone's magic{n}
+circle.{w}
+{clr}Unless that magic{n}
+circle is broken,{n}
+Nauthiz cannot be{n}
+defeated.{w}
+{clr}So I have looked{n}
+into this magic{n}
+circle in many ways.{w}
+{clr}I have put my{n}
+findings together in{n}
+this book.{w}
+{clr}Use this book to{n}
+break the magic{n}
+circle and defeat{n}
+Nauthiz.{w}
+{clr}Yakumo received the{n}
+Nauthiz Temple Book{n}
+and the Nauthiz{n}
+Temple Key.{w}
+
+#### 0196
+{clr}{05:03}I'm counting on you{n}
+with this request!{w}
+
+#### 0197
+{clr}{05:03}Thanks to you, I could{n}
+return to this{n}
+monastery.{w}
+{clr}The monks here were{n}
+being controlled by{n}
+hypnotic arts.{w}
+{clr}Thank you, truly!{w}
+
+#### 0198
+{clr}{05:03}Well, well,{n}
+you made it through{n}
+the Labyrinth...!?{w}
+{clr}Wait, are you a Wu{n}
+of a Sanjiyan?{w}
+{n}
+So a Sanjiyan still{n}
+lives in this age...{w}
+{clr}I see...{w}
+{n}
+That Chokai...{w}
+{clr}If you ever go to{n}
+the Monastery, watch{n}
+out for a youma{n}
+named Chokai.{w}
+{clr}Chokai is after the{n}
+power of Sanjiyan:{n}
+the secret of{n}
+immortality...{w}
+
+#### 0199
+{clr}{05:03}To get out of here,{n}
+destroy the iron{n}
+bars over there.{w}
+{clr}A small explosion{n}
+should break them.{w}
+{clr}Also, I want you{n}
+to have this.{w}
+{clr}It is called Shiva's{n}
+Claw. It can draw out{n}
+Sanjiyan's power.{w}
+{clr}I'm sure it will{n}
+be of use to you.{w}
+
+#### 019A
+{clr}{05:03}I will stay here{n}
+a while longer.{w}
+{n}
+Please, be careful{n}
+of Chokai.{w}
+
+#### 019B
+{clr}{05:03}Thank you for{n}
+freeing me from{n}
+Chokai's spell.{w}
+
+#### 019C
+{clr}{05:03}A sacred ritual is{n}
+about to begin.{w}
+{clr}Outsiders must leave{n}
+at once!{w}
+
+#### 019D
+{clr}{05:03}I am the sun god who{n}
+guards this temple!{w}
+{clr}But as you can see,{n}
+it has been defiled{n}
+by the creatures of{n}
+darkness...{w}
+{clr}It is only a matter{n}
+of time before they{n}
+seize the Grail.{w}
+{clr}If you have power,{n}
+go to the Moon{n}
+Pyramid!{w}
+{clr}And help the moon{n}
+god who guards the{n}
+Grail.{w}
+{n}
+Time is running out.{w}
+{clr}They hold the{n}
+Capstone, Egypt's{n}
+Sanctuary Key.{w}
+{clr}I cannot let them{n}
+have any more Keys{n}
+to the Sanctuary.{w}
+{clr}Hurry to the Moon{n}
+Pyramid!{w}
+{clr}And defeat the trio{n}
+who holds the{n}
+Capstone!{w}
+
+#### 019E
+{clr}{05:03}Please hurry!{n}
+Time is running out!{w}
+
+#### 019F
+{clr}{05:03}Hm? Who's there!?{w}
+{n}
+Whoever gets in our{n}
+way won't live!{w}
+
+#### 01A0
+{clr}{05:03}O one who saved me!{n}
+What do you seek{n}
+of me...?{w}
+
+#### 01A1
+{clr}{05:03}1 Demon Stone here.{w}
+{clr}Yakumo took the{n}
+Demon Stone.{w}
+
+#### 01A2
+{clr}{05:03}A statue of Nauthiz.{w}
+
+#### 01A3
+{clr}{05:03}There you are,{n}
+Yakumo!{w}
+{n}
+So, did you find{n}
+any clues?{w}
+{clr}
+
+#### 01A4
+{clr}{05:03}About that,{n}
+Lin-Lin!{w}
+{clr}In that light, I{n}
+found a sword with{n}
+a three-eyed crest{n}
+drawn on it.{w}
+{clr}I think it's a{n}
+Sanctuary Key, but...{w}
+{clr}It seems one Key{n}
+alone can't get us{n}
+to the Sanctuary...{w}
+{clr}
+
+#### 01A5
+{clr}{05:03}I see. So you need{n}
+to find more Keys{n}
+to the Sanctuary...{w}
+{clr}Yakumo, can I take{n}
+a closer look at{n}
+that sword?{w}
+{clr}
+
+#### 01A6
+{clr}{05:03}Yakumo handed Lin-Lin{n}
+the Holy Sword.{w}
+
+#### 01A7
+{clr}{05:03}Hmm, nothing seems{n}
+special about it.{w}
+{clr}.....!?{w}
+{n}
+Wait, this three-eyed{n}
+pattern... I've seen{n}
+it somewhere...{w}
+{clr}That's it! A censer!{n}
+I saw a censer with{n}
+the same three-eyed{n}
+crest...{w}
+{clr}at a shop called{n}
+Cotton Eyes!{w}
+{clr}
+
+#### 01A8
+{clr}{05:03}What, really?{n}
+Lin-Lin!{w}
+{clr}Where is this shop,{n}
+Cotton Eyes?{w}
+{clr}
+
+#### 01A9
+{clr}{05:03}Cotton Eyes is in{n}
+Kowloon!{w}
+{clr}
+
+#### 01AA
+{clr}{05:03}Kowloon, huh!{w}
+{n}
+I'll head over to{n}
+Cotton Eyes.{w}
+
+#### 01AB
+{clr}{05:03}Hurry, Yakumo!{w}
+
+#### 01AC
+{clr}{05:03}Yakumo, how did it{n}
+go with the censer?{w}
+{clr}
+
+#### 01AD
+{clr}{05:03}Well, the censer was{n}
+already bought by{n}
+someone named Jake.{w}
+{clr}
+
+#### 01AE
+{clr}{05:03}Bought!?{w}
+{n}
+Someone actually{n}
+bought that censer?{w}
+{clr}
+
+#### 01AF
+{clr}{05:03}Yeah. And this Jake{n}
+guy apparently went{n}
+to Tibet.{w}
+{clr}So I'm thinking of{n}
+going to Tibet...{w}
+{clr}
+
+#### 01B0
+{clr}{05:03}Tibet, huh...{w}
+{n}
+You'd better hurry.{w}
+{clr}We don't know why{n}
+he bought that{n}
+censer...{w}
+{clr}
+
+#### 01B1
+{clr}{05:03}Well then, Lin-Lin,{n}
+I'm off to Tibet{n}
+right away.{w}
+
+#### 01B2
+{clr}{05:03}Oh, wait a second,{n}
+Yakumo!{w}
+
+#### 01B3
+{clr}{05:03}What is it,{n}
+Lin-Lin?{w}
+{clr}
+
+#### 01B4
+{clr}{05:03}If you're going to{n}
+Tibet, go by way of{n}
+India.{w}
+{clr}It's closer to Tibet{n}
+that way!{w}
+{clr}
+
+#### 01B5
+{clr}{05:03}Got it, Lin-Lin!{w}
+
+#### 01B6
+{clr}{05:03}I almost forgot,{n}
+I have something{n}
+Haan left with me.{w}
+{clr}
+
+#### 01B7
+{clr}{05:03}Huh? From Haan?{w}
+{clr}
+
+#### 01B8
+{clr}{05:03}That's right.{w}
+{n}
+He called it a Seal.{w}
+{clr}If you show it to the{n}
+black magic secret{n}
+society, you can buy{n}
+magic tools there.{w}
+{clr}
+
+#### 01B9
+{clr}{05:03}Magic tools, huh...{w}
+{clr}
+
+#### 01BA
+{clr}{05:03}Haan himself seems{n}
+to be really into{n}
+black magic.{w}
+{clr}Right now he's off{n}
+in India looking for{n}
+a grimoire.{w}
+{clr}And Yakumo, I figured{n}
+you'd need weapons{n}
+from here on.{w}
+{clr}I made some special{n}
+plastic bombs and{n}
+grenades.{w}
+{clr}If you need any, just{n}
+ask Ron over there!{w}
+
+#### 01BB
+{clr}{05:03}Got it, Lin-Lin!{w}
+
+#### 01BC
+{clr}{05:03}Now we've found the{n}
+second Sanctuary Key,{n}
+Yakumo!{w}
+{clr}
+
+#### 01BD
+{clr}{05:03}Oh, perfect timing,{n}
+Yakumo!{w}
+{clr}I found out where{n}
+one of the Keys to{n}
+the Sanctuary is!{w}
+{clr}
+
+#### 01BE
+{clr}{05:03}What, really,{n}
+Lin-Lin!?{w}
+{n}
+So where is this{n}
+Sanctuary Key?{w}
+{clr}
+
+#### 01BF
+{clr}{05:03}Greece! There's one{n}
+in Greece!{w}
+{clr}And I learned{n}
+something else about{n}
+the Keys.{w}
+{clr}To reach the{n}
+Sanctuary, you need{n}
+five Keys!{w}
+{clr}
+
+#### 01C0
+{clr}{05:03}Five Keys to{n}
+the Sanctuary, huh...{w}
+{clr}
+
+#### 01C1
+{clr}{05:03}Right, and one of{n}
+them is in Greece!{w}
+{clr}Oh, and before you go{n}
+to Greece, stop by{n}
+the Huang Residence!{w}
+{clr}I had the owner get{n}
+you a plane ticket!{w}
+{clr}
+
+#### 01C2
+{clr}{05:03}Got it, Lin-Lin!{w}
+
+#### 01C3
+{clr}{05:03}Yakumo, did you find{n}
+the Key?{w}
+
+#### 01C4
+{clr}{05:03}Yakumo, I found out{n}
+where another Key is!{w}
+{clr}
+
+#### 01C5
+{clr}{05:03}What, really,{n}
+Lin-Lin!?{w}
+{n}
+So where is it this{n}
+time?{w}
+{clr}
+
+#### 01C6
+{clr}{05:03}Mexico! It's in{n}
+Mexico!{w}
+{clr}
+
+#### 01C7
+{clr}{05:03}Mexico, huh!{w}
+{n}
+Got it, I'll head to{n}
+Mexico right away!{w}
+
+#### 01C8
+{clr}{05:03}Lin-Lin!{n}
+We've got all five{n}
+Sanctuary Keys!{w}
+{clr}
+
+#### 01C9
+{clr}{05:03}Way to go, Yakumo!{n}
+Now you can get to{n}
+the Sanctuary, right?{w}
+{clr}
+
+#### 01CA
+{clr}{05:03}Yeah. Anyway, I'll{n}
+go check out that{n}
+light!{w}
+
+#### 01CB
+{clr}{05:03}Yakumo, need{n}
+something?{w}
+
+#### 01CC
+{clr}{05:03}Tch! Help finally{n}
+shows up, and it's{n}
+just a kid!?{w}
+{clr}
+
+#### 01CD
+{clr}{05:03}Hm? By any chance,{n}
+are you Jake?{w}
+{clr}
+
+#### 01CE
+{clr}{05:03}Oh!? You know me!{w}
+{n}
+Guess I'm famous{n}
+now!{w}
+{clr}Then this'll be quick.{n}
+I messed up and got{n}
+caught.{w}
+{clr}Gimme a hand getting{n}
+outta here!{w}
+{clr}
+
+#### 01CF
+{clr}{05:03}You bought a censer{n}
+in Hong Kong, didn't{n}
+you?{w}
+{clr}
+
+#### 01D0
+{clr}{05:03}What! The censer?{w}
+{n}
+....You don't mean{n}
+you're after{n}
+immortality!?{w}
+{clr}
+
+#### 01D1
+{clr}{05:03}Immortality!?{w}
+{n}
+I'm not looking for{n}
+the censer for{n}
+something like that!{w}
+{clr}Aren't YOU the one{n}
+who's after{n}
+immortality!?{w}
+{clr}
+
+#### 01D2
+{clr}{05:03}Heh...{w}
+{clr}I've got no interest{n}
+in immortality.{w}
+{clr}I just want to meet{n}
+a Sanjiyan, that's{n}
+all...{w}
+{clr}
+
+#### 01D3
+{clr}{05:03}.....!?{w}
+{clr}
+
+#### 01D4
+{clr}{05:03}...All right.{n}
+Then here's the deal!{w}
+{clr}If you get me out of{n}
+here, I'll give you{n}
+this censer.{w}
+{clr}But you take me to{n}
+the Sanctuary too!{n}
+That's the deal!{w}
+{clr}
+
+#### 01D5
+{clr}{05:03}N-no way!{w}
+{clr}We have no idea{n}
+what kind of danger{n}
+lies ahead!{w}
+{clr}
+
+#### 01D6
+{clr}{05:03}Heh, I may not look{n}
+it, but I'm a{n}
+treasure hunter!{w}
+{clr}I won't slow you{n}
+guys down!{w}
+{clr}
+
+#### 01D7
+{clr}{05:03}Fine...{n}
+But don't blame me{n}
+if things go bad.{w}
+{clr}
+
+#### 01D8
+{clr}{05:03}That's more like it!{n}
+I owe you one!{w}
+{clr}
+
+#### 01D9
+{clr}{05:03}So how do we get{n}
+you out?{w}
+{clr}
+
+#### 01DA
+{clr}{05:03}Just break these{n}
+iron bars.{w}
+{clr}Something this weak,{n}
+a little explosive{n}
+should do it!{w}
+
+#### 01DB
+{clr}{05:03}Heh, thanks a lot.{n}
+The name's{n}
+Jake McDonald.{n}
+Nice to meet ya!{w}
+{clr}
+
+#### 01DC
+{clr}{05:03}I'm Yakumo Fujii.{n}
+And this is Pai.{w}
+{clr}
+
+#### 01DD
+{clr}{05:03}Heh, nice names.{n}
+As promised, here's{n}
+the censer you{n}
+wanted.{w}
+
+#### 01DE
+{clr}{05:03}Oh, Yakumo!{n}
+Long time no see.{w}
+{clr}I heard from Lin-Lin.{n}
+Sounds like you're in{n}
+big trouble.{w}
+
+#### 01DF
+{clr}{05:03}Oh, good timing.{w}
+{clr}The plane ticket{n}
+Lin-Lin asked for{n}
+is ready.{w}
+
+#### 01E0
+{clr}{05:03}The owner is right{n}
+over there.{w}
+
+#### 01E1
+{clr}{05:03}So, did you seal the{n}
+Sanctuary's hole?{w}
+{clr}
+
+#### 01E2
+{clr}{05:03}Yeah, it's closed.{w}
+{clr}
+
+#### 01E3
+{clr}{05:03}I see. Sorry to bring{n}
+this up right after{n}
+you closed it, but...{w}
+{clr}Yakumo, a request{n}
+came in for you to{n}
+exterminate a youkai.{w}
+{clr}
+
+#### 01E4
+{clr}{05:03}What, another youkai{n}
+job? I'm sick and{n}
+tired of those.{w}
+{clr}
+
+#### 01E5
+{clr}{05:03}Thing is, this one{n}
+bugs me a little.{n}
+Yakumo, a while back{w}
+{clr}you got rid of the{n}
+Nauthiz in the{n}
+Himalayas, right?{w}
+{clr}This request wants{n}
+Nauthiz destroyed{n}
+again.{w}
+{clr}
+
+#### 01E6
+{clr}{05:03}Nauthiz!?{w}
+{n}
+But I definitely{n}
+killed Nauthiz on{n}
+that last job!{w}
+{clr}
+
+#### 01E7
+{clr}{05:03}See? It's a strange{n}
+request.{w}
+{clr}There must be some{n}
+secret behind it.{w}
+{clr}
+
+#### 01E8
+{clr}{05:03}You're right.{n}
+I'll take the job.{w}
+{clr}It might have{n}
+something to do with{n}
+Pai again...{w}
+{clr}
+
+#### 01E9
+{clr}{05:03}All right, Yakumo.{n}
+I'll tell the client{n}
+you accept.{w}
+{clr}
+
+#### 01EA
+{clr}{05:03}Thanks,{n}
+Lin-Lin.{w}
+
+#### 01EB
+{clr}{05:03}Oh, wait a second,{n}
+Yakumo!{w}
+
+#### 01EC
+{clr}{05:03}What is it,{n}
+Lin-Lin?{w}
+{clr}
+
+#### 01ED
+{clr}{05:03}Haan called a little{n}
+while ago. He asked{n}
+me to give you a{n}
+message...{w}
+{clr}
+
+#### 01EE
+{clr}{05:03}Huh? From Haan...{w}
+{n}
+What's the message?{w}
+{clr}
+
+#### 01EF
+{clr}{05:03}He wants you to come{n}
+to 999 in New Delhi{n}
+right away...{w}
+{clr}
+
+#### 01F0
+{clr}{05:03}What, 999!?{n}
+I've got a bad{n}
+feeling about this...{w}
+{clr}
+
+#### 01F1
+{clr}{05:03}Yakumo...{w}
+{n}
+If you don't go,{n}
+Haan will be mad.{w}
+
+#### 01F2
+{clr}{05:03}Yakumo, did you{n}
+see Haan?{w}
+
+#### 01F3
+{clr}{05:03}Oh, Yakumo, I heard{n}
+about it.{w}
+{clr}You're helping Haan{n}
+look for his{n}
+grimoire?{w}
+
+#### 01F4
+{clr}{05:03}Yakumo, the client{n}
+finally got in touch!{w}
+{clr}
+
+#### 01F5
+{clr}{05:03}Really, Lin-Lin?{w}
+{clr}So what did the{n}
+client say?{w}
+{clr}
+
+#### 01F6
+{clr}{05:03}They want you there{n}
+right away.{w}
+{n}
+It's the Monastery{n}
+in Tibet, they said!{w}
+{clr}
+
+#### 01F7
+{clr}{05:03}The Monastery...{w}
+{clr}
+
+#### 01F8
+{clr}{05:03}Also, Yakumo, before{n}
+you go, stop by the{n}
+Huang Residence...{w}
+{clr}I asked the owner{n}
+for a plane ticket{n}
+again!{w}
+{clr}
+
+#### 01F9
+{clr}{05:03}Thank you,{n}
+Lin-Lin!{w}
+{clr}
+
+#### 01FA
+{clr}{05:03}Hey, Fujii!{w}
+{clr}You helped me look{n}
+for the grimoire, so{n}
+now I'll help you{n}
+out!{w}
+{clr}
+
+#### 01FB
+{clr}{05:03}Thanks, Haan!{w}
+
+#### 01FC
+{clr}{05:03}So, Yakumo, how did{n}
+it go with Nauthiz?{w}
+
+#### 01FD
+{clr}{05:03}Nauthiz...{w}
+{clr}
+
+#### 01FE
+{clr}{05:03}Fujii, is this guy{n}
+Nauthiz?{w}
+
+#### 01FF
+{clr}{05:03}Well? How did you{n}
+like the "trap" I{n}
+set for you?{w}
+{clr}
+
+#### 0200
+{clr}{05:03}Y-you're...{w}
+{clr}So what that priest{n}
+told us was true{n}
+after all!{w}
+{clr}
+
+#### 0201
+{clr}{05:03}Now, now, don't be so{n}
+angry. Your deaths{n}
+are close at hand...{w}
+{clr}
+
+#### 0202
+{clr}{05:03}Damn it!{n}
+What is it you're{n}
+after, anyway?!{w}
+{clr}Sanjiyan's art of{n}
+immortality?{w}
+{clr}
+
+#### 0203
+{clr}{05:03}Heh... Who needs that{n}
+art at this point?{n}
+It's useless to me!{w}
+{clr}Kaiyanwang is gone,{n}
+so I fear only one{n}
+thing!{w}
+{clr}The last surviving{n}
+Sanjiyan...{n}
+the girl over there!{w}
+{clr}Once I defeat her, I{n}
+will become ruler of{n}
+this world...{w}
+{clr}But Sanjiyan hid in{n}
+the Sanctuary, never{n}
+showing herself{n}
+in this world...{w}
+{clr}But thanks to someone{n}
+breaking the Taisoei{n}
+seal, I was able to{n}
+lure you all here.{w}
+{clr}At last, the day I{n}
+rule this world has{n}
+come!{w}
+{clr}
+
+#### 0204
+{clr}{05:03}Hah, as if I'd let{n}
+you do that...{w}
+{n}
+I swear I'll take{n}
+you down myself!{w}
+{clr}
+
+#### 0205
+{clr}{05:03}Talk big while you{n}
+still can.{w}
+{clr}Now I shall revive{n}
+Nauthiz.{w}
+{n}
+You will all become{n}
+Nauthiz's food!{w}
+
+#### 0206
+{clr}{05:03}Awaken, Nauthiz...!{w}
+
+#### 0207
+{clr}{05:03}Wh-what?!{n}
+You beat Nauthiz?!{w}
+{clr}
+
+#### 0208
+{clr}{05:03}Heh, you're next!{w}
+{clr}
+
+#### 0209
+{clr}{05:03}Hmph! Don't get cocky{n}
+just because you beat{n}
+Nauthiz!{w}
+{clr}I won't go down as{n}
+easily as Nauthiz!{w}
+{n}
+Prepare yourselves!{w}
+
+#### 020A
+{clr}{05:03}Hm? What's up, Pai?{w}
+{clr}
+
+#### 020B
+{clr}{05:03}Because Pai... Pai is{n}
+here, everyone keeps{n}
+fighting, right...?{w}
+{clr}
+
+#### 020C
+{clr}{05:03}Wh-what are you{n}
+saying, Pai?!{w}
+{clr}
+
+#### 020D
+{clr}{05:03}But everyone is after{n}
+Pai...{w}
+{n}
+That's why they're{n}
+all fighting!{w}
+{clr}
+
+#### 020E
+{clr}{05:03}That's not your{n}
+fault, Pai...{w}
+{clr}
+
+#### 020F
+{clr}{05:03}Fujii's right!{n}
+None of that is your{n}
+fault, Pai...{w}
+{clr}
+
+#### 0210
+{clr}{05:03}Anyway, everyone,{n}
+let's go back to{n}
+Yogekisha!{w}
+
+#### 0211
+{clr}{05:00}　Now we were aboard{n}
+　　　　　　　　　　　　　{n}
+　the plane home.{n}
+　　　　　　　　　　　　　{n}
+　Pai seemed down, and{n}
+　　　　　　　　　　　　　{n}
+　she didn't say a{n}
+　　　　　　　　　　　　　{n}
+　single word.{w}
+
+#### 0212
+{clr}{05:00}　A heavy atmosphere{n}
+　　　　　　　　　　　　　{n}
+　hung over us...{n}
+　　　　　　　　　　　　　{n}
+　It felt really{n}
+　　　　　　　　　　　　　{n}
+　awkward.{w}
+{clr}
+
+#### 0213
+{clr}{05:00}　　　　　　　　　　　　　{n}
+　　　　　　　　　　　　　{n}
+　Just then...{w}
+
+#### 0214
+{clr}{05:00}　Thunder roared...{n}
+　　　　　　　　　　　　　{n}
+　A storm seemed to be{n}
+　　　　　　　　　　　　　{n}
+　raging outside, and{n}
+　　　　　　　　　　　　　{n}
+　the plane was shaking{n}
+　　　　　　　　　　　　　{n}
+　violently.{w}
+
+#### 0215
+{clr}{05:00}　When the second bolt{n}
+　　　　　　　　　　　　　{n}
+　struck, the plane's{n}
+　　　　　　　　　　　　　{n}
+　ceiling was torn{n}
+　　　　　　　　　　　　　{n}
+　open!{w}
+{clr}{clr}{05:00}　The light was so{n}
+　　　　　　　　　　　　　{n}
+　blinding that I shut{n}
+　　　　　　　　　　　　　{n}
+　my eyes for an{n}
+　　　　　　　　　　　　　{n}
+　instant...{w}
+{clr}
+
+#### 0216
+{clr}{05:00}　When I opened my eyes{n}
+　　　　　　　　　　　　　{n}
+　again, Pai and Haan{n}
+　　　　　　　　　　　　　{n}
+　were gone!{n}
+　　　　　　　　　　　　　{n}
+　I kept shouting{n}
+　　　　　　　　　　　　　{n}
+　Pai's name!{w}
+
+#### 0217
+{clr}{05:00}　No answer came from{n}
+　　　　　　　　　　　　　{n}
+　either of them!{n}
+　　　　　　　　　　　　　{n}
+　Had Pai and Haan been{n}
+　　　　　　　　　　　　　{n}
+　thrown out of the{n}
+　　　　　　　　　　　　　{n}
+　plane???{w}
+
+#### 0218
+{clr}{05:00}　Then someone stepped{n}
+　　　　　　　　　　　　　{n}
+　right in front of me!!{n}
+　　　　　　　　　　　　　{n}
+　I strained my eyes to{n}
+　　　　　　　　　　　　　{n}
+　make out the hazy{n}
+　　　　　　　　　　　　　{n}
+　figure before me!{w}
+
+#### 0219
+{clr}{05:03}I am Almalik Gupta,{n}
+warrior woman of the{n}
+Hyoma clan!{w}
+{clr}I'll be taking{n}
+Sanjiyan with me,{n}
+boy!{w}
+
+#### 021A
+{clr}{05:03}Wh-what?!{n}
+Give Pai back!!!{w}
+
+#### 021B
+{clr}{05:03}Hmph!{n}
+I've no business with{n}
+you, boy. Now die!!{w}
+
+#### 021C
+{clr}{05:07}Earlier today...{n}
+　　　　　　　　　　　　　{n}
+A Prowing 797 bound{n}
+　　　　　　　　　　　　　{n}
+for Hong Kong{n}
+　　　　　　　　　　　　　{n}
+crashed in Hong Kong.{n}
+　　　　　　　　　　　　　{n}
+All crew and passengers{n}
+　　　　　　　　　　　　　{n}
+are feared dead!{w}
+
+#### 021D
+{clr}{05:03}Yakumo, Yakumo!{n}
+Wake up, Yakumo!{w}
+{clr}
+
+#### 021E
+{clr}{05:03}Hn...?!{w}
+{n}
+Huh? Lin-Lin!{n}
+What... happened{n}
+to me?{w}
+{clr}
+
+#### 021F
+{clr}{05:03}On the way back from{n}
+fighting Nauthiz,{n}
+your plane{n}
+crashed.{w}
+{clr}
+
+#### 0220
+{clr}{05:03}Huh? The plane{n}
+crashed...?{w}
+{clr}Right, I went to{n}
+take down Nauthiz...{w}
+{clr}And on the way back,{n}
+that Hyoma woman...!?{w}
+{n}
+P-Pai! What happened{n}
+to Pai?!{w}
+{clr}
+
+#### 0221
+{clr}{05:03}Calm down, just calm{n}
+down, Fujii!{w}
+{clr}
+
+#### 0222
+{clr}{05:03}H-Haan?!{n}
+You're okay?{w}
+{clr}
+
+#### 0223
+{clr}{05:03}Yeah, I'm a sorcerer{n}
+too, even if a lowly{n}
+one!{w}
+{clr}I can manage a little{n}
+flying magic.{w}
+{clr}Got a bit hurt,{n}
+though.{w}
+{clr}
+
+#### 0224
+{clr}{05:03}You know, Haan...{w}
+{clr}hurt as badly as he{n}
+is, he carried you{n}
+all the way here from{n}
+the crash site.{w}
+{clr}
+
+#### 0225
+{clr}{05:03}Demon Stones here:{n}
+{07:00}{w}
+{n}
+Yakumo picked up{n}
+{07:00} Demon Stones!{w}
+
+#### 0226
+{clr}{05:03}I see...{w}
+{clr}So what happened to{n}
+Pai?{w}
+{clr}
+
+#### 0227
+{clr}{05:03}Back then, Pai was{n}
+carried off by a{n}
+giant squid{n}
+monster.{w}
+{clr}
+
+#### 0228
+{clr}{05:03}Wh-what?!{n}
+A squid monster...{w}
+{clr}
+
+#### 0229
+{clr}{05:03}Yeah, at the time it{n}
+flew off toward{n}
+Aberdeen.{w}
+{clr}Well, it was huge.{n}
+If you ask the people{n}
+in Aberdeen, they'll{n}
+know where it went.{w}
+{clr}
+
+#### 022A
+{clr}{05:03}I see...{n}
+I'll head to{n}
+Aberdeen right away!{w}
+{clr}
+
+#### 022B
+{clr}{05:03}Yakumo, are you sure{n}
+you're okay? In that{n}
+state?{w}
+{clr}
+
+#### 022C
+{clr}{05:03}Don't worry about me!{w}
+{n}
+I'm immortal, after{n}
+all!{w}
+
+#### 022D
+{clr}{05:03}Yakumo, did you find{n}
+Pai?{w}
+
+#### 022E
+{clr}{05:03}Oh, Yakumo!{w}
+{n}
+A fax came just now{n}
+from someone called{n}
+Kinkara...{w}
+{clr}
+
+#### 022F
+{clr}{05:03}Huh? Kinkara...?{w}
+{n}
+Who is that, anyway?{w}
+{clr}
+
+#### 0230
+{clr}{05:03}I don't know either.{w}
+{clr}But this fax says:{n}
+"If you want to know{n}
+where Pai is,{w}
+{clr}come to the ruins in{n}
+New Delhi, India."{w}
+{clr}
+
+#### 0231
+{clr}{05:03}Huh?!{n}
+Where Pai is...!{w}
+{n}
+I'm going to New{n}
+Delhi right now!{w}
+{clr}
+
+#### 0232
+{clr}{05:03}Ah,{n}
+wait, Yakumo!{w}
+{n}
+We're coming too!{w}
+{clr}
+
+#### 0233
+{clr}{05:03}Fujii, did you find{n}
+Pai?{w}
+
+#### 0234
+{clr}{05:03}Fujii, a fax came for{n}
+you from some guy{n}
+named Kinkara!{w}
+{clr}Ask Lin-Lin for the{n}
+details!{w}
+
+#### 0235
+{clr}{05:03}Hm? You're that boy{n}
+from before...{w}
+
+#### 0236
+{clr}{05:03}This time, you won't{n}
+get away!{w}
+{clr}
+
+#### 0237
+{clr}{05:03}Y-you're...{n}
+the Hyoma clan's{n}
+lady boss!!{w}
+{clr}
+
+#### 0238
+{clr}{05:03}Call me Gupta!{w}
+{n}
+Almalik Gupta, the{n}
+greatest warrior of{n}
+the Hyoma clan!{w}
+{clr}
+
+#### 0239
+{clr}{05:03}Warrior, my foot!{n}
+You're all just{n}
+murderers!{w}
+{clr}
+
+#### 023A
+{clr}{05:03}Hmph...{w}
+{clr}We of the Hyoma clan{n}
+must have the art of{n}
+immortality, at any{n}
+cost...{w}
+{clr}This is a battle for{n}
+our clan's survival!{w}
+{clr}Some sacrifices{n}
+can't be helped!{w}
+{clr}
+
+#### 023B
+{clr}{05:03}Hah! Like I'd buy{n}
+that nonsense!{w}
+{clr}
+
+#### 023C
+{clr}{05:03}It is not nonsense!{w}
+{n}
+We must have{n}
+immortality...{w}
+{clr}Behold, the secret{n}
+of our clan!!{w}
+
+#### 023D
+{clr}{05:03}Wh-what is this?!{n}
+What's inside this{n}
+capsule... is it{w}
+{n}
+...a, a child?!{w}
+{clr}
+
+#### 023E
+{clr}{05:03}That's right!!{w}
+{clr}Because of the Hyoma{n}
+power we are born{n}
+with,{w}
+{clr}when we conceive, the{n}
+fetus merges with the{n}
+mother's body,{w}
+{clr}destroying even its{n}
+brain, and becomes a{n}
+mindless{n}
+monster!{w}
+{clr}But long ago, our{n}
+clan, skilled in{n}
+battle, lent its power{n}
+to the Sanjiyan,{w}
+{clr}and pregnant women{n}
+received the secret{n}
+of immortality.{w}
+{clr}If the mother is a Wu,{n}
+the child stays{n}
+immortal while in{n}
+the womb.{w}
+{clr}During that time, the{n}
+fetus was kept in{n}
+suspended animation{n}
+so it couldn't merge,{w}
+{clr}making birth{n}
+possible! But then,{n}
+three hundred years{n}
+ago...{w}
+{clr}suddenly, the many{n}
+Wu women who served{n}
+us all died!{w}
+{clr}Now our clan has only{n}
+those who happen to{n}
+be born unharmed,{n}
+by sheer luck...{w}
+{clr}Unless we get the{n}
+art of immortality,{n}
+the remaining women{n}
+must risk themselves!{w}
+{clr}And I am no{n}
+exception!!{w}
+{clr}
+
+#### 0245
+{clr}{05:03}...?!{n}
+
+#### 0246
+{clr}{05:03}Hmph... I've got no{n}
+grudge against you,{n}
+boy, but you die{n}
+here!!{w}
+{clr}
+
+#### 0247
+{clr}{05:03}Ugh! Who dares{n}
+get in my{n}
+way?!{w}
+{clr}
+
+#### 0248
+{clr}{05:03}P-Pael?!{w}
+{clr}You don't recognize{n}
+me...?{w}
+{clr}
+
+#### 0249
+{clr}{05:03}Ugh! Damn it!!{n}
+I can't move...{w}
+{clr}Is my clan's hope{n}
+going to die out in{n}
+a place like this?!{w}
+{n}
+Here, like this...{w}
+{clr}
+
+#### 024A
+{clr}{05:03}G-Gupta...{w}
+{n}
+What the hell am I{n}
+supposed to do?!{w}
+{clr}
+
+#### 024B
+{clr}{05:03}Damn it...{w}
+{n}
+I can't just stand{n}
+by and let Gupta{n}
+die...{w}
+{clr}
+
+#### 024C
+{clr}{05:03}Wh-why did you save{n}
+me?{w}
+{clr}I'm a murderer, the{n}
+kind you hate,{n}
+boy!{w}
+{clr}
+
+#### 024D
+{clr}{05:03}Heh...{n}
+You're no murderer...{w}
+{n}
+You're a true{n}
+warrior!{w}
+{clr}
+
+#### 024E
+{clr}{05:03}Boy...{w}
+{n}
+I'll let you go,{n}
+for today...{w}
+{clr}
+
+#### 024F
+{clr}{05:03}But if we ever meet{n}
+again, then we'll{n}
+settle this once and{n}
+for all!{w}
+{clr}Until that day comes,{n}
+don't you dare die,{n}
+boy!!!{w}
+{clr}
+
+#### 0250
+{clr}{05:03}Hey, an entrance{n}
+appeared...{w}
+{clr}That must be Kunlun,{n}
+the path to{n}
+the Sanctuary!{w}
+
+#### 0251
+{clr}{05:03}I-I saw it! I did!{w}
+{clr}Yesterday, a squid{n}
+monster went into the{n}
+big drain pipe at{n}
+the research lab!{w}
+{clr}I-it's true!!{n}
+Believe me!{w}
+{clr}
+
+#### 0252
+{clr}{05:03}What?{n}
+A squid monster?!{w}
+{clr}I haven't seen it,{n}
+but I know someone{n}
+else who has!{w}
+{clr}
+
+#### 0253
+{clr}{05:03}Yakumo placed{n}
+{08:02} on the{n}
+pedestal.{w}
+{clr}
+
+#### 0254
+{clr}{05:03}The {08:02} Maze's{n}
+seal seems to be{n}
+broken...{w}
+{clr}
+
+#### 0255
+{clr}{05:03}There's a pedestal...{w}
+{n}
+Do I place the{n}
+"Sanctuary Keys" here?{w}
+{clr}
+
+#### 0256
+{clr}{05:03}O you who woke me...{w}
+{n}
+If you seek a pact{n}
+with me, answer my{n}
+question!{w}
+{clr}
+
+#### 0257
+{clr}{05:03}I am one of the Five{n}
+Kaiyan Generals, and{n}
+I rule the {08:02}{n}
+Maze...{w}
+{clr}Name the part of the{n}
+human body shown by{n}
+my "{08:02}"!{w}
+{clr}
+
+#### 0258
+{clr}{05:03}Correct!{n}
+As you wish, I grant{n}
+you a pact with me.{w}
+
+#### 0259
+{clr}{05:03}Wrong!{n}
+You who failed the{n}
+pact, face my{n}
+punishment!{w}
+
+#### 025A
+{clr}{05:03}There's a Kaiyan{n}
+statue...{w}
+
+#### 025B
+{clr}{05:03}There's an entrance.{w}
+{n}
+Yakumo and the others{n}
+went inside...{w}
+
+#### 025C
+{clr}{05:03}The door to the{n}
+Labyrinth opened!{w}
+
+#### 025D
+{clr}{05:03}Oh! Isn't that the{n}
+Aztec Fresco I've{n}
+been searching for?!{w}
+{clr}Would you trade it{n}
+for my demon sword{n}
+"Masamune"?{w}
+
+#### 025E
+{clr}{05:03}Oh! Isn't that the{n}
+Wing of Daedalus I{n}
+couldn't find in{n}
+Greece?!{w}
+{clr}Would you trade it{n}
+for this "Labyrinth{n}
+Key"?{w}
+
+#### 025F
+{clr}{05:03}Yakumo traded for{n}
+{08:02}.{w}
+
+#### 0260
+{clr}{05:03}Excuse me, there's{n}
+something I'd like{n}
+to ask you...{w}
+{clr}
+
+#### 0261
+{clr}{05:03}Hm? What is it?{w}
+{clr}
+
+#### 0262
+{clr}{05:03}Do you know anything{n}around here marked{n}with a three-eyed{n}crest?{w}{clr}
+
+#### 0264
+{clr}{05:03}Yakumo received{n}the Atlas.{w}
+
+#### 0265
+{clr}{05:03}That book shows the{n}path you must take.{w}{clr}Then destroy my{n}statue and take a{n}shard of it...{w}
+
+#### 0266
+{clr}{05:03}Looks like I made it{n}in time...{w}
+
+#### 0267
+{clr}{05:03}I want the Grail!{w}{clr}To close the hole{n}that opened in the{n}Sanctuary once more...{w}
+
+#### 0268
+{clr}{05:03}I see. I had guessed{n}as much...{w}{clr}Very well!{w}{n}The Grail lies ahead.{n}Take it with you!{w}
+
+#### 0269
+{clr}{05:03}Well then...{n}Shall we head to{n}Hong Kong?{w}{clr}
+
+#### 026A
+{clr}{05:03}Huh!?{w}{n}Aren't we going to{n}Greece?{w}{clr}
+
+#### 026B
+{clr}{05:03}Didn't I say before?{w}{n}It's somewhere{n}pretty dangerous!{w}{clr}So first we have to{n}go to Hong Kong{w}{clr}and get this{n}Daedalus Wing traded{n}for the Labyrinth{n}Key.{w}{clr}Greece comes{n}after that!{w}
+
+#### 026C
+{clr}{05:03}Yakumo! Look out!{w}
+
+#### 026D
+{clr}{05:03}Is this thing human!?{n}Or a youma!?{w}
+
+#### 026E
+{clr}{05:03}Ugh, what a monster!{w}{clr}
+
+#### 026F
+{clr}{05:03}Survival
+
+#### 0270
+{clr}{05:03}I am the sun god...{w}{n}Destroy the statue{n}of Quetzalcoatl...{w}{clr}And then{n}come to me...{w}
+
+#### 0271
+{clr}{05:03}The Hadrian Key is{n}on display.{w}
+
+#### 0272
+{clr}{05:03}The Agora Statue is{n}on display.{w}
+
+#### 0273
+{clr}{05:03}The Hadrian Key is on{n}display at the lower{n}right of this room!{w}
+
+#### 0274
+{clr}{05:03}The Hadrian Key was{n}on display before,{n}but now the Agora{n}Statue is there!{w}
+
+#### 0275
+{clr}{05:03}The Temple of Zeus in{n}this town has no{n}entrance,{w}{clr}but they say a{n}certain key lets you{n}get inside.{w}{clr}But that's just a{n}rumor, so don't{n}believe it too much!{w}
+
+#### 0276
+{clr}{05:03}Heard the rumor that{n}the Temple of Zeus{n}has an entrance?{w}
+
+#### 0277
+{clr}{05:03}An entrance has{n}appeared at the{n}Temple of Zeus.{w}{clr}But you'd better not{n}go inside, maybe?{w}
+
+#### 0278
+{clr}{05:00}In the southwest city{n}is a temple: Hera.{n}　{n}Who bears a shard of{n}my statue shall hold{n}the key to its seal.{0B}{clr}{05:00}That temple holds the{n}hall of Altis; past{n}it lies my second{n}temple.{n}　{n}There is enshrined{n}the Holy Rock.{0B}{clr}{05:00}One who bears the{n}Holy Rock shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
+
+#### 0279
+{clr}{05:00}That temple holds the{n}hall of Altis; past{n}it lies my second{n}temple.{n}　{n}There is enshrined{n}the Holy Rock.{0B}{clr}{05:00}One who bears the{n}Holy Rock shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
+
+#### 027A
+{clr}{05:00}One who bears the{n}Holy Rock shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
+
+#### 027B
+{clr}{05:03}That makes all the{n}Sanctuary keys...
+
+#### 027C
+{clr}{05:03}Now we can seal{n}Taisoei!
+
+#### 027D
+{clr}{05:03}So we're finally{n}going to the{n}Sanctuary...
+
+#### 027E
+{clr}{05:03}The temple doors{n}opened!{w}
+
+#### 027F
+{clr}{05:03}For now, let's go{n}back to Yogekisha{n}and report to{n}Lin-Lin!{w}
+
+#### 0280
+{clr}{05:03}That's the third{n}Sanctuary key{n}found, Yakumo!{w}{clr}
+
+#### 0281
+{clr}{05:03}Yakumo!{n}We finally have all{n}the Sanctuary keys!{w}{clr}
+
+#### 0282
+{clr}{05:03}You said it, Pai!{w}{clr}Let's go tell Lin-Lin{n}we've gathered all{n}five keys to{n}the Sanctuary!{w}{clr}
+
+#### 0283
+{clr}{05:03}That's the fourth{n}Sanctuary key{n}found, Yakumo!{w}{clr}
+
+#### 0284
+{clr}{05:03}The fifth key is{n}up ahead too...{n}Let's hurry on,{n}Pai!{w}{clr}
+
+#### 0285
+{clr}{05:03}So someone else{n}besides us is looking{n}for the keys to{n}the Sanctuary...{w}{clr}
+
+#### 0286
+{clr}{05:03}Okay...{n}Then I'll call{n}Takuhi!{w}{clr}
+
+#### 0287
+{clr}{05:03}Pai used the{n}Takuhi Staff!{w}{clr}
+
+#### 0288
+{clr}{05:03}Pai!{w}{clr}Let's head back to{n}Yogekisha once and{n}tell Lin-Lin about{n}the Censer.{w}{clr}
+
+#### 0301
+{clr}{05:03}I'm truly sorry.
+
+#### 0302
+{clr}{05:03}This is my clan's{n}problem, yet I've{n}troubled you{n}again...
+
+#### 0303
+{clr}{05:03}Don't worry about it{n}so much, Gupta...
+
+#### 0304
+{clr}{05:03}It's not your{n}people's fault...
+
+#### 0305
+{clr}{05:03}Yakumo is right,{n}Gupta...
+
+#### 0306
+{clr}{05:03}You need not trouble{n}yourself so...
+
+#### 0307
+{clr}{05:03}Sa... Sanjiyan!?{n}Since when...!?
+
+#### 0308
+{clr}{05:03}Yakumo...
+
+#### 0309
+{clr}{05:03}You held out this{n}far all on your{n}own.
+
+#### 030A
+{clr}{05:03}You are becoming{n}quite the Wu...
+
+#### 030B
+{clr}{05:03}Sanjiyan...
+
+#### 030C
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+  We are now at the{n}
+   ceremony hall to{n}
+  celebrate Gupta's{n}
+      succession.
+
+#### 030D
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+ In place of Garga,{n}
+   Gupta succeeded{n}
+    to the throne.
+
+#### 030E
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+ And the Hyoma clan{n}
+ all resolved, so as{n}
+  not to let their{n}
+ bloodline die out,
+
+#### 030F
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+  to search for the{n}
+Seima Stone, said to{n}
+ contain the will of{n}
+     Kaiyanwang.
+
+#### 0310
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+ This was Sanjiyan's{n}
+  idea: Kaiyanwang{n}
+   might know a way{n}
+  to save the Hyoma.
+
+#### 0311
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+ The Sanjiyan of now{n}
+ can do no more than{n}
+    make me alone{n}
+      her Wu...
+
+#### 0312
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+     And as for{n}
+  Yakumo and Pai...
+
+#### 0313
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+  Our journey, too,{n}
+   has been put on{n}
+    hold for now.
+
+#### 0314
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+With Kaiyanwang gone,{n}
+ there's no need to{n}
+ rush to find a way{n}
+   to become human.
+
+#### 0315
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+   For now, I just{n}
+  want to rest from{n}
+   the journey, and{n}
+ enjoy a quiet life{n}
+  alone with Pai...
+
+#### 0316
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+   But someday...
+
+#### 0317
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+ Someday, we'll have{n}
+  to set out on the{n}
+  journey to become{n}
+       human.
+
+#### 0318
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+       Yes...{n}
+  toward the final{n}
+     goal of Pai{n}
+      and me...
+
+#### 0319
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+ To become human...
+
+#### 031A
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+     Kukukuku...{n}
+ The seal placed on{n}
+ my body by this one{n}
+ is finally broken...
+
+#### 031B
+{clr}{05:00}　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+　{n}
+    As long as I,{n}
+   Benares, live,{n}
+   Lord Kaiyanwang{n}
+    is not dead!
+
+#### 031C
+{clr}{05:03}Hm!?{n}Isn't that the{n}legendary demon{n}blade Masamune!?{w}{clr}But rusted like that,{n}it's useless...{w}{clr}All right!{n}I'll fix that{n}blade for you!{w}{clr}
+
+#### 031D
+{clr}{05:03}There!{n}The demon blade{n}Masamune is fixed!{w}{clr}Now it should show{n}its true power!{w}
+
+#### 031E
+{clr}{05:03}The power hidden in{n}the blade bursts out!
+
+#### 031F
+{clr}{05:03}......!?{w}
+
+#### 0320
+{clr}{05:03}Huh!? Yakumo,{n}something's on the{n}ground.{w}{clr}
+
+#### 0321
+{clr}{05:03}Hm!?{w}{clr}Ugh...{n}It's a bloody knife.{n}Did that guy from{n}before drop it?{w}
+
+#### 0322
+{clr}{05:03}Yakumo picked up a{n}bloody survival{n}knife...{w}
+
+#### 1000
+{clr}{05:03}Not telling...{w}{clr}
+
+#### 1001
+{clr}{05:03}The way of the RPG{n}lies in leveling up,{n}I have found...{n}Levels! Level up!{w}{clr}
+
+#### 1002
+{clr}{05:03}Is it true Sanjiyan{n}can make you live{n}forever???{n}You know anything?{w}{clr}
+
+#### 1003
+{clr}{05:03}That 999 sure is{n}kinda shady...{n}What do they do all{n}day?{w}{clr}
+
+#### 1004
+{clr}{05:03}At this rate, it{n}looks like it'll be{n}sunny tomorrow.{w}{clr}
+
+#### 1005
+{clr}{05:03}Ugh-ugh-ugh...{n}Is there a toilet{n}around here?{w}{clr}
+
+#### 1006
+{clr}{05:03}Noooo! My saved{n}data is goooone!!!{n}{w}Just kidding!{w}{clr}
+
+#### 1007
+{clr}{05:03}I'm getting hungry.{n}Is there a good{n}restaurant around{n}here???{w}{clr}
+
+#### 1008
+{clr}{05:03}The clothes shop in{n}town closed down the{n}other day...{w}{clr}There was something{n}I wanted. Too bad...{w}{clr}
+
+#### 1009
+{clr}{05:03}The station? It's{n}right there, see?{w}{clr}
+
+#### 100A
+{clr}{05:03}That house over there{n}is lovely. I'd love{n}to live in a place{n}like that.{w}{clr}
+
+#### 100B
+{clr}{05:03}See TV last night?{n}What! You didn't?{n}That's too bad.{w}{clr}
+
+#### 100C
+{clr}{05:03}Come to think of it,{n}whatever happened{n}with those street{n}attacks in Japan?{w}{clr}
+
+#### 100D
+{clr}{05:03}You folks sure are{n}dressed kinda{n}funny???{w}{clr}
+
+#### 100E
+{clr}{05:03}Yogekisha???{n}You've got to be{n}kidding!! Nobody{n}reads that fake rag!!{w}{clr}
+
+#### 100F
+{clr}{05:03}Somebody said the{n}Temple of Hera and{n}the Temple of Zeus{n}might be connected.{w}{clr}
+
+#### 1010
+{clr}{05:03}This is no place{n}for the likes of you.{n}Get lost!!{w}{clr}
+
+#### 1011
+{clr}{05:03}I've searched for{n}Sanjiyan for so many{n}years... Where on{n}earth can it be??{w}{clr}
+
+#### 1012
+{clr}{05:03}Hey, mister!{n}Walking around with{n}a cute girl like{n}that! Lucky you!!{w}{clr}
+
+#### 1013
+{clr}{05:03}Sorry!!{n}I just pulled an{n}all-nighter, I'm{n}wiped! Gimme a break!{w}{clr}
+
+#### 1014
+{clr}{05:03}The Yogekisha boss{n}had something like a{n}bomb gadget. Is that{n}okay???{w}{clr}
+
+#### 1015
+{clr}{05:03}Cycling!{n}Cycling!{n}Tomorrow's a fun{n}cycling day!!{w}{clr}
+
+#### 1016
+{clr}{05:03}Zzz... Zzz...{n}...Oh, was I asleep?{n}So, what was it?{w}{clr}
+
+#### 1017
+{clr}{05:03}I came on a trip, but{n}Chinese food is all{n}veggies I hate...{n}Boo hoo...{w}{clr}
+
+#### 1018
+{clr}{05:03}With your skills,{n}kid, it's rough in{n}there. Train up and{n}come back later!{w}{clr}
+
+#### 1019
+{clr}{05:03}The big mansion{n}north of town is the{n}Garhapatyam family{n}mansion!{w}{clr}
+
+#### 101A
+{clr}{05:03}In Hong Kong, you{n}
+gotta eat ramen!{w}
+{clr}
+
+#### 101B
+{clr}{05:03}Looks like you've{n}
+got money... Watch{n}
+out for pickpockets.{n}
+Heh heh heh...{w}
+{clr}
+
+#### 101C
+{clr}{05:03}He's still not here!{n}
+Making me wait a{n}
+whole hour! How rude!{n}
+Hmph!!{w}
+{clr}
+
+#### 101D
+{clr}{05:03}Statue of Agora?{n}
+Agora... You mean{n}
+the cave northwest{n}
+of town?{w}
+{clr}
+
+#### 101E
+{clr}{05:03}Watch out for{n}
+seasickness.{w}
+{clr}
+
+#### 101F
+{clr}{05:03}This country is so{n}
+mystical! I love it!!{w}
+{clr}
+
+#### 1020
+{clr}{05:03}Let sleeping gods lie!{n}
+Better stay away{n}
+from the temple!{w}
+{clr}
+
+#### 1021
+{clr}{05:03}Altis is called{n}
+"the corridor to{n}
+the underworld."{w}
+{clr}
+
+#### 1022
+{clr}{05:03}How do you do! I am{n}
+but a humble passer-{n}
+by, just passing by.{w}
+{clr}
+
+#### 1023
+{clr}{05:03}If you want coffee,{n}
+the coffee at the{n}
+Kafenion is great.{w}
+{clr}
+
+#### 1024
+{clr}{05:03}The Key of Hadrian{n}
+at the museum was so{n}
+beautiful!! Let's get{n}
+one like it for home!{w}
+{clr}
+
+#### 1025
+{clr}{05:03}Waaaah!!{n}
+I got separated from{n}
+my tour guide!!{w}
+{clr}
+
+#### 1026
+{clr}{05:03}Do youma really{n}
+exist???{w}
+{clr}
+
+#### 1027
+{clr}{05:03}Aww, I wish I could{n}
+take home a pillar{n}
+as a souvenir...{w}
+{clr}
+
+#### 1028
+{clr}{05:03}Hey! Don't go into{n}
+the flower garden!{w}
+{clr}
+
+#### 1029
+{clr}{05:03}O Python, guardian{n}
+god! Protect this{n}
+town from the evil{n}
+youma...{w}
+{clr}
+
+#### 102A
+{clr}{05:03}The church priest{n}
+knows more than anyone{n}
+in town!{w}
+{clr}
+
+#### 102B
+{clr}{05:03}The people of this{n}
+town call the{n}
+treasury "the{n}
+Labyrinth"!{w}
+{clr}They say once you go{n}
+in, you can never{n}
+come out again!{w}
+{clr}
+
+#### 102C
+{clr}{05:03}Hmm... Maybe I should{n}
+have gone somewhere{n}
+more famous for its{n}
+food...{w}
+{clr}
+
+#### 102D
+{clr}{05:03}So many tourists{n}
+here, sometimes I{n}
+can't tell who the{n}
+locals are.{w}
+{clr}
+
+#### 102E
+{clr}{05:03}Kalimera!!{n}
+How's my Greek?{n}
+It means{n}
+"good morning"!{w}
+{clr}
+
+#### 102F
+{clr}{05:03}We locals are so used{n}
+to ruins, we don't{n}
+think much of them.{w}
+{clr}
+
+#### 1030
+{clr}{05:03}Such nice, warm{n}
+weather!{w}
+{clr}
+
+#### 1031
+{clr}{05:03}You came from Japan{n}
+too? A big country{n}
+sure is nice, eh?{w}
+{clr}
+
+#### 1032
+{clr}{05:03}Mexico means tacos,{n}
+but there are so{n}
+many kinds, I can{n}
+never remember them...{w}
+{clr}
+
+#### 1033
+{clr}{05:03}Places like this,{n}
+people call them{n}
+"ethnic" right away.{n}
+That's so wrong.{w}
+{clr}
+
+#### 1034
+{clr}{05:03}Seen the ruins of{n}
+Teotihuacan yet? I{n}
+love the Pyramid of{n}
+the Moon up north!{w}
+{clr}
+
+#### 1035
+{clr}{05:03}The Aztecs aren't one{n}
+of the four great{n}
+civilizations, but{n}
+they really thrived.{w}
+{clr}
+
+#### 1036
+{clr}{05:03}Seen the ruins of{n}
+Teotihuacan yet? The{n}
+underground building{n}
+behind the market{w}
+{clr}was wonderful!{w}
+{clr}
+
+#### 1037
+{clr}{05:03}The ancients sure{n}
+had good taste.{w}
+{clr}
+
+#### 1038
+{clr}{05:03}I like these ruins{n}
+better than the ones{n}
+in Greece.{w}
+{clr}
+
+#### 1039
+{clr}{05:03}How about it? Want{n}
+to train in yoga{n}
+with me???{w}
+{clr}
+
+#### 103A
+{clr}{05:03}Better stay away{n}
+from that something-{n}
+or-other lab on the{n}
+edge of town.{w}
+{clr}
+
+#### 103B
+{clr}{05:03}I am asleep right now.{n}
+That was sleep-talk...{n}
+So is this...{n}
+Er, well, this too...{w}
+{clr}
+
+#### 103C
+{clr}{05:03}This curry is{n}
+so hot!{w}
+{clr}
+
+#### 103D
+{clr}{05:03}Indian people are{n}
+all so nice.{w}
+{clr}
+
+#### 103E
+{clr}{05:03}The flow of Mother{n}
+Ganges is eternal!{n}
+O mankind, live as{n}
+one with the Ganges!!{w}
+{clr}
+
+#### 103F
+{clr}{05:03}They say lately{n}
+there have been lots{n}
+of attacks on{n}
+tourists!{w}
+{clr}
+
+#### 1040
+{clr}{05:03}I'm traveling alone,{n}
+but it's so unsafe.{n}
+I hate it...{w}
+{clr}
+
+#### 1041
+{clr}{05:03}They say the mansion{n}
+of Garhapatyam is{n}
+full of monsters!!{w}
+{clr}
+
+#### 1042
+{clr}{05:03}Enlightenment...{n}
+I must reach{n}
+enlightenment!!{w}
+{clr}
+
+#### 1043
+{clr}{05:03}I hear voices coming{n}
+from the Agora ruins{n}
+over there. They{n}
+should bury it...{w}
+{clr}
+
+#### 1044
+{clr}{05:03}Someone who runs a{n}
+museum must know{n}
+just about anything,{n}
+don't you think?{w}
+{clr}
+
+#### 1045
+{clr}{05:03}Plastic bomb? That's{n}
+too strong! Only good{n}
+for blowing up rocks{n}
+and stuff!{w}
+{clr}
+
+#### 1046
+{clr}{05:03}Ow! Cut myself on{n}
+my survival knife...{n}
+Ow ow ow...{w}
+{clr}
+
+#### 1047
+{clr}{05:03}I tried to get into{n}
+999, but they said to{n}
+show them my "ho..."{n}
+something or other.{w}
+{clr}
+
+#### 1048
+{clr}{05:03}She's not coming...{n}
+We were supposed to{n}
+meet around here.{n}
+Did she dump me...?{w}
+{clr}
+
+#### 1049
+{clr}{05:03}It's a weekday, so{n}
+the flea market{n}
+isn't crowded!{w}
+{clr}
+
+#### 104A
+{clr}{05:03}When city life wears{n}
+you out, it's better{n}
+to settle down in a{n}
+quiet town like this.{w}
+{clr}
+
+#### 104B
+{clr}{05:03}I heard a thief broke{n}
+into the monastery{n}
+the other day. Wonder{n}
+what happened? I hear{w}
+{clr}it was a foreigner.{w}
+{clr}
+
+#### 104C
+{clr}{05:03}I've seen lots of{n}
+pyramids, but they all{n}
+seem so shallow!!{n}
+Is that all there is?{w}
+{clr}
+
+#### 104D
+{clr}{05:03}No transport goes to{n}
+Mt. Athos! And it's{n}
+too far to walk.{n}
+Go ask the birds!{w}
+{clr}
+
+#### 104E
+{clr}{05:03}The station?{n}
+The station's right{n}
+over there.{w}
+{clr}
+
+#### 104F
+{clr}{05:03}Would you care to{n}
+join me for yum cha?{w}
+{clr}
+
+#### 1050
+{clr}{05:03}I hear there's a{n}
+party going on at the{n}
+floating restaurant!!{w}
+{clr}
+
+#### 1051
+{clr}{05:03}Seen the ruins of{n}
+Teotihuacan yet? The{n}
+Quetzalcoatl temple{n}
+southwest was great!{w}
+{clr}
+
+#### 1052
+{clr}{05:03}Hey!!{n}
+Don't cut in line!{n}
+How rude!!{w}
+{clr}
+
+#### 1053
+{clr}{05:03}Ahh, that was good!{w}
+{clr}
+
+#### 1054
+{clr}{05:03}No sharing tables!{w}
+{clr}
+
+#### 1055
+{clr}{05:03}Huh! A Japanese guy{n}
+without a camera?{w}
+{clr}
+
+#### 1056
+{clr}{05:03}It looks like it'll{n}
+collapse any second.{n}
+Scary... Eek...{w}
+{clr}
+
+#### 1057
+{clr}{05:03}Take your time!{w}
+{clr}
+
+#### 1058
+{clr}{05:03}For a quick lunch,{n}
+a place like this{n}
+is the best!{w}
+{clr}
+
+#### 1059
+{clr}{05:03}We're tastier than{n}
+the place next door!{w}
+{clr}
+
+#### 105A
+{clr}{05:03}This coffee is{n}
+really good!!{w}
+{clr}
+
+#### 105B
+{clr}{05:03}That old guy of yours{n}
+was all fired up about{n}
+making some nasty{n}
+bomb. Is he okay?{w}
+{clr}
+
+#### 105C
+{clr}{05:03}Can I see it all in{n}
+one day? Oh, so busy,{n}
+so busy!{w}
+{clr}
+
+#### 105D
+{clr}{05:03}Shhhh!{n}
+This is a museum.{n}
+Keep it down.{w}
+{clr}
+
+#### 105E
+{clr}{05:03}My order still{n}
+isn't here!!{n}
+What's taking so long?{w}
+{clr}
+
+#### 105F
+{clr}{05:03}Go see the exhibits{n}
+over there too!!{n}
+They're amazing.{w}
+{clr}
+
+#### 1060
+{clr}{05:03}It's so big, I forgot{n}
+where the exit is.{n}
+Would you kindly tell{n}
+me? Ohohoho...{w}
+{clr}
+
+#### 1061
+{clr}{05:03}That statue of{n}
+Coatlicue over there{n}
+was super creepy!{w}
+{clr}The Xipe Totec one{n}
+was creepy too.{n}
+Who would make{n}
+stuff like that?{w}
+{clr}
+
+#### 1062
+{clr}{05:03}Brrr...{n}
+Ever since I saw that{n}
+high priest of death{n}
+statue, I can't stop{w}
+{clr}shaking. Brrr...{w}
+{clr}
+
+#### 1063
+{clr}{05:03}I heard someone{n}
+raided the treasury{n}
+in this town.{w}
+{clr}But they say that{n}
+person went in and{n}
+never came out.{w}
+{clr}
+
+#### 1064
+{clr}{05:03}I climbed Mt.{n}
+Olympus! The view{n}
+was so beautiful!{w}
+{clr}But you can't get{n}
+there by train, so{n}
+it was really hard!{w}
+{clr}
+
+#### 1065
+{clr}{05:03}They say there's a{n}
+shop in Tibet that{n}
+makes mysterious{n}
+tools!{w}
+{clr}And if you use a{n}
+material called{n}
+Jadeite,{w}
+{clr}it has an amazing{n}
+effect!!{w}
+{clr}
+
+#### 1066
+{clr}{05:03}Hey, did you see the{n}
+animal statue deep in{n}
+this temple?{w}
+{clr}What! You didn't?{n}
+It's worth seeing{n}
+at least once!{w}
+{clr}
+
+#### 1067
+{clr}{05:03}Long ago, they say{n}
+people offered their{n}
+own blood on the oath{n}
+altar to become{w}
+{clr}messengers of god!{w}
+{clr}
+
+#### 1068
+{clr}{05:03}I've got a good nose,{n}
+and every temple{n}
+smells the same.{n}
+Maybe they connect!{w}
+{clr}
+
+#### 1069
+{clr}{05:03}Eek!! Wind's blowing{n}
+up from below! Could{n}
+there be a hollow{n}
+space under here...?{w}
+{clr}
+
+#### 106A
+{clr}{05:03}I-I-I'm not good{n}
+with t-t-tight{n}
+spaces...{n}
+*shiver shiver*{w}
+{clr}
+
+#### 106B
+{clr}{05:03}Kyaaaa!!!{n}
+You scared me! Don't{n}
+talk to me all of a{n}
+sudden, jeez!!{w}
+{clr}
+
+#### 106C
+{clr}{05:03}Some great scholar{n}
+has a theory that{n}
+all the temples are{n}
+connected.{w}
+{clr}
+
+#### 106D
+{clr}{05:03}This pyramid looks{n}
+kinda new for when{n}
+it was built...{w}
+{clr}There must be an{n}
+older part hidden{n}
+inside!{w}
+{clr}
+
+#### 106E
+{clr}{05:03}Oh dear!{n}
+The same place again.{n}
+When will I ever get{n}
+out of here...?{w}
+{clr}
+
+#### 106F
+{clr}{05:03}It's so decayed, it{n}
+could crumble any{n}
+moment. A precious{n}
+heritage site, too...{w}
+{clr}
+
+#### 1070
+{clr}{05:03}Let's see...{n}
+The tour says next{n}
+is the climb up{n}
+Mt. Athos.{w}
+{clr}
+
+#### 1071
+{clr}{05:03}Kowloon?{n}
+The subway is the{n}
+best way to Kowloon!{w}
+{clr}
+
+#### 1072
+{clr}{05:03}Cotton Eyes?{n}
+It's right there!{w}
+{clr}
+
+#### 1073
+{clr}{05:03}The subway goes to{n}
+the airport, too!{w}
+{clr}
+
+#### 1074
+{clr}{05:03}Even foreigners come{n}
+to a place like this{n}
+now!{w}
+{clr}There was one here{n}
+just the other day.{w}
+{clr}
+
+#### 1075
+{clr}{05:03}Priam, the folk craft{n}
+shop, sells just{n}
+about everything!{w}
+{clr}
+
+#### 1076
+{clr}{05:03}The guy inside the{n}
+underground building{n}
+is being mean and{n}
+won't let me through.{w}
+{clr}
+
+#### 1077
+{clr}{05:03}The guy inside the{n}
+underground building{n}
+is being mean and{n}
+won't let me through.{w}
+{clr}
+

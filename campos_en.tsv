@@ -1,0 +1,203 @@
+# Campos de largura fixa: endereço <TAB> tamanho <TAB> japonês <TAB> inglês [<TAB> esq]
+# O inglês pode ter no máximo tantas letras como o tamanho do campo (em bytes).
+# Por omissão o texto fica centrado; "esq" alinha à esquerda.
+# Linha sem inglês = ainda por traduzir (fica em japonês).
+
+# Sim / Não: passou para blocos_en.txt (o espaço inicial de cada opção é do cursor).
+
+# ===== Aeroporto: ir / não ir (banco $0F) =====
+# O cursor da 2.ª opção tem posição fixa: "Go" está em menus_en.tsv (par de letras + espaços,
+# para manter a largura original de 64 px).
+0F:A284	4	いかない	Stay	esq
+
+# ===== Hotel (banco $0F, uma opção por linha) =====
+0F:A0F7	7	ひとばんとまる	1 Night	esq
+0F:A101	8	ちょうきたいざい	Extended	esq
+
+# ===== Locais: Tóquio, Hong Kong, Grécia, México, Índia, Tibete (banco $0C) =====
+0C:CD9E	12	しんじゅく	Shinjuku
+0C:CDAA	12	ゆめのしま	Yumenoshima
+0C:CDB6	12	術港	Airport
+0C:CDC2	12	セントラル	Central
+0C:CDCE	12	クーロン	Kowloon
+0C:CDDA	12	アバディーン	Aberdeen
+0C:CDE6	12	ホンコン　こくさい術港	Hong Kong Airport
+0C:CDF2	12	アテネ	Athens
+0C:CDFE	12	デルフィ	Delphi
+0C:CE0A	12	オリンピア	Olympia
+0C:CE16	12	アトス　1ごうめ	Mt. Athos Stage 1
+0C:CE22	12	アトス　2ごうめ	Mt. Athos Stage 2
+0C:CE2E	12	アトス　3ごうめ	Mt. Athos Stage 3
+0C:CE3A	12	オリンポス　1ごうめ	Olympus Stage 1
+0C:CE46	12	オリンポス　2ごうめ	Olympus Stage 2
+0C:CE52	12	オリンポス　3ごうめ	Olympus Stage 3
+0C:CE5E	12	オリンポス　4ごうめ	Olympus Stage 4
+0C:CE6A	12	アテネ　こくさい術港	Athens Airport
+0C:CE76	12	メキシコシティー	Mexico City
+0C:CE82	12	テオティワカンのいせき	Teotihuacan Ruins
+0C:CE8E	12	ベニトファレス　術港	Juarez Airport
+0C:CE9A	12	ニューデリー	New Delhi
+0C:CEA6	12	ビジャリア	Bijaria
+0C:CEB2	12	チベット	Tibet
+0C:CEBE	12	ヒマラヤ　1ごうめ	Himalaya Stage 1
+0C:CECA	12	ヒマラヤ　2ごうめ	Himalaya Stage 2
+0C:CED6	12	ヒマラヤ　3ごうめ	Himalaya Stage 3
+0C:CEE2	12	ヒマラヤ　4ごうめ	Himalaya Stage 4
+0C:CEEE	12	ヒマラヤ　5ごうめ	Himalaya Stage 5
+0C:CEFA	12	サハール　術港	Sahar Airport
+
+# ===== Locais: edifícios e masmorras (banco $0C) =====
+0C:CF1B	12	やくものマンション	Yakumo's Apartment
+0C:CF27	12	ふるものや	Antique Shop
+0C:CF33	12	カルチャーショック	Culture Shock
+0C:CF3F	12	かえるのおうち	Frog House
+0C:CF4B	12	999	999
+0C:CF57	12	ゴールドラッシュ	Gold Rush
+0C:CF63	12	ラ・カシュール	La Cachure
+0C:CF6F	12	バイヤーのマンション	Buyer's Apartment
+0C:CF7B	12	いのちゃんのめやに	Inochan's
+0C:CF87	12	コンロン	Kunlun
+0C:CF93	12	コンロン	Kunlun
+0C:CF9F	12	コンロン　三のめいきゅう	Earth Maze
+0C:CFAB	12	コンロン　只のめいきゅう	Water Maze
+0C:CFB7	12	コンロン　眼のめいきゅう	Fire Maze
+0C:CFC3	12	コンロン　魔のめいきゅう	Wind Maze
+0C:CFCF	12	コンロン　術のめいきゅう	Air Maze
+0C:CFDB	12	コンロン	Kunlun
+0C:CFE7	12	せいち	Sanctuary
+0C:CFF3	12	マンダリンホテル	Mandarin Hotel
+0C:CFFF	12	ギャラリー69	Gallery 69
+0C:D00B	12	バーズ	Birds
+0C:D017	12	ジジ	Jiji
+0C:D023	12	999	999
+0C:D02F	12	ようげきしゃ	Yogekisha
+0C:D03B	12	ホアンてい	Huang Residence
+0C:D047	12	バイヤーのマンション	Buyer's Apartment
+0C:D053	12	インターナショナルホテル	International Hotel
+0C:D05F	12	コットンアイズ	Cotton Eyes
+0C:D06B	12	リックスカフェ	Rick's Cafe
+0C:D077	12	いのちゃんのめやに	Inochan's
+0C:D083	12	アバディーンホテル	Aberdeen Hotel
+0C:D08F	12	ジャンボ	Jumbo
+0C:D09B	12	タイパック	Tai Pak
+0C:D0A7	12	プアマンズ	Poor Man's
+0C:D0B3	12	けんきゅうじょ　3F	Laboratory 3F
+0C:D0BF	12	けんきゅうじょ　2F	Laboratory 2F
+0C:D0CB	12	けんきゅうじょ　1F	Laboratory 1F
+0C:D0D7	12	けんきゅうじょ　B1	Laboratory B1
+0C:D0E3	12	アテナホテル	Athena Hotel
+0C:D0EF	12	こうこがくはくぶつかん	Archaeology Museum
+0C:D0FB	12	カフェニオン	Kafenion
+0C:D107	12	テラ	Terra
+0C:D113	12	アカジョー	Akajou
+0C:D11F	12	いのちゃんのめやに	Inochan's
+0C:D12B	12	アゴラのいせき	Agora Ruins
+0C:D137	12	ゼウス神殿　B1	Zeus Temple B1
+0C:D143	12	ゼウス神殿　B2	Zeus Temple B2
+0C:D14F	12	ゼウス神殿　B3	Zeus Temple B3
+0C:D15B	12	ゼウス神殿　B4	Zeus Temple B4
+0C:D167	12	パルテノン神殿　B1	Parthenon B1
+0C:D173	12	パルテノン神殿　B2	Parthenon B2
+0C:D17F	12	パルテノン神殿　B3	Parthenon B3
+0C:D18B	12	パルテノン神殿　B4	Parthenon B4
+0C:D197	12	パルテノン神殿　B5	Parthenon B5
+0C:D1A3	12	アポロンホテル	Apollo Hotel
+0C:D1AF	12	999	999
+0C:D1BB	12	プライアム	Priam
+0C:D1C7	12	タヴェルナ	Taverna
+0C:D1D3	12	アポロン神殿　B1	Apollo B1
+0C:D1DF	12	アポロン神殿　B2	Apollo B2
+0C:D1EB	12	アポロン神殿　B3	Apollo B3
+0C:D1F7	12	アポロン神殿　B4	Apollo B4
+0C:D203	12	ゼウスホテル	Zeus Hotel
+0C:D20F	12	ヘルメス	Hermes
+0C:D21B	12	テラスガーデン	Terrace Garden
+0C:D227	12	しさいのいえ	Priest's House
+0C:D233	12	ヘラの神殿　B1	Hera Temple B1
+0C:D23F	12	ヘラの神殿　B2	Hera Temple B2
+0C:D24B	12	ヘラの神殿　B3	Hera Temple B3
+0C:D257	12	ヘラの神殿　B4	Hera Temple B4
+0C:D263	12	アルティス	Altis
+0C:D26F	12	ゼウス神殿　1F	Zeus Temple 1F
+0C:D27B	12	ゼウス神殿　B1	Zeus Temple B1
+0C:D287	12	ゼウス神殿　B2	Zeus Temple B2
+0C:D293	12	ゼウス神殿　B3	Zeus Temple B3
+0C:D29F	12	ほうこ　1F	Treasury 1F
+0C:D2AB	12	ほうこ　B1	Treasury B1
+0C:D2B7	12	ラビリンス	Labyrinth
+0C:D2C3	12	しゅうどういん	Monastery
+0C:D2CF	12	テンプルオブスカイ　2F	Sky Temple 2F
+0C:D2DB	12	テンプルオブスカイ　1F	Sky Temple 1F
+0C:D2E7	12	フローレンシアホテル	Florencia Hotel
+0C:D2F3	12	バーレオン	Bar Leon
+0C:D2FF	12	メキシカンオパール	Mexican Opal
+0C:D30B	12	サンボーンズ	Sanborns
+0C:D317	12	フローレス・デ・パペル	Flores de Papel
+0C:D323	12	いのちゃんのめやに	Inochan's
+0C:D32F	12	999	999
+0C:D33B	12	グァダルーペじいん	Guadalupe
+0C:D347	12	メルセーしゅうどういん	Merced Monastery
+0C:D353	12	サンフランシスコじいん	San Francisco Temple
+0C:D35F	12	ラ・プロフェサきょうかい	La Profesa Church
+0C:D36B	12	だいせいどう	Cathedral
+0C:D377	12	じんるいがくはくぶつかん	Anthropology Museum
+0C:D383	12	アナワカリはくぶつかん	Anahuacalli Museum
+0C:D38F	12	アステカいせき	Aztec Ruins
+0C:D39B	12	フラマ	Furama
+0C:D3A7	12	たいようのピラミッド2F	Sun Pyramid 2F
+0C:D3B3	12	たいようのピラミッド1F	Sun Pyramid 1F
+0C:D3BF	12	たいようのピラミッドB1	Sun Pyramid B1
+0C:D3CB	12	たいようのピラミッドB2	Sun Pyramid B2
+0C:D3D7	12	たいようのピラミッドB3	Sun Pyramid B3
+0C:D3E3	12	たいようのピラミッドB4	Sun Pyramid B4
+0C:D3EF	12	つきのピラミッド　2F	Moon Pyramid 2F
+0C:D3FB	12	つきのピラミッド　1F	Moon Pyramid 1F
+0C:D407	12	つきのピラミッド　B1	Moon Pyramid B1
+0C:D413	12	つきのピラミッド　B2	Moon Pyramid B2
+0C:D41F	12	つきのピラミッド　B3	Moon Pyramid B3
+0C:D42B	12	つきのピラミッド　B4	Moon Pyramid B4
+0C:D437	12	ケルツァルコアトル　2F	Quetzalcoatl 2F
+0C:D443	12	ケルツァルコアトル　1F	Quetzalcoatl 1F
+0C:D44F	12	ケルツァルコアトル　B1	Quetzalcoatl B1
+0C:D45B	12	ケルツァルコアトル　B2	Quetzalcoatl B2
+0C:D467	12	ジャガーの神殿　2F	Jaguar Temple 2F
+0C:D473	12	ジャガーの神殿　1F	Jaguar Temple 1F
+0C:D47F	12	ジャガーの神殿　B1	Jaguar Temple B1
+0C:D48B	12	ジャガーの神殿　B2	Jaguar Temple B2
+0C:D497	12	でんせつのどうぶつ　3F	Legendary Beasts 3F
+0C:D4A3	12	でんせつのどうぶつ　2F	Legendary Beasts 2F
+0C:D4AF	12	でんせつのどうぶつ　1F	Legendary Beasts 1F
+0C:D4BB	12	ちかのけんちく	Underground Hall
+0C:D4C7	12	ししゃのとうり	Avenue of the Dead
+0C:D4D3	12	4神殿のなかにわ	Court of 4 Temples
+0C:D4DF	12	グレートイースタンホテル	Great Eastern Hotel
+0C:D4EB	12	キャリコ	Calico
+0C:D4F7	12	サリア	Saria
+0C:D503	12	ギンツ	Gintz
+0C:D50F	12	いのちゃんのめやに	Inochan's
+0C:D51B	12	999	999
+0C:D527	12	はいきょ　1F	Ruins 1F
+0C:D533	12	はいきょ　B1	Ruins B1
+0C:D53F	12	はいきょ　B2	Ruins B2
+0C:D54B	12	ホテル　タッタルコ	Hotel Tattaruko
+0C:D557	12	サイミ	Saimi
+0C:D563	12	ギミアン	Gimian
+0C:D56F	12	ガールハパティヤム殿3F	Garhapatyam 3F
+0C:D57B	12	ガールハパティヤム殿2F	Garhapatyam 2F
+0C:D587	12	ガールハパティヤム殿1F	Garhapatyam 1F
+0C:D593	12	ガールハパティヤム殿B1	Garhapatyam B1
+0C:D59F	12	ガールハパティヤム殿B2	Garhapatyam B2
+0C:D5AB	12	ガールハパティヤム殿B3	Garhapatyam B3
+0C:D5B7	12	インダスゲストホテル	Indus Guest Hotel
+0C:D5C3	12	アムチーズ	Amchees
+0C:D5CF	12	ギャリーリポンチェ	Gyari Rinpoche
+0C:D5DB	12	インディメイド	Indimade
+0C:D5E7	12	そういん　1F	Monastery 1F
+0C:D5F3	12	ろうや	Prison
+0C:D5FF	12	ふるごや	Old Hut
+0C:D60B	12	ナウシズ神殿　3F	Nauthiz Temple 3F
+0C:D617	12	ナウシズ神殿　2F	Nauthiz Temple 2F
+0C:D623	12	ナウシズ神殿　1F	Nauthiz Temple 1F
+0C:D62F	12	ナウシズ神殿　B1	Nauthiz Temple B1
+0C:D63B	12	ナウシズ神殿　B2	Nauthiz Temple B2
+0C:D647	12	ナウシズ神殿　B3	Nauthiz Temple B3

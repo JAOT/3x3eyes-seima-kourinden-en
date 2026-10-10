@@ -1,0 +1,140 @@
+; Blocos de menus reescritos noutro sítio (sem limite de largura).
+; "@ início fim" (endereços SNES, fim exclusivo) seguido do texto novo.
+; As quebras de linha deste ficheiro são ignoradas; {n} muda de linha no jogo.
+; Cada linha dos menus começa com um espaço largo (　): o cursor é desenhado aí.
+
+; ===== Sim / Não (3 janelas) =====
+; Cada opção começa com um espaço onde o cursor é desenhado: largo (　) ou estreito ( ), como no original.
+@ 0F:9882 0F:988C
+　Yes{n}
+　No
+
+@ 0F:A0CC 0F:A0D5
+ Yes{n}
+ No
+
+@ 0F:A39D 0F:A3A6
+ Yes{n}
+ No
+
+; ===== Ron (Yogekisha): escolher bomba de plástico ou granada =====
+@ 0F:A17C 0F:A18E
+ Plastic Bomb{n}
+ Grenade
+
+; ===== Encontrados pela pesquisa automática (ferramentas/analise/procurar_menus.py) =====
+
+; Submenu de itens: usar / deitar fora
+@ 0F:9862 0F:986C
+　Use{n}
+　Toss
+
+; Confirmação "よろしいですか？"
+@ 0F:98A2 0F:98AA
+Are you sure?
+
+; Ecrã de equipamento com ranhura de magia (3 cópias)
+@ 0F:9A8E 0F:9AA7
+　Weapon{n}
+　Body{n}
+　Head{n}
+　Arm{n}
+　Magic
+
+@ 0F:9FA4 0F:9FBD
+　Weapon{n}
+　Body{n}
+　Head{n}
+　Arm{n}
+　Magic
+
+@ 0F:A016 0F:A02F
+　Weapon{n}
+　Body{n}
+　Head{n}
+　Arm{n}
+　Magic
+
+; Grimório / talismãs: "ページ" (página) — inclui o código {13} seguinte para ter 5 bytes
+@ 0F:9B06 0F:9B0B
+Page{13}
+
+; "▶かいわ" (conversa)
+@ 0F:9B22 0F:9B27
+ [CA]Talk
+
+; "ごふ さくせい" (fazer talismãs)
+@ 0F:9B42 0F:9B4A
+　Make Tags
+
+; "N まい さくせい" (N feitos; o número é desenhado à parte)
+@ 0F:9B64 0F:9B6A
+ made
+
+; "サバイバルナイフ"
+@ 0F:9B7E 0F:9B86
+Survival Knife
+
+; Texto de depuração "ターンまちレイアウト"
+@ 0F:9CDB 0F:9CE5
+Turn-wait layout
+
+; Balcão do aeroporto: comprar bilhete / embarque
+@ 0F:A11F 0F:A135
+ Buy Ticket{n}
+ Departure
+
+; Exame médico
+@ 0F:A1C4 0F:A1E5
+ Body{n}
+ Temperature{n}
+ Breathing{n}
+ Blood{n}
+ Organs
+
+; Escolha 1.º a 4.º
+@ 0F:A207 0F:A221
+ 1st{n}
+ 2nd{n}
+ 3rd{n}
+ 4th
+
+; Fazer / não fazer
+@ 0F:A2AE 0F:A2BA
+ Make{n}
+ Don't make
+
+; ===== Menu inicial (escolher ficheiro) =====
+; Título "ファイルをえらんでください" (o 00 em A342 fica)
+@ 0F:A335 0F:A342
+Choose a file.
+
+; Ranhuras " ファイル1/2/3" (o espaço inicial de 8 px é para o cursor)
+@ 0F:A34B 0F:A361
+ File 1{n}
+ File 2{n}
+ File 3
+
+; Submenu " スタート / さくじょ"
+@ 0F:A37B 0F:A387
+ Start{n}
+ Delete
+
+; Ecrã de equipamento: ranhuras ぶき / 体 / あたま / うで (uma cópia por personagem)
+@ 0F:9906 0F:991A
+　Weapon{n}
+　Body{n}
+　Head{n}
+　Arm{n}
+
+@ 0F:9CFD 0F:9D11
+　Weapon{n}
+　Body{n}
+　Head{n}
+　Arm{n}
+
+@ 0F:9D90 0F:9DA4
+　Weapon{n}
+　Body{n}
+　Head{n}
+　Arm{n}
