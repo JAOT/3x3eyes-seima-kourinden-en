@@ -73,7 +73,7 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
 - **Kana no início das mensagens:** a 1.ª solução (regravar a fonte #000/#001 com as letras inglesas) foi
   testada OK, mas punha a fonte original do jogo no patch. **2.ª solução (2026-10-10):** ganchos no carregador
   de gráficos (`$00:865D` guarda o nº do descritor, `$00:86EF` chama `FontUploadAll` se for #000/#001), que
-  envia logo todos os segmentos da fonte inglesa para a VRAM. `fonte_rom.py` removido. **Por testar no Mesen.**
+  envia logo todos os segmentos da fonte inglesa para a VRAM. `fonte_rom.py` removido. **Testado OK no Mesen (2026-10-10).**
 - **Patch BPS:** `python ferramentas\criar_bps.py <rom original> 3x3Eyes_EN.sfc <saída.bps>` (codificador
   próprio; verifica o patch reaplicando-o). v0.1-beta: 126954 bytes, resultado CRC32 D97935D1.
 - Desmontador simples de 65816: `ferramentas/analise/dis65816.py <rom> <banco:endereço> [n]`.

@@ -25,6 +25,17 @@ Work in progress, but playable from start to end in English:
 - Graphic text screens translated: intro, Yakumo's monologue, cutscene lines and game over.
 - Still being revised while playing. Title graphics and some kanji graphics (e.g. city names) are still in Japanese.
 
+## Download and play
+
+1. Get the `.bps` patch from the [Releases](https://github.com/JAOT/3x3eyes-seima-kourinden-en/releases) page.
+2. Apply it to your own copy of the Japanese ROM (unheadered, CRC32 `FBF3C0FF`) with
+   [Floating IPS](https://www.smwcentral.net/?p=section&a=details&id=11474), beat, or the online
+   [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/).
+3. Play it in an emulator such as Mesen 2, bsnes or Snes9x.
+
+Found a typo, an awkward line or a bug? Please open an [issue](https://github.com/JAOT/3x3eyes-seima-kourinden-en/issues),
+ideally with a screenshot.
+
 ## What is (and isn't) here
 
 This repository contains only the tools and the translation. It does **not** contain the game ROM or any
@@ -48,7 +59,7 @@ python ferramentas/build.py "path/to/3x3 Eyes - Seima Kourinden (Japan).sfc"
 The result is `3x3Eyes_EN.sfc` in the repository folder (2 MB). The original ROM is not modified.
 Tested on the Mesen 2 emulator.
 
-A ready-to-apply `.bps` patch will be published in the Releases when the translation is finished.
+To create a patch: `python ferramentas/criar_bps.py <original ROM> 3x3Eyes_EN.sfc <output.bps>`.
 
 ## Repository layout
 
