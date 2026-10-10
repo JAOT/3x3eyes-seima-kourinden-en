@@ -45,3 +45,4 @@ Mantidos contra o guia: Kowloon (guia: "Coulomb"), Kafenion ("Cafe Neon"), Garga
 - Não alterar as linhas `#### xxxx @..` nem as etiquetas entre chavetas (`{n}`, `{w}`, `{clr}`, `{05:xx}`, `{07:xx}`, `{08:xx}`, `{0B}`, …).
 - `{n}` = mudança de linha; `{w}` = esperar botão; `{clr}` = limpar a caixa.
 - Limite de caracteres por linha: **a definir** depois do teste da fonte latina.
+| せいなるいし | Holy Stone | Objeto (2.º templo de Zeus); usar sempre "Holy Stone" (não "Holy Rock"). |

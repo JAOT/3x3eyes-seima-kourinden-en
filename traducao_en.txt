@@ -2109,7 +2109,7 @@ Hera Temple broken?{w}
 
 #### 0136
 {clr}{05:03}Th-that is the{n}
-Holy Rock...{w}
+Holy Stone...{w}
 {clr}So you are an envoy{n}
 of Lord Zeus!{w}
 {clr}And what does Lord{n}
@@ -4304,13 +4304,13 @@ to ask you...{w}
 {clr}{05:03}An entrance has{n}appeared at the{n}Temple of Zeus.{w}{clr}But you'd better not{n}go inside, maybe?{w}
 
 #### 0278
-{clr}{05:00}In the southwest city{n}is a temple: Hera.{n}　{n}Who bears a shard of{n}my statue shall hold{n}the key to its seal.{0B}{clr}{05:00}That temple holds the{n}hall of Altis; past{n}it lies my second{n}temple.{n}　{n}There is enshrined{n}the Holy Rock.{0B}{clr}{05:00}One who bears the{n}Holy Rock shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
+{clr}{05:00}In the southwest city{n}is a temple: Hera.{n}　{n}Who bears a shard of{n}my statue shall hold{n}the key to its seal.{0B}{clr}{05:00}That temple holds the{n}hall of Altis; past{n}it lies my second{n}temple.{n}　{n}There is enshrined{n}the Holy Stone.{0B}{clr}{05:00}One who bears the{n}Holy Stone shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
 
 #### 0279
-{clr}{05:00}That temple holds the{n}hall of Altis; past{n}it lies my second{n}temple.{n}　{n}There is enshrined{n}the Holy Rock.{0B}{clr}{05:00}One who bears the{n}Holy Rock shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
+{clr}{05:00}That temple holds the{n}hall of Altis; past{n}it lies my second{n}temple.{n}　{n}There is enshrined{n}the Holy Stone.{0B}{clr}{05:00}One who bears the{n}Holy Stone shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
 
 #### 027A
-{clr}{05:00}One who bears the{n}Holy Rock shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
+{clr}{05:00}One who bears the{n}Holy Stone shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
 
 #### 027B
 {clr}{05:03}That makes all the{n}Sanctuary keys...
