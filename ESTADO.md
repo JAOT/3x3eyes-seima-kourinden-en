@@ -1,6 +1,6 @@
 # Estado do projeto — 3x3 Eyes: Seima Kourinden (EN)
 
-Última atualização: 2026-10-09
+Última atualização: 2026-10-10
 
 ## Gerar a ROM
 
@@ -91,7 +91,7 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
 
 1. Jogar do início ao fim e corrigir a tradução à medida (enviar correções em lista, como em 2026-10-09).
 2. Procurar e traduzir os restantes ecrãs gráficos de texto (#1EE com conjunto de glifos desconhecido, final do jogo).
-3. Patch `.bps` + README para distribuição (distribuir só o patch, nunca a ROM).
+3. Releases seguintes (v0.2…) com as correções dos testers: `criar_bps.py` + `gh release create`. v0.1-beta publicada em 2026-10-10.
 4. Mais tarde: fonte de largura variável (VWF); gráficos do título e kanji de cidades (ex.: 香港).
 
 ## Dúvidas de tradução em aberto

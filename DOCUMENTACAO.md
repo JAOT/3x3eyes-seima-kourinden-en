@@ -47,11 +47,21 @@ Passos do `build.py`:
 5. `nomes.py` (`nomes_en.tsv`) → nomes de feitiços, inimigos, itens, ataques (`gerado/nomes.asm`).
 6. `campos.py gerar` (`campos_en.tsv`) → campos de largura fixa: locais, sim/não… (`gerado/campos.asm`).
 7. `blocos.py` (`blocos_en.txt`) → blocos de menus reescritos no banco `$21` (`gerado/blocos.asm`).
-8. Asar aplica `hack.asm` (que inclui todos os `gerado/*.asm`).
-9. `inserir_texto.py` insere o guião traduzido (`traducao_en.txt`) e reaponta as mensagens.
-10. Corrige o checksum do cabeçalho.
+8. `intro.py` (`intro_en.txt`) → ecrãs gráficos de texto no banco `$38` (`gerado/intro.asm`).
+9. Asar aplica `hack.asm` (que inclui todos os `gerado/*.asm`).
+10. `inserir_texto.py` insere o guião traduzido (`traducao_en.txt`) e reaponta as mensagens.
+11. Corrige o checksum do cabeçalho.
 
 Nada é editado à mão na ROM: tudo sai dos ficheiros de texto e do `hack.asm`.
+
+**Patch para distribuição:** `python ferramentas\criar_bps.py <rom original> 3x3Eyes_EN.sfc <saída.bps>`.
+Codificador BPS próprio (SourceRead / TargetCopy para sequências repetidas / TargetRead); aplica o patch à ROM
+original e confirma que o resultado é igual antes de gravar. O patch não deve conter dados originais do jogo
+(por isso a fonte inglesa é enviada por código e não regravada dentro da fonte do jogo).
+
+**Repositório e releases:** https://github.com/JAOT/3x3eyes-seima-kourinden-en (público). O `.gitignore` deixa de
+fora ROMs, patches, `historico/`, `ferramentas/gerado/`, o Asar, o guião japonês, `traducao_trabalho/` e imagens
+(exceto `docs/screenshots/`). Releases com o `.bps` em GitHub Releases (`gh release create`).
 
 ---
 
@@ -204,6 +214,7 @@ listagem são tabelas de dados que por acaso parecem kana.
 | **Pares de letras** | Códigos de katakana/hiragana (`$01`–`$1F`, `$80`–`$9F`) reaproveitados para desenhar 2 letras num glifo 16x16 (`menus.py`) |
 | **Código de controlo `FF 2E`** | "Continuar a ler em `$bb:hhll`". Tabela de controlo copiada para `$00:F600`; tratador `CtrlGoto`. Usado pelos blocos (`blocos.py`) e pelos nomes longos (`nomes.py`, `campos.py`). Num sub-texto com limite de carateres (`$14,x` ≠ 0), o limite passa a 64 |
 | **Atributos** | `$01:DB53`: Body, Mind, Power, Speed, Defense, Wisdom, Luck |
+| **Fonte ao carregar** | Ganchos no carregador de gráficos: `$00:865D` → `LoadHookIn` guarda o nº do descritor em `$7F:FF04`; `$00:86EF` → `LoadHookOut` chama `FontUploadAll` (banco `$20`) se foi a fonte de diálogo #000/#001, que envia todos os segmentos da fonte inglesa por DMA. Elimina os kana nos primeiros frames das mensagens |
 | **Estado de saúde** | `$00:ECF0` entradas 6 e 7 → "Healthy"/"Poison" no banco `$20` |
 | **Contador da quantidade** | `$0F:9852`: "コ" → espaço |
 
@@ -211,7 +222,8 @@ Mapa de memória usado:
 | Zona | Conteúdo |
 |---|---|
 | `$00:F600`–`$00:FBFF` | Tabela de controlo e `CtrlGoto` |
-| `$00:FC00`– | `TextHook`, `NmiStub` |
+| `$00:FC00`– | `TextHook`, `NmiStub` (livre até `$00:FCFF`) |
+| `$00:FE60`– | `LoadHookIn`, `LoadHookOut` (livre até `$00:FFAF`) |
 | `$20:8000`– | Código (`LatinGlyph`, `NmiFar`), `NameTable`, textos de estado, `GlyphMap`, `FontSegs` |
 | `$21:8000`– | Gráficos da fonte |
 | `$21:9000`– | Blocos de menus |
@@ -299,6 +311,15 @@ Regras aprendidas:
 - Nomes longos de itens e locais via `FF 2E` (ex.: "Takuhi's Staff", "Priest's House").
 - Ecrã de derrota (#1AE) traduzido; truque dos 2 planos de bits; sombra preta (cor 2). Testado OK.
 - `ESTADO.md` atualizado; conversa exportada para `historico/sessao-2026-10-09_nomes-longos-derrota.zip`.
+
+### Dia 5 — 2026-10-10
+- Kana no início das mensagens: 1.ª solução (fonte do jogo regravada, `fonte_rom.py`) funcionava mas levava a fonte
+  original para o patch; substituída por ganchos no carregador de gráficos (`FontUploadAll`). Testado OK.
+- Porta do Templo de Zeus: não era bug; o evento exige o Yakumo virado para cima (`$106C` = 1). Interpretador de
+  eventos (`$00:BE88`) documentado.
+- Repositório Git + GitHub (público), README em inglês com capturas, `criar_bps.py`.
+- **Release v0.1-beta** (pre-release) com o patch `.bps` (126954 bytes, resultado CRC32 `D97935D1`).
+- Conversa exportada para `historico/sessao-2026-10-10_github-release.zip`.
 
 ---
 
