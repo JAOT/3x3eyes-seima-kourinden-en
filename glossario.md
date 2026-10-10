@@ -39,7 +39,7 @@ Mantidos contra o guia: Kowloon (guia: "Coulomb"), Kafenion ("Cafe Neon"), Garga
 | ようま | youma | Mantido em japonês. |
 | ゆめのしま | Yumenoshima | Local em Tóquio. |
 | せいち | holy land / Sanctuary | "Sanctuary" no nome do local. |
-$L
+| せいなるいし | Holy Stone | Objeto (2.º templo de Zeus); usar sempre "Holy Stone" (não "Holy Rock"). |
 
 ## Regras do guião (`guiao_jp.txt`)
 
