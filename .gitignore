@@ -27,3 +27,4 @@ guiao_jp.txt
 traducao_trabalho/
 *.png
 
+!docs/screenshots/*.png

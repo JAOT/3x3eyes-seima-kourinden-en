@@ -8,6 +8,15 @@ This is a personal project. I wanted to play this game, and earlier attempts to 
 came to fruition, so I decided to do it myself. It was made possible by recent advances in AI:
 the ROM analysis, tools and translation were done with the help of Claude (Anthropic).
 
+## Screenshots
+
+| | | |
+|---|---|---|
+| ![Intro](docs/screenshots/intro.png) | ![Dialogue](docs/screenshots/dialogue.png) | ![Battle](docs/screenshots/battle.png) |
+| Intro | Dialogue | Battle |
+| ![Items](docs/screenshots/items.png) | ![Game over](docs/screenshots/game_over.png) | |
+| Items menu | Game over | |
+
 ## Status
 
 Work in progress, but playable from start to end in English:
