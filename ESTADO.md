@@ -11,7 +11,7 @@ python ferramentas\build.py "C:\Users\joseo\Downloads\3x3 Eyes - Seima Kourinden
 Resultado: `3x3Eyes_EN.sfc` (ROM expandida para 2 MB; a ROM original não é alterada).
 Validar o guião: `python ferramentas\validar.py traducao_en.txt guiao_jp.txt` (último resultado: 826 mensagens, 0 erros).
 
-Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `fonte_rom.py` → `menus.py` → `nomes.py` → `campos.py gerar`
+Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `menus.py` → `nomes.py` → `campos.py gerar`
 → `blocos.py` → `intro.py` → Asar (`hack.asm`) → `inserir_texto.py` → checksum.
 
 ## Feito e testado no Mesen
@@ -70,10 +70,12 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `fo
   2 letras por tile (plano 0 visível com a paleta 0, plano 1 com a paleta 1). Novo texto horizontal em
   `intro_en.txt` com opções novas do `intro.py`: `tinta=`, `attr=`, `base=`, `fim=`, `x=`, `y=`, `passo=`.
   Sombra preta (cor 2 da paleta 0). Testado OK no Mesen (2026-10-09).
-- **Kana no início das mensagens:** as letras inglesas passam a estar dentro da fonte de diálogo comprimida
-  do jogo (descritores #000 e #001, 512 tiles, regravados em `$31:8000`/`$32:8000` por `fonte_rom.py`).
-  Já estão na VRAM quando o jogo carrega a fonte; o envio pelo NMI fica como salvaguarda.
-  **Testado OK no Mesen (2026-10-09): já não aparecem kana.**
+- **Kana no início das mensagens:** a 1.ª solução (regravar a fonte #000/#001 com as letras inglesas) foi
+  testada OK, mas punha a fonte original do jogo no patch. **2.ª solução (2026-10-10):** ganchos no carregador
+  de gráficos (`$00:865D` guarda o nº do descritor, `$00:86EF` chama `FontUploadAll` se for #000/#001), que
+  envia logo todos os segmentos da fonte inglesa para a VRAM. `fonte_rom.py` removido. **Por testar no Mesen.**
+- **Patch BPS:** `python ferramentas\criar_bps.py <rom original> 3x3Eyes_EN.sfc <saída.bps>` (codificador
+  próprio; verifica o patch reaplicando-o). v0.1-beta: 126954 bytes, resultado CRC32 D97935D1.
 - Desmontador simples de 65816: `ferramentas/analise/dis65816.py <rom> <banco:endereço> [n]`.
 
 ## Por testar

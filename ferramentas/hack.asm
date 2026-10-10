@@ -146,8 +146,37 @@ incsrc "gerado/campos.asm"
 ; blocos de menus reescritos no banco $21 (blocos_en.txt -> blocos.py), via código FF 2E
 incsrc "gerado/blocos.asm"
 
-; fonte de diálogo do jogo (#000/#001) já com as letras inglesas (fonte_rom.py): sem kana nos primeiros frames
-incsrc "gerado/fonte_rom.asm"
+; --- fonte inglesa enviada logo quando o jogo carrega a fonte de diálogo -----------
+; O carregador de gráficos ($00:865D, A = nº do descritor) descomprime a fonte de diálogo (#000/#001)
+; diretamente para a VRAM. À saída ($00:86EF), se foi a fonte, as letras inglesas são copiadas por cima,
+; para não aparecerem kana nos primeiros frames das mensagens. (Assim o patch não leva a fonte original.)
+!LastDesc = $7FFF04
+org $00865D
+    JMP LoadHookIn       ; era REP #$30 / PHP / PHB / PHA
+org $0086EF
+    JMP LoadHookOut      ; era PLB / PLP / RTS
+org $00FE60
+LoadHookIn:
+    REP #$30
+    STA.l !LastDesc
+    PHP
+    PHB
+    PHA
+    JMP $8662
+LoadHookOut:
+    PHP
+    REP #$30
+    PHA
+    LDA.l !LastDesc
+    CMP.w #$0002
+    BCS +
+    JSL FontUploadAll
++   PLA
+    PLP
+    PLB
+    PLP
+    RTS
+assert pc() <= $00FFB0
 
 ; páginas gráficas da introdução (intro_en.txt -> intro.py): glifos e mapas novos no banco $38
 incsrc "gerado/intro.asm"
@@ -262,6 +291,44 @@ NmiFar:
     PLA
     PLP
     JML $0080F9          ; NMI original
+
+FontUploadAll:       ; envia todos os segmentos da fonte inglesa (chamado logo após o jogo carregar a fonte)
+    PHP
+    REP #$30
+    PHX
+    LDA.w #$0000
+    STA.l !Timer         ; o NMI deixa de enviar segmentos (e não mexe no canal 7 a meio)
+    SEP #$20
+    LDA.b #$80
+    STA.l $002115
+    REP #$20
+    LDX.w #$0000
+.seg
+    LDA.l FontSegs,x
+    CLC
+    ADC.l $0000DC        ; base de caracteres do BG3 (mesma conta do NMI e do carregador)
+    STA.l $002116
+    LDA.w #$1801
+    STA.l $004370
+    LDA.l FontSegs+2,x
+    STA.l $004372
+    LDA.l FontSegs+4,x
+    STA.l $004375
+    SEP #$20
+    LDA.b #FontGfx>>16
+    STA.l $004374
+    LDA.b #$80
+    STA.l $00420B
+    REP #$20
+    TXA
+    CLC
+    ADC.w #$0008
+    TAX
+    CPX.w #!FontSegCount*8
+    BCC .seg
+    PLX
+    PLP
+    RTL
 
 NameTable:           ; ponteiros (banco $20) para nomes de 9 bytes
     dw .yakumo, .pai, .haan, .linlin, .jake, .gupta, .sanjiyan

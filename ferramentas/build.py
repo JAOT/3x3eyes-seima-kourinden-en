@@ -28,7 +28,6 @@ def main():
     gen = TOOLS / 'gerado'
     gen.mkdir(exist_ok=True)
     subprocess.run([sys.executable, str(TOOLS / 'fonte_en.py'), str(gen)], check=True)
-    subprocess.run([sys.executable, str(TOOLS / 'fonte_rom.py'), str(src), str(gen)], check=True)
     subprocess.run([sys.executable, str(TOOLS / 'menus.py'), str(src), str(ROOT / 'menus_en.tsv'), str(gen)], check=True)
     subprocess.run([sys.executable, str(TOOLS / 'nomes.py'), str(src), str(ROOT / 'nomes_en.tsv'), str(gen)], check=True)
     subprocess.run([sys.executable, str(TOOLS / 'campos.py'), 'gerar', str(src), str(ROOT / 'campos_en.tsv'), str(gen)], check=True)
