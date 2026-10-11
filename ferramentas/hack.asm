@@ -195,7 +195,17 @@ org $0F9EEC : db $A4,$AF
 ; {08:06}/{08:07} usam as entradas 6 e 7 da tabela $00:ECF0 (ponteiros de 3 bytes)
 ; para "けんこう" e "　　どく" no banco 00. Passam a apontar para inglês no banco $20.
 org $00ECF0+(6*3)
-    dl StatusHealthy, StatusPoison
+    dl StatusHealthy, StatusPoison, StatusNumb     ; entrada 8: "　　まひ" (paralisia)
+
+; Janela de combate: em vez do nome, a rotina $00:DBE2 mostra o estado com sub-textos no banco 00
+; ($00:DC19 "ど　く" = veneno, $00:DC1E "マ　ヒ" = paralisia). Passam a apontar para inglês no banco 00.
+org $00DBE6 : dw BattlePoison
+org $00DBEE : dw BattleNumb
+org $00DC07 : dw BattlePoison
+org $00FCC0
+BattlePoison: db "Poison",0
+BattleNumb:   db "Numb",0
+assert pc() <= $00FD00
 
 ; --- stubs no banco 00 ----------------------------------------------------
 org $00FC00
@@ -342,6 +352,7 @@ NameTable:           ; ponteiros (banco $20) para nomes de 9 bytes
 
 StatusHealthy: db "Healthy",0
 StatusPoison:  db "Poison",0
+StatusNumb:    db "Numb",0
 
 incsrc "gerado/font_en.asm"
 

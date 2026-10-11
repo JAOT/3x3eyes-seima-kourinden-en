@@ -87,6 +87,10 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
   Mystery Claw, Queen Moth, Ice Breath, Scale Powder... "dodged swiftly" → "dodged it" (cabe com 12 letras).
   Testado OK (2026-10-10).
 
+- **Estado na janela de combate** (veneno/paralisia aparecia com lixo no lugar do nome): rotina `$00:DBE2` usa
+  sub-textos no banco 00 (`$00:DC19` どく, `$00:DC1E` マヒ) → "Poison"/"Numb" em `$00:FCC0`. Entrada 8 de
+  `$00:ECF0` (まひ, ecrã de estado) → "Numb". **Por testar.**
+
 ## Por testar
 
 - Monólogo e falas das cenas com o negrito novo.
