@@ -88,9 +88,11 @@ assert pc() <= $01D5D0
 ; Segunda tabela de nomes ($00:ED32 -> nomes de 5 bytes em $00:ED40), usada pelo
 ; menu de estado ($00:DBC0) e pelos códigos {1A:xx} ($00:E5CA) e {2A:xx} ($00:E74F).
 ; Os ponteiros passam a apontar para os nomes ingleses e o banco da sub-string passa a $20.
+; Como no original (nomes completados com espaços largos até 8 colunas), os nomes desta tabela têm 8 carateres,
+; para taparem o "Poison"/"Numb" do estado quando o nome volta a ser desenhado. O guião não usa {1A}/{2A}.
 org $00ED32
-    dw NameTable_yakumo, NameTable_pai, NameTable_haan, NameTable_linlin
-    dw NameTable_jake, NameTable_gupta, NameTable_sanjiyan
+    dw NamePad_yakumo, NamePad_pai, NamePad_haan, NamePad_linlin
+    dw NamePad_jake, NamePad_gupta, NamePad_sanjiyan
 org $00DBC5
     LDA.w #NameTable>>16
 org $00E5CF
@@ -348,6 +350,15 @@ NameTable:           ; ponteiros (banco $20) para nomes de 9 bytes
 .linlin:   db "Lin-Lin",0,0
 .jake:     db "Jake",0,0,0,0,0
 .gupta:    db "Gupta",0,0,0,0
+.sanjiyan: db "Sanjiyan",0
+
+NamePad:             ; nomes com 8 carateres (tabela $00:ED32: menu de estado)
+.yakumo:   db "Yakumo  ",0
+.pai:      db "Pai     ",0
+.haan:     db "Haan    ",0
+.linlin:   db "Lin-Lin ",0
+.jake:     db "Jake    ",0
+.gupta:    db "Gupta   ",0
 .sanjiyan: db "Sanjiyan",0
 
 StatusHealthy: db "Healthy ",0   ; 8 carateres, como os originais (4 de largura inteira)
