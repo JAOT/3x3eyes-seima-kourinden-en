@@ -203,8 +203,8 @@ org $00DBE6 : dw BattlePoison
 org $00DBEE : dw BattleNumb
 org $00DC07 : dw BattlePoison
 org $00FCC0
-BattlePoison: db "Poison",0
-BattleNumb:   db "Numb",0
+BattlePoison: db "Poison  ",0   ; 8 carateres: tapa o nome todo (até 8 letras)
+BattleNumb:   db "Numb    ",0
 assert pc() <= $00FD00
 
 ; --- stubs no banco 00 ----------------------------------------------------
