@@ -89,7 +89,7 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
 
 - **Estado na janela de combate** (veneno/paralisia aparecia com lixo no lugar do nome): rotina `$00:DBE2` usa
   sub-textos no banco 00 (`$00:DC19` どく, `$00:DC1E` マヒ) → "Poison"/"Numb" em `$00:FCC0`. Entrada 8 de
-  `$00:ECF0` (まひ, ecrã de estado) → "Numb". **Por testar.**
+  `$00:ECF0` (まひ, ecrã de estado) → "Numb". Textos com 8 carateres (tapam o nome). Testado OK (2026-10-11).
 
 ## Por testar
 
