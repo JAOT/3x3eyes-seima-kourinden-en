@@ -350,9 +350,9 @@ NameTable:           ; ponteiros (banco $20) para nomes de 9 bytes
 .gupta:    db "Gupta",0,0,0,0
 .sanjiyan: db "Sanjiyan",0
 
-StatusHealthy: db "Healthy",0
-StatusPoison:  db "Poison",0
-StatusNumb:    db "Numb",0
+StatusHealthy: db "Healthy ",0   ; 8 carateres, como os originais (4 de largura inteira)
+StatusPoison:  db "Poison  ",0
+StatusNumb:    db "Numb    ",0
 
 incsrc "gerado/font_en.asm"
 
