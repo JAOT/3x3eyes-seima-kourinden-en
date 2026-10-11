@@ -33,6 +33,9 @@ Work in progress, but playable from start to end in English:
    [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/).
 3. Play it in an emulator such as Mesen 2, bsnes or Snes9x.
 
+An English translation of the game's instruction manual is in [MANUAL.md](MANUAL.md)
+(controls, battle commands, arts, talismans and items).
+
 Found a typo, an awkward line or a bug? Please open an [issue](https://github.com/JAOT/3x3eyes-seima-kourinden-en/issues),
 ideally with a screenshot.
 
