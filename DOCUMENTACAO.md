@@ -223,7 +223,7 @@ Mapa de memória usado:
 | Zona | Conteúdo |
 |---|---|
 | `$00:F600`–`$00:FBFF` | Tabela de controlo e `CtrlGoto` |
-| `$00:FC00`– | `TextHook`, `NmiStub` (livre até `$00:FCFF`) |
+| `$00:FC00`– | `TextHook`, `NmiStub`; `$00:FCC0` textos do estado no combate (livre até `$00:FCFF`) |
 | `$00:FE60`– | `LoadHookIn`, `LoadHookOut` (livre até `$00:FFAF`) |
 | `$20:8000`– | Código (`LatinGlyph`, `NmiFar`), `NameTable`, textos de estado, `GlyphMap`, `FontSegs` |
 | `$21:8000`– | Gráficos da fonte |
@@ -321,6 +321,21 @@ Regras aprendidas:
 - Repositório Git + GitHub (público), README em inglês com capturas, `criar_bps.py`.
 - **Release v0.1-beta** (pre-release) com o patch `.bps` (126954 bytes, resultado CRC32 `D97935D1`).
 - Conversa exportada para `historico/sessao-2026-10-10_github-release.zip`.
+- Livros lidos no menu (Atlas, Pyramid Book, talismãs, pentáculos, provas de Nauthiz): tabela `$0E:8000`, fora do
+  guião principal; `livros.py` + `livros_en.txt`. Ron → Long. Inimigos e ataques com nomes completos (até 12 letras).
+- **Release v0.2-beta** (130541 bytes, CRC32 `A9A3BC49`).
+
+### Dia 6 — 2026-10-11
+- Estado na janela de combate (veneno/paralisia com lixo): sub-textos `$00:DC19`/`$00:DC1E` lidos em `$00:DBE2`
+  → "Poison"/"Numb" em `$00:FCC0`, com 8 carateres para taparem o nome. Entrada 8 de `$00:ECF0` (まひ) → "Numb".
+- Menu de estado: nomes da tabela `$00:ED32` com 8 carateres (`NamePad`), como os originais (enchidos com espaços).
+- "Holy Rock" → "Holy Stone" em todo o guião.
+- Manual japonês (PDF do Internet Archive, só imagens JPEG 2000/JBIG2): páginas convertidas com a API
+  `Windows.Data.Pdf` (PowerShell 5.1). Controlos: cruz = mover/cursor/página; A = falar/examinar/confirmar;
+  B = cancelar/abrir e fechar menu; X = mostrar o local atual; START = começar. Nomes completos das personagens
+  (Hazrat Haan, Lee Lin-Lin, Jake McDonald, Armalik Gupta) no glossário; "Almalik" → "Armalik".
+- **Release v0.2.1-beta** (130656 bytes, CRC32 `7435533B`).
+- Conversa exportada para `historico/sessao-2026-10-11_livros-estados-v0.2.1.zip`.
 
 ---
 

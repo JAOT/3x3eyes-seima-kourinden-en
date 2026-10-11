@@ -1,6 +1,6 @@
 # Estado do projeto — 3x3 Eyes: Seima Kourinden (EN)
 
-Última atualização: 2026-10-10
+Última atualização: 2026-10-11
 
 ## Gerar a ROM
 
