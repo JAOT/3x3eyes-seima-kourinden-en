@@ -84,11 +84,12 @@ Turn-wait layout
  Buy Ticket{n}
  Departure
 
-; Exame médico
+; Resposta aos Five Kaiyan Generals (labirintos de Kunlun): a "natureza" de cada chave (ver Pyramid Book, livro 9)
+; にくたい/たいおん/こきゅう/けつえき/ないぞう — as mesmas palavras do livro
 @ 0F:A1C4 0F:A1E5
- Body{n}
- Temperature{n}
- Breathing{n}
+ Flesh{n}
+ Body Heat{n}
+ Breath{n}
  Blood{n}
  Organs
 

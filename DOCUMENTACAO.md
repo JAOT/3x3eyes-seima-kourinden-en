@@ -195,7 +195,7 @@ A tabela completa está no `inserir_texto.py`/`extrair_texto.ps1` (`Params`).
 | `$0F:9A8E`, `9FA4`, `A016` | Equipamento com ranhura de magia (3 cópias) |
 | `$0F:9B06`–`9B86` | Grimório / talismãs (Page, Talk, Make Tags, made, Survival Knife) |
 | `$0F:A11F` | Balcão do aeroporto (Buy Ticket / Departure) |
-| `$0F:A1C4`, `A207`, `A2AE` | Exame médico; 1st–4th; Make / Don't make |
+| `$0F:A1C4`, `A207`, `A2AE` | Respostas aos Kaiyan Generals (Flesh/Body Heat/Breath/Blood/Organs); 1st–4th; Make / Don't make |
 
 Todos os menus do banco `$0F` foram encontrados com `ferramentas/analise/procurar_menus.py`
 (compara a ROM original com a inglesa e lista texto japonês ainda não alterado). O que resta na
