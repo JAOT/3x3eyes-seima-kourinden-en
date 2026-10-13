@@ -247,6 +247,8 @@ Mapa de memória usado:
 5. **Blocos** (`blocos_en.txt`): o texto é reescrito no banco `$21`, sem limite. **Preferir esta técnica para menus novos.**
 
 Regras aprendidas:
+- **Tamanho das janelas dos menus do banco $0F:** antes do texto há um cabeçalho `[ponteiro 2 bytes][largura][altura]`
+  (meios tiles; altura = 4 por linha + 4). Ex.: respostas aos Kaiyan Generals, `$0F:A1BE` largura `$16` → `$1A`.
 - **Cursores com posição fixa:** em menus com várias opções na mesma linha, o inglês tem de manter a largura em píxeis do japonês (ex.: "Go" = par + 3 espaços largos = 64 px).
 - **Espaço inicial das linhas:** em muitas janelas, a 1.ª posição de cada linha é onde o cursor é desenhado — manter o espaço (largo `　` ou estreito ` `).
 - **Várias cópias:** ecrãs de estado e de equipamento existem uma vez por personagem.

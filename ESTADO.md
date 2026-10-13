@@ -91,6 +91,9 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
   sub-textos no banco 00 (`$00:DC19` どく, `$00:DC1E` マヒ) → "Poison"/"Numb" em `$00:FCC0`. Entrada 8 de
   `$00:ECF0` (まひ, ecrã de estado) → "Numb". Textos com 8 carateres (tapam o nome); nomes da tabela `$00:ED32` (menu de estado) também com 8 carateres (`NamePad`). Testado OK (2026-10-11).
 
+- **Respostas aos Kaiyan Generals** (Kunlun; menu `$0F:A1C4`, antes chamado "exame médico"): Flesh / Body Heat /
+  Breath / Blood / Organs, como no Pyramid Book; janela alargada (`$0F:A1BE` = `$1A`). Testado OK (2026-10-13).
+
 ## Por testar
 
 - Monólogo e falas das cenas com o negrito novo.

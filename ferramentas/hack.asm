@@ -373,3 +373,7 @@ FontGfx:
 
 ; livros e textos lidos no menu (Atlas, Pyramid Book...): tabela $0E:8000 reapontada para o banco $33 (livros.py)
 incsrc "gerado/livros.asm"
+
+; janela das respostas aos Kaiyan Generals ($0F:A1C4): cabeçalho [ponteiro][largura][altura] em $0F:A1BC.
+; Largura (meios tiles) $16 -> $1A, para caber "Body Heat".
+org $0FA1BE : db $1A
