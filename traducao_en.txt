@@ -308,7 +308,7 @@ This is how to fight.
 fell silent.
 
 #### 0054
-{clr}{05:00}Attack whom?
+{clr}{05:00}Attack who?
 
 #### 0055
 {clr}{05:02}{08:01}'s defense up.
