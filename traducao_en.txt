@@ -83,7 +83,7 @@ and got {08:01}.{w}
 {clr}{05:02}Use how much Mind?
 
 #### 0017
-{clr}{05:02}Use it on whom?
+{clr}{05:02}Use it on who?
 
 #### 0018
 {clr}{05:02}Which formation?
