@@ -28,7 +28,7 @@ Nomes e termos com tradução fixa. Usar sempre a mesma forma em todo o guião.
 | せいま | Lady Seima | Como os Hyoma chamam a Pai. |
 | ナウシズ | Nauthiz | Como a runa (era "Naushiz"). Confirmado pelo guia do GameFAQs. |
 | パエール | Pael | Criatura da Gupta. |
-| 三只眼魔術 (em mapas/diálogos) | Earth / Water / Fire / Wind / Air | Espaços de glifos que, fora dos menus, mostram 地水火風空; labirintos de Kunlun. Ordem por confirmar no jogo. |
+| 三只眼魔術 (em mapas/diálogos) | Earth / Water / Fire / Wind / Air | Espaços de glifos que, fora dos menus, mostram 地水火風空; labirintos de Kunlun. Ordem confirmada pelo guia do GameFAQs: Holy Sword = Fire, Censer = Water, Holy Grail = Wind, Pyramidion = Air (Holy Spear = Earth). |
 | カイヤンごしょう | Five Kaiyan Generals | Estátuas em Kunlun. |
 | ましょうのいし | Demon Stone | Item ("Demon Stone" no inventário). |
 | ようかい | youkai | Mantido em japonês. |
