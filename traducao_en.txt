@@ -1241,11 +1241,9 @@ without one!{w}
 
 #### 00BB
 {clr}{05:07}Passport checked.{w}
-{clr}You're cleared for{n}
-departure.{w}
+{clr}You may now board.{w}
 {n}
-Enjoy a pleasant{n}
-flight!{w}
+Have a nice flight!{w}
 
 #### 00BC
 {clr}{05:07}Oh... Yakumo, what{n}
