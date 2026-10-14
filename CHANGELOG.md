@@ -2,7 +2,7 @@
 
 All notable changes to the English translation patch. Versions match the GitHub Releases.
 
-## Unreleased
+## v0.2.2-beta — 2026-10-15
 
 ### Translation
 - Kunlun: the answers to the Five Kaiyan Generals now use the same words as the Pyramid Book
