@@ -26,7 +26,8 @@
 うる	Sell	0F:A248
 
 # Lista de países (campos de 4 carateres em $0C:CF0B); 3.ª coluna = endereço fixo
-ホンコン	HongKong	0C:CF0B
+# (deixou de ser usado: os nomes dos países vêm agora de CountryNames, em hack.asm)
+# ホンコン	HongKong	0C:CF0B
 ギリシャ	Greece	0C:CF0F
 メキシコ	Mexico	0C:CF13
 インド	India	0C:CF17

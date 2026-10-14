@@ -377,3 +377,21 @@ incsrc "gerado/livros.asm"
 ; janela das respostas aos Kaiyan Generals ($0F:A1C4): cabeçalho [ponteiro][largura][altura] em $0F:A1BC.
 ; Largura (meios tiles) $16 -> $1A, para caber "Body Heat".
 org $0FA1BE : db $1A
+
+; --- nomes dos países (menu de destinos do aeroporto, mapa do mundo) ------------------
+; A rotina $00:E638 (código FF 20) lia o nome em $0C:CF07 + nº*4 (4 carateres; "HongKong" em pares de letras).
+; Passa a ler da tabela CountryNames (banco $20), com 16 bytes por país e limite de 16 carateres.
+org $00E64B : dw $0010               ; tamanho de cada entrada (era 4)
+org $00E654 : dw CountryNames        ; base da tabela (era $CF07)
+org $00E659 : dw CountryNames>>16    ; banco (era $0C)
+org $00E65E : dw $0010               ; limite de carateres do sub-texto (era 5)
+; janela do menu de destinos ($0F:A145: [ponteiro][largura][altura]): largura $16 -> $1A, para "Hong Kong"
+org $0FA147 : db $1A
+
+org $20F000
+CountryNames:        ; nº 0-4, como em $0C:CF07 (0 = vazio)
+    db 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    db "Hong Kong",0,0,0,0,0,0,0
+    db "Greece",0,0,0,0,0,0,0,0,0,0
+    db "Mexico",0,0,0,0,0,0,0,0,0,0
+    db "India",0,0,0,0,0,0,0,0,0,0,0

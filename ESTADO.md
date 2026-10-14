@@ -94,6 +94,10 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
 - **Respostas aos Kaiyan Generals** (Kunlun; menu `$0F:A1C4`, antes chamado "exame médico"): Flesh / Body Heat /
   Breath / Blood / Organs, como no Pyramid Book; janela alargada (`$0F:A1BE` = `$1A`). Testado OK (2026-10-13).
 
+- **Nomes dos países** (menu de destinos do aeroporto): a rotina `$00:E638` (código FF 20) lê agora a tabela
+  `CountryNames` (banco $20, 16 bytes por país) em vez de `$0C:CF07` (4 carateres). "Hong Kong" com espaço;
+  janela do menu (`$0F:A147`) alargada para `$1A`. Testado OK (2026-10-14).
+
 ## Por testar
 
 - Monólogo e falas das cenas com o negrito novo.
