@@ -1183,8 +1183,8 @@ Is that OK?
 weariness of your journey.{w}
 
 #### 00B4
-{clr}{05:07}Welcome! Thank you{n}
-for flying with us.{w}
+{clr}{05:07}Welcome! Thank you for{n}
+using our airport.{w}
 {clr}How may I help you?
 
 #### 00B5
@@ -1217,9 +1217,11 @@ without one!{w}
 
 #### 00BB
 {clr}{05:07}Passport checked.{w}
-{clr}You may now board.{w}
+{clr}You're cleared for{n}
+departure.{w}
 {n}
-Have a nice flight!{w}
+Enjoy a pleasant{n}
+flight!{w}
 
 #### 00BC
 {clr}{05:07}Oh... Yakumo, what{n}
