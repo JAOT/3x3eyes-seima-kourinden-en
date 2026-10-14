@@ -4899,8 +4899,7 @@ Er, well, this too...{w}
 {clr}
 
 #### 103C
-{clr}{05:03}This curry is{n}
-so hot!{w}
+{clr}{05:03}This curry is so hot!{w}
 {clr}
 
 #### 103D
