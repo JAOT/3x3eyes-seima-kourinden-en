@@ -4822,7 +4822,8 @@ think much of them.{w}
 {clr}
 
 #### 1030
-{clr}{05:03}Lovely, warm weather!{w}
+{clr}{05:03}Such nice, warm{n}
+weather!{w}
 {clr}
 
 #### 1031
