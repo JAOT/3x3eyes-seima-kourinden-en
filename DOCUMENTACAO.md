@@ -135,6 +135,7 @@ A tabela completa está no `inserir_texto.py`/`extrair_texto.ps1` (`Params`).
 | `$00:9813` | Escreve `$210C` (base de carateres BG3); cópia em `$00DC` |
 | `$00:BE88` | Interpretador de scripts de eventos: palavras de 16 bits lidas em `$00:C6DB` (ponteiro `$0C40`/`$0C42`, scripts nos bancos `$1E`/`$1F`), saltos pela tabela `$00:BEB2`. Ex.: `0D vv alvo` = se direção (`$106C`) = vv, saltar; `0B x y alvo` = teste de posição; `42 msg` = mostrar mensagem |
 | `$01:8654` | Combates aleatórios: a cada passo, número aleatório 0-511 (`$01:9AF8`) comparado com a taxa do mapa (tabela `$0C:A411`); `BEQ` em `$01:866D` salta quando a taxa é 0. Game Genie para desligar os combates: `6D61-6709` (`$01:866D` = `$80`) |
+| `$00:B797` | Colisão: bloco da célula do mapa (`$7F:8000+`, endereço calculado em `$00:A562`, em `$00`) → atributo em `$7E:8000` (0 = transitável, 1 = parede). Agora passa por `CollisionFix` (banco $20): corrige o buraco na borda do labirinto da Treasury (mapa `$4D`, bloco `$1BA`). Ver CHANGELOG.md |
 | RAM `$106C` | Direção do jogador (bits 0-1; 1 = cima, 2 = baixo). A porta do Templo de Zeus (`$1F:8DBA`) exige o Yakumo virado para cima |
 
 ### 5.4 Vídeo
