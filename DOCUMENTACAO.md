@@ -341,6 +341,23 @@ Regras aprendidas:
 - **Release v0.2.1-beta** (130656 bytes, CRC32 `7435533B`).
 - Conversa exportada para `historico/sessao-2026-10-11_livros-estados-v0.2.1.zip`.
 
+### Dia 7 — 2026-10-12 a 2026-10-15
+- `MANUAL.md`: manual japonês traduzido para inglês (só texto, com as páginas do original 〔p. N〕).
+- Kunlun: o menu "exame médico" (`$0F:A1C4`) era afinal a resposta aos Five Kaiyan Generals → Flesh / Body Heat /
+  Breath / Blood / Organs (como o Pyramid Book); janela alargada (`$0F:A1BE`). Cabeçalho das janelas do banco $0F:
+  `[ponteiro][largura][altura]` (meios tiles).
+- Países: `$00:E638` (código FF 20) lê `CountryNames` (banco $20, 16 bytes/país) → "Hong Kong"; janela `$0F:A147`.
+- Pequenas revisões pedidas a jogar ("Attack who?", "Use it on who?", aeroporto...). `juntar_linhas.py`: junta
+  linhas partidas a meio de frase quando cabem (100 mensagens, texto inalterado).
+- Combates aleatórios: `$01:8654` (taxa por mapa em `$0C:A411`); Game Genie `6D61-6709` desliga-os (só para testes).
+- **Erro do próprio patch:** as variáveis do patch estavam em `$7F:FF00-05`, no fim do mapa das masmorras
+  (`$7F:8000-FFFF`), e estragavam 3 células (buraco na parede do labirinto da Treasury). Movidas para `$7E:E800`.
+  Colisão: célula do mapa → atributo do bloco em `$7E:8000` (`$00:B797`). Mapa desenhado a partir de um save state
+  (8×8 ecrãs) para guiar o utilizador no labirinto.
+- `CHANGELOG.md` criado (histórico das versões e secção "Unreleased").
+- Commits locais; sincronização com o GitHub só quando pedida.
+- Conversa exportada para `historico/sessao-2026-10-15_manual-kunlun-ram.zip`.
+
 ---
 
 ## 10. Pendentes
