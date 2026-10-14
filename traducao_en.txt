@@ -264,9 +264,8 @@ chokes the foe.
 weakens the foe.
 
 #### 0049
-{clr}{05:02}Furasis's familiar{n}
-bursts the foe from{n}
-within.
+{clr}{05:02}Furasis's familiar bursts{n}
+the foe from within.
 
 #### 004A
 {clr}{05:02}Horas's familiar{n}
@@ -285,14 +284,12 @@ the foe to ash.
 engulfs the foe.
 
 #### 004E
-{clr}{05:02}The wind god blows{n}
-a freezing gale{n}
-at the foe.
+{clr}{05:02}The wind god blows a{n}
+freezing gale at the foe.
 
 #### 004F
-{clr}{05:02}The thunder god{n}
-strikes the foe with{n}
-lightning!!!
+{clr}{05:02}The thunder god strikes{n}
+the foe with lightning!!!
 
 #### 0050
 {clr}{05:00}All magic effects{n}
@@ -373,8 +370,7 @@ fully recovered!!{w}
 {clr}
 
 #### 0065
-{clr}{05:07}But nothing{n}
-happened.{w}
+{clr}{05:07}But nothing happened.{w}
 
 #### 0066
 {clr}{05:0A}It'd be a waste{n}
@@ -665,9 +661,8 @@ is cured of poison.{w}
 Takuhi here!{w}
 
 #### 0074
-{clr}{05:07}It seems only Pai{n}
-can use the Takuhi{n}
-Staff.{w}
+{clr}{05:07}It seems only Pai can{n}
+use the Takuhi Staff.{w}
 
 #### 0075
 {clr}{05:07}No point using{n}
@@ -685,12 +680,10 @@ on the pedestal.{w}
 
 #### 0078
 {05:00}Tag {07:00}: success!{n}
-{05:00}Making{n}
-talismans...
+{05:00}Making talismans...
 
 #### 0079
-{05:00}Making{n}
-talismans...
+{05:00}Making talismans...
 
 #### 007A
 {clr}{05:07}Yakumo made {07:00}{n}
@@ -724,13 +717,11 @@ Yakumo's arm...{w}
 
 #### 0080
 {clr}{05:07}{08:02}{n}
-reacts to the blood{n}
-and begins to{n}
-regenerate...{w}
+reacts to the blood and{n}
+begins to regenerate...{w}
 
 #### 0081
-{clr}{05:07}Yakumo got a{n}
-scratch.{w}
+{clr}{05:07}Yakumo got a scratch.{w}
 
 #### 0082
 {clr}{05:07}There's a chest.{w}
@@ -789,11 +780,10 @@ draw the talisman that{n}
 calls the spirit, and{n}
 chant the incantation.{0B}{clr}{05:00}　　 Solomon Talisman{n}
 　　　　　　　　　　　　{n}
-If thou hast a mighty{n}
-foe, use the Solomon{n}
-Talisman to summon{n}
-Satan. Then dread{n}
-Satan shall raise a{n}
+If thou hast a mighty foe,{n}
+use the Solomon Talisman{n}
+to summon Satan. Then{n}
+dread Satan shall raise a{n}
 mighty barrier.{0B}{clr}{05:00}　　{08:00}{n}
 　　　　　　　　　　　　{n}
 If thou wouldst slay{n}
@@ -813,11 +803,10 @@ to possess thy foes,{n}
 draw and use the{n}
 Square of 12.{0B}{clr}{05:00}　　Square No. 3{n}
 　　　　　　　　　　　　{n}
-If thou wouldst stir{n}
-up foul weather to{n}
-harm thy foes, use{n}
-this square. Then a{n}
-fierce rain shall{n}
+If thou wouldst stir up{n}
+foul weather to harm thy{n}
+foes, use this square.{n}
+Then a fierce rain shall{n}
 strike thy foes.{0B}{clr}{05:00}　　Square No. 1{n}
 　　　　　　　　　　　　{n}
 If thou wouldst turn{n}
@@ -845,11 +834,10 @@ magic circle!{0B}
 #### 008D
 {clr}{05:00}　　 Solomon Talisman{n}
 　　　　　　　　　　　　{n}
-If thou hast a mighty{n}
-foe, use the Solomon{n}
-Talisman to summon{n}
-Satan. Then dread{n}
-Satan shall raise a{n}
+If thou hast a mighty foe,{n}
+use the Solomon Talisman{n}
+to summon Satan. Then{n}
+dread Satan shall raise a{n}
 mighty barrier.{0B}{clr}{05:00}　　{08:00}{n}
 　　　　　　　　　　　　{n}
 If thou wouldst slay{n}
@@ -869,11 +857,10 @@ to possess thy foes,{n}
 draw and use the{n}
 Square of 12.{0B}{clr}{05:00}　　Square No. 3{n}
 　　　　　　　　　　　　{n}
-If thou wouldst stir{n}
-up foul weather to{n}
-harm thy foes, use{n}
-this square. Then a{n}
-fierce rain shall{n}
+If thou wouldst stir up{n}
+foul weather to harm thy{n}
+foes, use this square.{n}
+Then a fierce rain shall{n}
 strike thy foes.{0B}{clr}{05:00}　　Square No. 1{n}
 　　　　　　　　　　　　{n}
 If thou wouldst turn{n}
@@ -918,11 +905,10 @@ to possess thy foes,{n}
 draw and use the{n}
 Square of 12.{0B}{clr}{05:00}　　Square No. 3{n}
 　　　　　　　　　　　　{n}
-If thou wouldst stir{n}
-up foul weather to{n}
-harm thy foes, use{n}
-this square. Then a{n}
-fierce rain shall{n}
+If thou wouldst stir up{n}
+foul weather to harm thy{n}
+foes, use this square.{n}
+Then a fierce rain shall{n}
 strike thy foes.{0B}{clr}{05:00}　　Square No. 1{n}
 　　　　　　　　　　　　{n}
 If thou wouldst turn{n}
@@ -956,11 +942,10 @@ to possess thy foes,{n}
 draw and use the{n}
 Square of 12.{0B}{clr}{05:00}　　Square No. 3{n}
 　　　　　　　　　　　　{n}
-If thou wouldst stir{n}
-up foul weather to{n}
-harm thy foes, use{n}
-this square. Then a{n}
-fierce rain shall{n}
+If thou wouldst stir up{n}
+foul weather to harm thy{n}
+foes, use this square.{n}
+Then a fierce rain shall{n}
 strike thy foes.{0B}{clr}{05:00}　　Square No. 1{n}
 　　　　　　　　　　　　{n}
 If thou wouldst turn{n}
@@ -988,11 +973,10 @@ magic circle!{0B}
 #### 0090
 {clr}{05:00}　　Square No. 3{n}
 　　　　　　　　　　　　{n}
-If thou wouldst stir{n}
-up foul weather to{n}
-harm thy foes, use{n}
-this square. Then a{n}
-fierce rain shall{n}
+If thou wouldst stir up{n}
+foul weather to harm thy{n}
+foes, use this square.{n}
+Then a fierce rain shall{n}
 strike thy foes.{0B}{clr}{05:00}　　Square No. 1{n}
 　　　　　　　　　　　　{n}
 If thou wouldst turn{n}
@@ -1073,9 +1057,8 @@ way to complete the{n}
 magic circle!{0B}
 
 #### 0094
-{clr}{05:00}There is no other{n}
-way to complete the{n}
-magic circle!{0B}
+{clr}{05:00}There is no other way to{n}
+complete the magic circle!{0B}
 
 #### 0095
 {clr}{05:07}Welcome! This shop{n}
@@ -1083,9 +1066,8 @@ deals in gems.{w}
 {clr}How may I help you?
 
 #### 0096
-{clr}{05:07}Welcome! This shop{n}
-deals in ritual{n}
-tools.{w}
+{clr}{05:07}Welcome! This shop deals{n}
+in ritual tools.{w}
 {clr}What can I do for you?
 
 #### 0097
@@ -1104,8 +1086,7 @@ deals in folk crafts.{w}
 
 #### 009B
 {clr}{05:07}{08:02}, then!{w}
-{clr}How many would{n}
-you like?
+{clr}How many would you like?
 
 #### 009C
 {clr}{05:07}You can't carry that{n}
@@ -1127,12 +1108,10 @@ enough money!{w}
 
 #### 00A1
 {clr}{05:07}{08:02}, is it?{w}
-{clr}How many will you{n}
-sell?
+{clr}How many will you sell?
 
 #### 00A2
-{clr}{05:07}You don't have that{n}
-many!{w}
+{clr}{05:07}You don't have that many!{w}
 
 #### 00A3
 {clr}{05:07}Thank you for your{n}
@@ -1200,9 +1179,8 @@ be erased.{n}
 Is that OK?
 
 #### 00B3
-{clr}{05:07}Please rest and heal{n}
-the weariness of{n}
-your journey.{w}
+{clr}{05:07}Please rest and heal the{n}
+weariness of your journey.{w}
 
 #### 00B4
 {clr}{05:07}Welcome! Thank you{n}
@@ -1216,8 +1194,7 @@ Is that all right?
 
 #### 00B6
 {clr}{05:07}You can't leave the{n}
-country without a{n}
-ticket!{w}
+country without a ticket!{w}
 
 #### 00B7
 {clr}{05:07}Where would you like{n}
@@ -1264,8 +1241,7 @@ you carry that many?{w}
 
 #### 00C0
 {clr}{05:07}Even for you, Yakumo,{n}
-I can't go any{n}
-lower.{w}
+I can't go any lower.{w}
 
 #### 00C1
 {clr}{05:07}Lin-Lin's special{n}
@@ -1276,23 +1252,19 @@ Yakumo, I'll make it{n}
 {clr}How's that?
 
 #### 00C2
-{clr}{05:07}Drop by anytime{n}
-you're back in{n}
-Hong Kong!{w}
+{clr}{05:07}Drop by anytime you're{n}
+back in Hong Kong!{w}
 
 #### 00C3
-{clr}{05:07}Welcome! We deal in{n}
-items of{n}
-archaeological value.{w}
+{clr}{05:07}Welcome! We deal in items{n}
+of archaeological value.{w}
 
 #### 00C4
-{clr}{05:07}What will you sell{n}
-me?
+{clr}{05:07}What will you sell me?
 
 #### 00C5
-{clr}{05:07}I only buy things{n}
-of archaeological{n}
-value!{w}
+{clr}{05:07}I only buy things of{n}
+archaeological value!{w}
 
 #### 00C6
 {clr}{05:07}Hmm, I'll buy it for{n}
@@ -1373,9 +1345,8 @@ Which switch will{n}
 you press?
 
 #### 00D1
-{clr}{05:07}A mechanism seems to{n}
-have activated{n}
-somewhere.{w}
+{clr}{05:07}A mechanism seems to have{n}
+activated somewhere.{w}
 
 #### 00D2
 {clr}{05:03}Hey, Fujii! You{n}
@@ -1715,10 +1686,9 @@ Please stay back!{w}
 
 #### 00FD
 {clr}{05:03}Hm? Who's there!{w}
-{clr}Anyone who interferes{n}
-just as the sacred{n}
-rite begins won't{n}
-leave here alive!{w}
+{clr}Anyone who interferes just{n}
+as the sacred rite begins{n}
+won't leave here alive!{w}
 
 #### 00FE
 {clr}{05:03}Now, are you next?{w}
@@ -1726,14 +1696,12 @@ leave here alive!{w}
 
 #### 00FF
 {clr}{05:03}....!?{n}
-Who on earth{n}
-are you?{w}
+Who on earth are you?{w}
 {clr}
 
 #### 0100
 {clr}{05:03}....I see!{n}
-You must be{n}
-Kinkara!{w}
+You must be Kinkara!{w}
 
 #### 0101
 {clr}{05:03}Kinkara nodded.{w}
@@ -1834,12 +1802,9 @@ Where is Pai!?{n}
 Tell me!{w}
 
 #### 010C
-{clr}{05:03}Yakumo shouted at{n}
-Kinkara.{w}
-{n}
-Kinkara calmly{n}
-pointed to a room{n}
-on the right.{w}
+{clr}{05:03}Yakumo shouted at Kinkara.{w}{n}
+Kinkara calmly pointed to{n}
+a room on the right.{w}
 
 #### 010D
 {clr}{05:03}Is that the emblem?{w}
@@ -1886,8 +1851,7 @@ meet Sanjiyan.{w}
 
 #### 0116
 {clr}{05:0A}Yakumo and the others{n}
-headed for{n}
-Yumenoshima...{w}
+headed for Yumenoshima...{w}
 {clr}
 
 #### 0117
@@ -1956,11 +1920,9 @@ archaeological value.{w}
 time and enjoy them.{w}
 
 #### 011F
-{clr}{05:07}What! You want me to{n}
-give you Hadrian's{n}
-Key?{w}
-{clr}Hmm, that's tricky.{w}
-{n}
+{clr}{05:07}What! You want me to give{n}
+you Hadrian's Key?{w}
+{clr}Hmm, that's tricky.{w}{n}
 It's not that I can't{n}
 part with it...{w}
 {clr}I know! There's the{n}
@@ -1996,17 +1958,14 @@ from the Castalia.{w}
 and very delicious.{w}
 
 #### 0124
-{clr}{05:07}It's the Castalian{n}
-Spring.{w}
+{clr}{05:07}It's the Castalian Spring.{w}
 
 #### 0125
-{clr}{05:07}It's the Altar of{n}
-Oaths.{w}
+{clr}{05:07}It's the Altar of Oaths.{w}
 
 #### 0126
-{clr}{05:07}Yakumo placed the{n}
-Zeus statue shard on{n}
-the altar.{w}
+{clr}{05:07}Yakumo placed the Zeus{n}
+statue shard on the altar.{w}
 
 #### 0127
 {clr}{05:07}The Zeus statue shard{n}
@@ -2016,13 +1975,11 @@ Yakumo's "blood"...{w}
 Zeus statue shard.{w}
 
 #### 0128
-{clr}{05:07}Nothing of interest{n}
-here.{w}
+{clr}{05:07}Nothing of interest here.{w}
 
 #### 0129
-{clr}{05:07}Yakumo set the Zeus{n}
-statue shard into{n}
-the pedestal.{w}
+{clr}{05:07}Yakumo set the Zeus statue{n}
+shard into the pedestal.{w}
 
 #### 012A
 {clr}{05:07}It's the "Zeus Statue{n}
@@ -2043,8 +2000,7 @@ Zeus didn't appear...{w}
 #### 012E
 {clr}{05:07}I am Zeus...{w}
 {clr}You who summoned me,{n}
-what do you want{n}
-of me!?{w}
+what do you want of me!?{w}
 
 #### 012F
 {clr}{05:0A}Zeus...{w}
@@ -2152,9 +2108,8 @@ water of Castalia.{w}
 in your hands.{w}
 
 #### 013A
-{clr}{05:03}Those without the{n}
-gods' leave must{n}
-depart at once.{w}
+{clr}{05:03}Those without the gods'{n}
+leave must depart at once.{w}
 
 #### 013B
 {clr}{05:03}Yakumo touched the{n}
@@ -2172,19 +2127,16 @@ Please grant me{n}
 your oracle!{w}
 
 #### 013E
-{clr}{05:03}To grant an oracle,{n}
-I require the{n}
-"Medusa Eye".{w}
+{clr}{05:03}To grant an oracle, I{n}
+require the "Medusa Eye".{w}
 
 #### 013F
 {clr}{05:03}If you have no need,{n}
-never summon me{n}
-again!{w}
+never summon me again!{w}
 
 #### 0140
-{clr}{05:03}Without the{n}
-"Medusa Eye", the{n}
-oracle rite has no{n}
+{clr}{05:03}Without the "Medusa Eye",{n}
+the oracle rite has no{n}
 meaning!{w}
 
 #### 0141
@@ -2264,9 +2216,7 @@ in the air.{w}
 body of a priest...{w}
 
 #### 014E
-{clr}{05:03}A wounded priest{n}
-is here.{w}
-{n}
+{clr}{05:03}A wounded priest is here.{w}{n}
 The priest began to{n}
 speak hoarsely.{w}
 {clr}At last, the "dark{n}
@@ -2285,9 +2235,8 @@ his last in the{n}
 middle of his words.{w}
 
 #### 014F
-{clr}{05:03}The priest has{n}
-already breathed{n}
-his last...{w}
+{clr}{05:03}The priest has already{n}
+breathed his last...{w}
 
 #### 0150
 {clr}{05:03}An old man is dead...{w}
@@ -2338,8 +2287,7 @@ a legendary beast.{w}
 the moon god.{w}
 
 #### 0158
-{clr}{05:03}The Medusa Eye{n}
-glowed!{w}
+{clr}{05:03}The Medusa Eye glowed!{w}
 
 #### 0159
 {clr}{05:03}Mt. Athos, near this{n}
@@ -2358,16 +2306,14 @@ handy canteen!{w}
 of the Apollo Temple!{w}
 
 #### 015C
-{clr}{05:03}Everyone uses the{n}
-"Medusa Eye" as a{n}
-charm, but it seems{n}
-to hide great power!{w}
+{clr}{05:03}Everyone uses the "Medusa{n}
+Eye" as a charm, but it{n}
+seems to hide great power!{w}
 
 #### 015D
-{clr}{05:03}If you want to know{n}
-about this town, ask{n}
-the regulars at the{n}
-Kafenion.{w}
+{clr}{05:03}If you want to know about{n}
+this town, ask the{n}
+regulars at the Kafenion.{w}
 
 #### 015E
 {clr}{05:03}The temples here all{n}
@@ -2380,9 +2326,8 @@ forget it!{w}
 
 #### 015F
 {clr}{05:03}A strange entrance{n}
-appeared in the{n}
-temple. What could{n}
-it be?{w}
+appeared in the temple.{n}
+What could it be?{w}
 
 #### 0160
 {clr}{05:03}The temples here look{n}
@@ -2536,10 +2481,9 @@ look for it!{w}
 {clr}
 
 #### 0175
-{clr}{05:03}Hold on, Pai! Look{n}
-for it? We don't even{n}
-know where the key{n}
-is!{w}
+{clr}{05:03}Hold on, Pai! Look for{n}
+it? We don't even know{n}
+where the key is!{w}
 
 #### 0176
 {clr}{05:03}Yakumo, at least help{n}
@@ -2590,8 +2534,7 @@ Hong Kong, then!{w}
 {clr}
 
 #### 017E
-{clr}{05:03}Okay, thanks,{n}
-Lin-Lin!{w}
+{clr}{05:03}Okay, thanks, Lin-Lin!{w}
 {clr}
 
 #### 017F
@@ -2636,13 +2579,11 @@ are needed too!{w}
 {clr}
 
 #### 0185
-{clr}{05:03}I see...{w}
-{n}
+{clr}{05:03}I see...{w}{n}
 Then for now,{w}
-{clr}let's go to Hong{n}
-Kong and have{n}
-Lin-Lin take a look{n}
-at this sword!{w}
+{clr}let's go to Hong Kong{n}
+and have Lin-Lin take{n}
+a look at this sword!{w}
 
 #### 0186
 {clr}{05:03}Pai... Pai's in the{n}
@@ -2752,11 +2693,9 @@ Pai, Yakumo!{w}
 Pai, Fujii!{w}
 
 #### 0193
-{clr}{05:03}There is a big gate.{w}
-{n}
-It's locked with a{n}
-sturdy lock, so it{n}
-won't open!{w}
+{clr}{05:03}There is a big gate.{w}{n}
+It's locked with a sturdy{n}
+lock, so it won't open!{w}
 
 #### 0194
 {clr}{05:03}You must not wander{n}
@@ -2854,9 +2793,8 @@ Please, be careful{n}
 of Chokai.{w}
 
 #### 019B
-{clr}{05:03}Thank you for{n}
-freeing me from{n}
-Chokai's spell.{w}
+{clr}{05:03}Thank you for freeing me{n}
+from Chokai's spell.{w}
 
 #### 019C
 {clr}{05:03}A sacred ritual is{n}
@@ -2918,9 +2856,7 @@ Demon Stone.{w}
 {clr}{05:03}A statue of Nauthiz.{w}
 
 #### 01A3
-{clr}{05:03}There you are,{n}
-Yakumo!{w}
-{n}
+{clr}{05:03}There you are, Yakumo!{w}{n}
 So, did you find{n}
 any clues?{w}
 {clr}
@@ -3016,12 +2952,10 @@ going to Tibet...{w}
 {clr}
 
 #### 01B0
-{clr}{05:03}Tibet, huh...{w}
-{n}
+{clr}{05:03}Tibet, huh...{w}{n}
 You'd better hurry.{w}
-{clr}We don't know why{n}
-he bought that{n}
-censer...{w}
+{clr}We don't know why he{n}
+bought that censer...{w}
 {clr}
 
 #### 01B1
@@ -3034,8 +2968,7 @@ right away.{w}
 Yakumo!{w}
 
 #### 01B3
-{clr}{05:03}What is it,{n}
-Lin-Lin?{w}
+{clr}{05:03}What is it, Lin-Lin?{w}
 {clr}
 
 #### 01B4
@@ -3184,9 +3117,8 @@ the Sanctuary, right?{w}
 {clr}
 
 #### 01CA
-{clr}{05:03}Yeah. Anyway, I'll{n}
-go check out that{n}
-light!{w}
+{clr}{05:03}Yeah. Anyway, I'll go{n}
+check out that light!{w}
 
 #### 01CB
 {clr}{05:03}Yakumo, need{n}
@@ -3204,10 +3136,8 @@ are you Jake?{w}
 {clr}
 
 #### 01CE
-{clr}{05:03}Oh!? You know me!{w}
-{n}
-Guess I'm famous{n}
-now!{w}
+{clr}{05:03}Oh!? You know me!{w}{n}
+Guess I'm famous now!{w}
 {clr}Then this'll be quick.{n}
 I messed up and got{n}
 caught.{w}
@@ -3216,9 +3146,8 @@ outta here!{w}
 {clr}
 
 #### 01CF
-{clr}{05:03}You bought a censer{n}
-in Hong Kong, didn't{n}
-you?{w}
+{clr}{05:03}You bought a censer in{n}
+Hong Kong, didn't you?{w}
 {clr}
 
 #### 01D0
@@ -3403,16 +3332,14 @@ you accept.{w}
 {clr}
 
 #### 01EA
-{clr}{05:03}Thanks,{n}
-Lin-Lin.{w}
+{clr}{05:03}Thanks, Lin-Lin.{w}
 
 #### 01EB
 {clr}{05:03}Oh, wait a second,{n}
 Yakumo!{w}
 
 #### 01EC
-{clr}{05:03}What is it,{n}
-Lin-Lin?{w}
+{clr}{05:03}What is it, Lin-Lin?{w}
 {clr}
 
 #### 01ED
@@ -3490,16 +3417,14 @@ again!{w}
 {clr}
 
 #### 01F9
-{clr}{05:03}Thank you,{n}
-Lin-Lin!{w}
+{clr}{05:03}Thank you, Lin-Lin!{w}
 {clr}
 
 #### 01FA
 {clr}{05:03}Hey, Fujii!{w}
-{clr}You helped me look{n}
-for the grimoire, so{n}
-now I'll help you{n}
-out!{w}
+{clr}You helped me look for{n}
+the grimoire, so now{n}
+I'll help you out!{w}
 {clr}
 
 #### 01FB
@@ -3518,9 +3443,8 @@ it go with Nauthiz?{w}
 Nauthiz?{w}
 
 #### 01FF
-{clr}{05:03}Well? How did you{n}
-like the "trap" I{n}
-set for you?{w}
+{clr}{05:03}Well? How did you like the{n}
+"trap" I set for you?{w}
 {clr}
 
 #### 0200
@@ -3779,9 +3703,8 @@ to me?{w}
 
 #### 021F
 {clr}{05:03}On the way back from{n}
-fighting Nauthiz,{n}
-your plane{n}
-crashed.{w}
+fighting Nauthiz, your{n}
+plane crashed.{w}
 {clr}
 
 #### 0220
@@ -3839,9 +3762,8 @@ Pai?{w}
 
 #### 0227
 {clr}{05:03}Back then, Pai was{n}
-carried off by a{n}
-giant squid{n}
-monster.{w}
+carried off by a giant{n}
+squid monster.{w}
 {clr}
 
 #### 0228
@@ -3913,9 +3835,7 @@ Delhi right now!{w}
 {clr}
 
 #### 0232
-{clr}{05:03}Ah,{n}
-wait, Yakumo!{w}
-{n}
+{clr}{05:03}Ah, wait, Yakumo!{w}{n}
 We're coming too!{w}
 {clr}
 
@@ -4049,9 +3969,8 @@ here!!{w}
 {clr}
 
 #### 0247
-{clr}{05:03}Ugh! Who dares{n}
-get in my{n}
-way?!{w}
+{clr}{05:03}Ugh! Who dares get in{n}
+my way?!{w}
 {clr}
 
 #### 0248
@@ -4078,11 +3997,9 @@ supposed to do?!{w}
 {clr}
 
 #### 024B
-{clr}{05:03}Damn it...{w}
-{n}
-I can't just stand{n}
-by and let Gupta{n}
-die...{w}
+{clr}{05:03}Damn it...{w}{n}
+I can't just stand by{n}
+and let Gupta die...{w}
 {clr}
 
 #### 024C
@@ -4095,10 +4012,8 @@ boy!{w}
 
 #### 024D
 {clr}{05:03}Heh...{n}
-You're no murderer...{w}
-{n}
-You're a true{n}
-warrior!{w}
+You're no murderer...{w}{n}
+You're a true warrior!{w}
 {clr}
 
 #### 024E
@@ -4138,9 +4053,8 @@ Believe me!{w}
 #### 0252
 {clr}{05:03}What?{n}
 A squid monster?!{w}
-{clr}I haven't seen it,{n}
-but I know someone{n}
-else who has!{w}
+{clr}I haven't seen it, but I{n}
+know someone else who has!{w}
 {clr}
 
 #### 0253
@@ -4163,11 +4077,9 @@ Do I place the{n}
 {clr}
 
 #### 0256
-{clr}{05:03}O you who woke me...{w}
-{n}
-If you seek a pact{n}
-with me, answer my{n}
-question!{w}
+{clr}{05:03}O you who woke me...{w}{n}
+If you seek a pact with{n}
+me, answer my question!{w}
 {clr}
 
 #### 0257
@@ -4187,9 +4099,8 @@ you a pact with me.{w}
 
 #### 0259
 {clr}{05:03}Wrong!{n}
-You who failed the{n}
-pact, face my{n}
-punishment!{w}
+You who failed the pact,{n}
+face my punishment!{w}
 
 #### 025A
 {clr}{05:03}There's a Kaiyan{n}
@@ -4288,7 +4199,9 @@ to ask you...{w}
 {clr}{05:03}The Hadrian Key is on{n}display at the lower{n}right of this room!{w}
 
 #### 0274
-{clr}{05:03}The Hadrian Key was{n}on display before,{n}but now the Agora{n}Statue is there!{w}
+{clr}{05:03}The Hadrian Key was on{n}
+display before, but now{n}
+the Agora Statue is there!{w}
 
 #### 0275
 {clr}{05:03}The Temple of Zeus in{n}this town has no{n}entrance,{w}{clr}but they say a{n}certain key lets you{n}get inside.{w}{clr}But that's just a{n}rumor, so don't{n}believe it too much!{w}
@@ -4300,28 +4213,53 @@ to ask you...{w}
 {clr}{05:03}An entrance has{n}appeared at the{n}Temple of Zeus.{w}{clr}But you'd better not{n}go inside, maybe?{w}
 
 #### 0278
-{clr}{05:00}In the southwest city{n}is a temple: Hera.{n}　{n}Who bears a shard of{n}my statue shall hold{n}the key to its seal.{0B}{clr}{05:00}That temple holds the{n}hall of Altis; past{n}it lies my second{n}temple.{n}　{n}There is enshrined{n}the Holy Stone.{0B}{clr}{05:00}One who bears the{n}Holy Stone shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
+{clr}{05:00}In the southwest city is a temple: Hera.{n}
+　{n}
+Who bears a shard of{n}
+my statue shall hold{n}
+the key to its seal.{0B}{clr}{05:00}That temple holds the{n}
+hall of Altis; past{n}
+it lies my second{n}
+temple.{n}
+　{n}
+There is enshrined{n}
+the Holy Stone.{0B}{clr}{05:00}One who bears the{n}
+Holy Stone shall climb{n}
+the holy mountain as{n}
+the gods' messenger.{0B}{clr}{05:03}That makes all the{n}
+Sanctuary keys...
 
 #### 0279
-{clr}{05:00}That temple holds the{n}hall of Altis; past{n}it lies my second{n}temple.{n}　{n}There is enshrined{n}the Holy Stone.{0B}{clr}{05:00}One who bears the{n}Holy Stone shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
+{clr}{05:00}That temple holds the hall of Altis; past it{n}
+lies my second temple.{n}
+　{n}
+There is enshrined{n}
+the Holy Stone.{0B}{clr}{05:00}One who bears the{n}
+Holy Stone shall climb{n}
+the holy mountain as{n}
+the gods' messenger.{0B}{clr}{05:03}That makes all the{n}
+Sanctuary keys...
 
 #### 027A
 {clr}{05:00}One who bears the{n}Holy Stone shall climb{n}the holy mountain as{n}the gods' messenger.{0B}{clr}{05:03}That makes all the{n}Sanctuary keys...
 
 #### 027B
-{clr}{05:03}That makes all the{n}Sanctuary keys...
+{clr}{05:03}That makes all the Sanctuary keys...
 
 #### 027C
-{clr}{05:03}Now we can seal{n}Taisoei!
+{clr}{05:03}Now we can seal Taisoei!
 
 #### 027D
-{clr}{05:03}So we're finally{n}going to the{n}Sanctuary...
+{clr}{05:03}So we're finally going to the{n}
+Sanctuary...
 
 #### 027E
-{clr}{05:03}The temple doors{n}opened!{w}
+{clr}{05:03}The temple doors opened!{w}
 
 #### 027F
-{clr}{05:03}For now, let's go{n}back to Yogekisha{n}and report to{n}Lin-Lin!{w}
+{clr}{05:03}For now, let's go back{n}
+to Yogekisha and{n}
+report to Lin-Lin!{w}
 
 #### 0280
 {clr}{05:03}That's the third{n}Sanctuary key{n}found, Yakumo!{w}{clr}
@@ -4336,7 +4274,10 @@ to ask you...{w}
 {clr}{05:03}That's the fourth{n}Sanctuary key{n}found, Yakumo!{w}{clr}
 
 #### 0284
-{clr}{05:03}The fifth key is{n}up ahead too...{n}Let's hurry on,{n}Pai!{w}{clr}
+{clr}{05:03}The fifth key is{n}
+up ahead too...{n}
+Let's hurry on, Pai!{w}
+{clr}
 
 #### 0285
 {clr}{05:03}So someone else{n}besides us is looking{n}for the keys to{n}the Sanctuary...{w}{clr}
@@ -4354,7 +4295,9 @@ to ask you...{w}
 {clr}{05:03}I'm truly sorry.
 
 #### 0302
-{clr}{05:03}This is my clan's{n}problem, yet I've{n}troubled you{n}again...
+{clr}{05:03}This is my clan's{n}
+problem, yet I've{n}
+troubled you again...
 
 #### 0303
 {clr}{05:03}Don't worry about it{n}so much, Gupta...
@@ -4375,7 +4318,8 @@ to ask you...{w}
 {clr}{05:03}Yakumo...
 
 #### 0309
-{clr}{05:03}You held out this{n}far all on your{n}own.
+{clr}{05:03}You held out this far{n}
+all on your own.
 
 #### 030A
 {clr}{05:03}You are becoming{n}quite the Wu...
@@ -4610,10 +4554,16 @@ With Kaiyanwang gone,{n}
 {clr}{05:03}The way of the RPG{n}lies in leveling up,{n}I have found...{n}Levels! Level up!{w}{clr}
 
 #### 1002
-{clr}{05:03}Is it true Sanjiyan{n}can make you live{n}forever???{n}You know anything?{w}{clr}
+{clr}{05:03}Is it true Sanjiyan can{n}
+make you live forever???{n}
+You know anything?{w}
+{clr}
 
 #### 1003
-{clr}{05:03}That 999 sure is{n}kinda shady...{n}What do they do all{n}day?{w}{clr}
+{clr}{05:03}That 999 sure is{n}
+kinda shady...{n}
+What do they do all day?{w}
+{clr}
 
 #### 1004
 {clr}{05:03}At this rate, it{n}looks like it'll be{n}sunny tomorrow.{w}{clr}
@@ -4634,7 +4584,10 @@ With Kaiyanwang gone,{n}
 {clr}{05:03}The station? It's{n}right there, see?{w}{clr}
 
 #### 100A
-{clr}{05:03}That house over there{n}is lovely. I'd love{n}to live in a place{n}like that.{w}{clr}
+{clr}{05:03}That house over there is{n}
+lovely. I'd love to live{n}
+in a place like that.{w}
+{clr}
 
 #### 100B
 {clr}{05:03}See TV last night?{n}What! You didn't?{n}That's too bad.{w}{clr}
@@ -4649,13 +4602,19 @@ With Kaiyanwang gone,{n}
 {clr}{05:03}Yogekisha???{n}You've got to be{n}kidding!! Nobody{n}reads that fake rag!!{w}{clr}
 
 #### 100F
-{clr}{05:03}Somebody said the{n}Temple of Hera and{n}the Temple of Zeus{n}might be connected.{w}{clr}
+{clr}{05:03}Somebody said the Temple{n}
+of Hera and the Temple of{n}
+Zeus might be connected.{w}
+{clr}
 
 #### 1010
 {clr}{05:03}This is no place{n}for the likes of you.{n}Get lost!!{w}{clr}
 
 #### 1011
-{clr}{05:03}I've searched for{n}Sanjiyan for so many{n}years... Where on{n}earth can it be??{w}{clr}
+{clr}{05:03}I've searched for Sanjiyan{n}
+for so many years... Where{n}
+on earth can it be??{w}
+{clr}
 
 #### 1012
 {clr}{05:03}Hey, mister!{n}Walking around with{n}a cute girl like{n}that! Lucky you!!{w}{clr}
@@ -4664,7 +4623,10 @@ With Kaiyanwang gone,{n}
 {clr}{05:03}Sorry!!{n}I just pulled an{n}all-nighter, I'm{n}wiped! Gimme a break!{w}{clr}
 
 #### 1014
-{clr}{05:03}The Yogekisha boss{n}had something like a{n}bomb gadget. Is that{n}okay???{w}{clr}
+{clr}{05:03}The Yogekisha boss had{n}
+something like a bomb{n}
+gadget. Is that okay???{w}
+{clr}
 
 #### 1015
 {clr}{05:03}Cycling!{n}Cycling!{n}Tomorrow's a fun{n}cycling day!!{w}{clr}
@@ -4772,9 +4734,8 @@ the flower garden!{w}
 
 #### 1029
 {clr}{05:03}O Python, guardian{n}
-god! Protect this{n}
-town from the evil{n}
-youma...{w}
+god! Protect this town{n}
+from the evil youma...{w}
 {clr}
 
 #### 102A
@@ -4801,17 +4762,15 @@ food...{w}
 {clr}
 
 #### 102D
-{clr}{05:03}So many tourists{n}
-here, sometimes I{n}
-can't tell who the{n}
-locals are.{w}
+{clr}{05:03}So many tourists here,{n}
+sometimes I can't tell{n}
+who the locals are.{w}
 {clr}
 
 #### 102E
 {clr}{05:03}Kalimera!!{n}
 How's my Greek?{n}
-It means{n}
-"good morning"!{w}
+It means "good morning"!{w}
 {clr}
 
 #### 102F
@@ -4915,10 +4874,9 @@ one with the Ganges!!{w}
 {clr}
 
 #### 103F
-{clr}{05:03}They say lately{n}
-there have been lots{n}
-of attacks on{n}
-tourists!{w}
+{clr}{05:03}They say lately there{n}
+have been lots of{n}
+attacks on tourists!{w}
 {clr}
 
 #### 1040
@@ -4947,10 +4905,9 @@ should bury it...{w}
 {clr}
 
 #### 1044
-{clr}{05:03}Someone who runs a{n}
-museum must know{n}
-just about anything,{n}
-don't you think?{w}
+{clr}{05:03}Someone who runs a museum{n}
+must know just about{n}
+anything, don't you think?{w}
 {clr}
 
 #### 1045
@@ -5180,10 +5137,9 @@ at least once!{w}
 {clr}
 
 #### 1067
-{clr}{05:03}Long ago, they say{n}
-people offered their{n}
-own blood on the oath{n}
-altar to become{w}
+{clr}{05:03}Long ago, they say people{n}
+offered their own blood on{n}
+the oath altar to become{w}
 {clr}messengers of god!{w}
 {clr}
 
@@ -5202,24 +5158,21 @@ space under here...?{w}
 {clr}
 
 #### 106A
-{clr}{05:03}I-I-I'm not good{n}
-with t-t-tight{n}
-spaces...{n}
+{clr}{05:03}I-I-I'm not good with{n}
+t-t-tight spaces...{n}
 *shiver shiver*{w}
 {clr}
 
 #### 106B
 {clr}{05:03}Kyaaaa!!!{n}
-You scared me! Don't{n}
-talk to me all of a{n}
-sudden, jeez!!{w}
+You scared me! Don't talk to{n}
+me all of a sudden, jeez!!{w}
 {clr}
 
 #### 106C
-{clr}{05:03}Some great scholar{n}
-has a theory that{n}
-all the temples are{n}
-connected.{w}
+{clr}{05:03}Some great scholar has a{n}
+theory that all the{n}
+temples are connected.{w}
 {clr}
 
 #### 106D
