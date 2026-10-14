@@ -1207,8 +1207,7 @@ your journey.{w}
 
 #### 00B4
 {clr}{05:07}Welcome! Thank you{n}
-for using our{n}
-airport.{w}
+for flying with us.{w}
 {clr}How may I help you?
 
 #### 00B5
