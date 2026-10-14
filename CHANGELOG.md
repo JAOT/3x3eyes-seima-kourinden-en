@@ -12,19 +12,22 @@ All notable changes to the English translation patch. Versions match the GitHub 
 - About 100 messages reflowed: sentences that were broken mid-line now use fewer lines when they fit
   (the wording itself is unchanged).
 
-### Fixes to the original game
-- **Hole in the wall of the Treasury labyrinth (Olympia, Greece).** In the labyrinth behind the locked door on
-  the Treasury's B1, one wall cell just below the path, on the screen below the chest with the Book of Almadel,
-  was walkable in the original Japanese game. Stepping through it let the party walk off the path into the
-  empty area around the candles, and walking from there into the screen on the right left the party stuck at
-  the screen edge.
-  - **How to reproduce (original game or earlier patches):** in the Treasury labyrinth, go to the screen just
-    below the Book of Almadel chest. On the path, find the cell where the wall below the path has a gap (under the
-    party in the screenshot) and walk down: you leave the path. Walk right into the next screen and the party
-    gets stuck.
-  - **Cause:** the map (no. `$4D`) uses block `$1BA` (walkable) for that single wall cell instead of the wall
-    block `$049`. Block `$1BA` appears nowhere else in that map.
-  - **Fix:** the collision check (`$00:B797`) treats that cell as a wall in map `$4D`. Graphics are unchanged.
+### Bug fixes
+- **Hole in the wall of the Treasury labyrinth (Olympia, Greece) — a bug of the translation patch itself.**
+  In the labyrinth behind the locked door on the Treasury's B1, on the screen below the chest with the Book of
+  Almadel, the wall just below the path showed a few odd tiles and could be walked through. From there the party
+  could walk into the empty area around the candles, and walking into the screen on the right left the party
+  stuck at the screen edge. This does **not** happen in the original Japanese game.
+  - **Affected versions:** v0.1-beta to v0.2.1-beta.
+  - **How to reproduce (with those versions):** in the Treasury labyrinth, go to the screen just below the Book of
+    Almadel chest and walk down from the left end of the path (the first cells of the wall below it): you leave the
+    path. Walk right into the next screen and the party gets stuck.
+  - **Cause:** the patch kept three of its own variables (font upload timer, font segment index, last graphics
+    file loaded) at WRAM `$7F:FF00-FF05`. The game uses `$7F:8000-FFFF` for the dungeon map, so in maps large
+    enough to reach that area three map cells were overwritten (here, three cells of the corridor's bottom wall).
+  - **Fix:** the variables moved to unused WRAM (`$7E:E800-E805`). The map is no longer touched.
+  - If you load a save state made inside that labyrinth with an older version, leave the labyrinth and come back
+    so the map is reloaded.
 
 ## v0.2.1-beta — 2026-10-11
 

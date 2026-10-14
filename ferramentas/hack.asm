@@ -14,8 +14,11 @@ lorom
 
 incsrc "gerado/font_en_defs.asm"
 
-!Timer  = $7FFF00   ; frames que faltam de reenvio da fonte
-!SegIdx = $7FFF02   ; próximo segmento a enviar
+; Variáveis do patch em RAM livre ($7E:D000-EFFF está vazia nos save states e o código não lhe acede).
+; ATENÇÃO: antes estavam em $7F:FF00-FF05, que é o fim do mapa das masmorras ($7F:8000-FFFF): estragavam
+; 3 células do mapa (ex.: buraco na parede do labirinto da Treasury). Não usar $7F:8000-FFFF.
+!Timer  = $7EE800   ; frames que faltam de reenvio da fonte
+!SegIdx = $7EE802   ; próximo segmento a enviar
 
 ; --- ganchos no código original -------------------------------------------
 ; A rotina de glifos $00:E378 é chamada de ~30 sítios (diálogo, menus, combate),
@@ -152,7 +155,7 @@ incsrc "gerado/blocos.asm"
 ; O carregador de gráficos ($00:865D, A = nº do descritor) descomprime a fonte de diálogo (#000/#001)
 ; diretamente para a VRAM. À saída ($00:86EF), se foi a fonte, as letras inglesas são copiadas por cima,
 ; para não aparecerem kana nos primeiros frames das mensagens. (Assim o patch não leva a fonte original.)
-!LastDesc = $7FFF04
+!LastDesc = $7EE804
 org $00865D
     JMP LoadHookIn       ; era REP #$30 / PHP / PHB / PHA
 org $0086EF
@@ -342,28 +345,6 @@ FontUploadAll:       ; envia todos os segmentos da fonte inglesa (chamado logo a
     PLP
     RTL
 
-CollisionFix:        ; ver $00:B797 (A/X 16 bits, DB = $00)
-    LDA $0DD8
-    TAX
-    LDA.l $7E8000,x
-    AND.w #$00FF
-    PHA
-    LDA $0910            ; nº do mapa
-    CMP.w #$004D
-    BNE .orig
-    LDX $00              ; célula do mapa: $7F:(endereço em $00)
-    LDA.l $7F0000,x
-    CMP.w #$01BA
-    BNE .orig
-    PLA
-    LDA.w #$0001         ; bloqueado, como os blocos da borda
-    BRA .done
-.orig
-    PLA
-.done
-    LDX $C4
-    JML $00B7A4          ; RTS original
-
 NameTable:           ; ponteiros (banco $20) para nomes de 9 bytes
     dw .yakumo, .pai, .haan, .linlin, .jake, .gupta, .sanjiyan
 .yakumo:   db "Yakumo",0,0,0
@@ -418,11 +399,3 @@ CountryNames:        ; nº 0-4, como em $0C:CF07 (0 = vazio)
     db "Mexico",0,0,0,0,0,0,0,0,0,0
     db "India",0,0,0,0,0,0,0,0,0,0,0
 
-; --- correção de um erro do jogo original: buraco na borda do labirinto (Treasury de Olympia) ---------
-; No mapa nº $4D, uma célula da borda (logo abaixo do caminho, perto do cofre do Book of Almadel) usa o
-; bloco $1BA, transitável, em vez do bloco da borda $049. Por ali saía-se do caminho para a zona vazia,
-; e ao passar para o ecrã da direita a equipa ficava presa. O bloco $1BA só aparece nessa célula do mapa.
-; A verificação de colisão ($00:B797: atributo do bloco em $7E:8000) passa a dar "bloqueado" (1)
-; para essa célula. [$00] aponta para a célula do mapa em $7F (calculado em $00:A562).
-org $00B797
-    JML CollisionFix     ; era LDA $0DD8 / TAX / LDA $7E8000,x / AND #$00FF / LDX $C4 / RTS

@@ -98,6 +98,10 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
   `CountryNames` (banco $20, 16 bytes por país) em vez de `$0C:CF07` (4 carateres). "Hong Kong" com espaço;
   janela do menu (`$0F:A147`) alargada para `$1A`. Testado OK (2026-10-14).
 
+- **Buraco na parede do labirinto da Treasury** (erro do patch, v0.1-beta a v0.2.1-beta): as variáveis do
+  patch estavam em `$7F:FF00-05`, no fim do mapa das masmorras, e estragavam 3 células. Passaram para
+  `$7E:E800-E805`. Testado OK (2026-10-15). Ver CHANGELOG.md.
+
 ## Por testar
 
 - Monólogo e falas das cenas com o negrito novo.
