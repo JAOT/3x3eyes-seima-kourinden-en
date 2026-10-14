@@ -1086,8 +1086,7 @@ deals in gems.{w}
 {clr}{05:07}Welcome! This shop{n}
 deals in ritual{n}
 tools.{w}
-{clr}What can I do for{n}
-you?
+{clr}What can I do for you?
 
 #### 0097
 {clr}{05:07}Welcome! This shop{n}
