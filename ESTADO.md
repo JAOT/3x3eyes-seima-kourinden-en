@@ -102,6 +102,13 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
   patch estavam em `$7F:FF00-05`, no fim do mapa das masmorras, e estragavam 3 células. Passaram para
   `$7E:E800-E805`. Testado OK (2026-10-15). Ver CHANGELOG.md.
 
+- **EM INVESTIGAÇÃO — ecrã negro ao entrar em portas no Templo de Nauthiz (2026-10-15).** No B1, a pilha
+  (`$019A-$01F7`) ficou cheia de `$04` e o ciclo da masmorra passou a correr ~`$5E` bytes mais abaixo; ao sair por
+  uma porta, `PLB/PLB/RTL` em `$01:8C24` regressa a `$04:0405` → BRK → bloqueio em `$00:FFE0`. Causa ainda
+  desconhecida (patch ou jogo original); o código de batota foi excluído. Conserto manual usado pelo utilizador:
+  escrever `00 00 E9 92 00 C3 92 00` em WRAM `$019A`. Para apanhar o culpado: breakpoint de escrita em `$01F0`
+  (valor `$04`) ao repetir as ações do B1 (estátuas, cofre, escadas laterais).
+
 ## Por testar
 
 - Monólogo e falas das cenas com o negrito novo.
