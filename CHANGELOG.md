@@ -8,7 +8,8 @@ All notable changes to the English translation patch. Versions match the GitHub 
 - **Text flashing during screen transitions** (e.g. the narration after the Nauthiz battle: the old text
   reappeared for an instant at the end of each fade-out) — a bug of the translation patch. The patch uploaded the
   English font with DMA channel 7, which the game uses for HDMA screen effects, so each upload corrupted the
-  effect. The font upload now uses channel 6, which the game does not use. Affected versions: v0.1-beta to v0.2.2-beta.
+  effect. The font upload now uses channel 6, which the game does not use. Other HDMA effects now also play as in
+  the original, e.g. the top-to-bottom wipe of the character portraits, which was cut short before. Affected versions: v0.1-beta to v0.2.2-beta.
 
 ## v0.2.2-beta — 2026-10-15
 
