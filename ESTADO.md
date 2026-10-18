@@ -1,6 +1,6 @@
 # Estado do projeto — 3x3 Eyes: Seima Kourinden (EN)
 
-Última atualização: 2026-10-15
+Última atualização: 2026-10-18
 
 ## Gerar a ROM
 
@@ -75,7 +75,7 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
   de gráficos (`$00:865D` guarda o nº do descritor, `$00:86EF` chama `FontUploadAll` se for #000/#001), que
   envia logo todos os segmentos da fonte inglesa para a VRAM. `fonte_rom.py` removido. **Testado OK no Mesen (2026-10-10).**
 - **Patch BPS:** `python ferramentas\criar_bps.py <rom original> 3x3Eyes_EN.sfc <saída.bps>` (codificador
-  próprio; verifica o patch reaplicando-o). v0.1-beta: 126954 bytes, resultado CRC32 D97935D1. v0.2-beta: 130541 bytes, CRC32 A9A3BC49. v0.2.1-beta: 130656 bytes, CRC32 7435533B. v0.2.2-beta: 130597 bytes, CRC32 E2FEF9BD.
+  próprio; verifica o patch reaplicando-o). v0.1-beta: 126954 bytes, resultado CRC32 D97935D1. v0.2-beta: 130541 bytes, CRC32 A9A3BC49. v0.2.1-beta: 130656 bytes, CRC32 7435533B. v0.2.2-beta: 130597 bytes, CRC32 E2FEF9BD. v0.2.3-beta: 130597 bytes, CRC32 1B66CBD3.
 - Desmontador simples de 65816: `ferramentas/analise/dis65816.py <rom> <banco:endereço> [n]`.
 
 - **Livros lidos no menu** (Atlas, Pyramid Book, livros de talismãs/pentáculos/Nauthiz): não estão no guião
@@ -128,7 +128,7 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
 
 1. Jogar do início ao fim e corrigir a tradução à medida (enviar correções em lista, como em 2026-10-09).
 2. Procurar e traduzir os restantes ecrãs gráficos de texto (#1EE com conjunto de glifos desconhecido, final do jogo).
-3. Releases seguintes (v0.2…) com as correções dos testers: `criar_bps.py` + `gh release create`. v0.1-beta e v0.2-beta publicadas em 2026-10-10; v0.2.1-beta em 2026-10-11; v0.2.2-beta em 2026-10-15.
+3. Releases seguintes (v0.2…) com as correções dos testers: `criar_bps.py` + `gh release create`. v0.1-beta e v0.2-beta publicadas em 2026-10-10; v0.2.1-beta em 2026-10-11; v0.2.2-beta em 2026-10-15; v0.2.3-beta em 2026-10-18.
 4. Mais tarde: fonte de largura variável (VWF); gráficos do título e kanji de cidades (ex.: 香港).
 
 ## Dúvidas de tradução em aberto

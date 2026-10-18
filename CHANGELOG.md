@@ -2,7 +2,7 @@
 
 All notable changes to the English translation patch. Versions match the GitHub Releases.
 
-## Unreleased
+## v0.2.3-beta — 2026-10-18
 
 ### Bug fixes
 - **HDMA screen effects cut short** — a bug of the translation patch. The patch uploaded the English font with
