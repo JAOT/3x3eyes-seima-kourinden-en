@@ -212,7 +212,7 @@ listagem são tabelas de dados que por acaso parecem kana.
 |---|---|
 | **Texto em inglês (ASCII)** | Desvio na entrada de `$00:E378` → `TextHook` (`$00:FC00`): códigos `$20`–`$7E` desenham letras 8x16 (meia largura) com a tabela `GlyphMap`; o resto segue a rotina original |
 | **Fonte inglesa** | Desenhada de raiz (`fonte_en.py`), 94 glifos 8x16 em 2 tiles cada, colocados por cima de tiles usados só pelos kana |
-| **Envio da fonte para a VRAM** | NMI desviado para `NmiFar` (`$20:8025`): envia um segmento por frame (DMA canal 7) enquanto há texto a ser desenhado; endereço = segmento + base BG3 (`$00DC`) |
+| **Envio da fonte para a VRAM** | NMI desviado para `NmiFar` (`$20:8025`): envia um segmento por frame (DMA canal 6; o canal 7 é do HDMA do jogo) enquanto há texto a ser desenhado; endereço = segmento + base BG3 (`$00DC`) |
 | **Nomes das personagens** | Tabela `NameTable` no banco `$20`; cópias de 9 bytes (`$01:9A68`, `$01:9A7D`); `$00:ED32` reapontado (banco `$20`) |
 | **Body/Mind** | Os kanji 体力精神 desenham "Bo","dy","Mi","nd" (tabela `$00:ED89`) |
 | **Pares de letras** | Códigos de katakana/hiragana (`$01`–`$1F`, `$80`–`$9F`) reaproveitados para desenhar 2 letras num glifo 16x16 (`menus.py`) |

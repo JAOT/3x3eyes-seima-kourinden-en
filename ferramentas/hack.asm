@@ -289,16 +289,16 @@ NmiFar:
     CLC
     ADC.l $0000DC        ; base de caracteres do BG3 (cópia do jogo: $3000 no campo, $2000 no combate)
     STA.l $002116
-    LDA.w #$1801         ; DMA canal 7: modo 1 (2 registos) -> $2118
-    STA.l $004370
+    LDA.w #$1801         ; DMA canal 6: modo 1 (2 registos) -> $2118 (o jogo usa o canal 7 para HDMA: não usar)
+    STA.l $004360
     LDA.l FontSegs+2,x
-    STA.l $004372
+    STA.l $004362
     LDA.l FontSegs+4,x
-    STA.l $004375
+    STA.l $004365
     SEP #$20
     LDA.b #FontGfx>>16
-    STA.l $004374
-    LDA.b #$80
+    STA.l $004364
+    LDA.b #$40          ; canal 6
     STA.l $00420B
 .done
     REP #$30
@@ -312,7 +312,7 @@ FontUploadAll:       ; envia todos os segmentos da fonte inglesa (chamado logo a
     REP #$30
     PHX
     LDA.w #$0000
-    STA.l !Timer         ; o NMI deixa de enviar segmentos (e não mexe no canal 7 a meio)
+    STA.l !Timer         ; o NMI deixa de enviar segmentos (e não mexe no canal 6 a meio)
     SEP #$20
     LDA.b #$80
     STA.l $002115
@@ -324,15 +324,15 @@ FontUploadAll:       ; envia todos os segmentos da fonte inglesa (chamado logo a
     ADC.l $0000DC        ; base de caracteres do BG3 (mesma conta do NMI e do carregador)
     STA.l $002116
     LDA.w #$1801
-    STA.l $004370
+    STA.l $004360
     LDA.l FontSegs+2,x
-    STA.l $004372
+    STA.l $004362
     LDA.l FontSegs+4,x
-    STA.l $004375
+    STA.l $004365
     SEP #$20
     LDA.b #FontGfx>>16
-    STA.l $004374
-    LDA.b #$80
+    STA.l $004364
+    LDA.b #$40          ; canal 6
     STA.l $00420B
     REP #$20
     TXA

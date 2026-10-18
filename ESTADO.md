@@ -109,6 +109,10 @@ Pipeline (`build.py`): CRC FBF3C0FF → expansão 2 MB → `fonte_en.py` → `me
   escrever `00 00 E9 92 00 C3 92 00` em WRAM `$019A`. Para apanhar o culpado: breakpoint de escrita em `$01F0`
   (valor `$04`) ao repetir as ações do B1 (estátuas, cofre, escadas laterais).
 
+- **Texto a piscar nas transições (fade)**: o envio da fonte no NMI usava o canal de DMA 7, que o jogo usa para HDMA
+  (`$00:8BFC`, `$420C = $80`). Passou para o canal 6 (o jogo só usa 0, 1 e 7). **Por testar.** Pode estar ligado ao
+  problema da pilha no Templo de Nauthiz (HDMA com registos estragados) — confirmar se desaparece.
+
 ## Por testar
 
 - Monólogo e falas das cenas com o negrito novo.
