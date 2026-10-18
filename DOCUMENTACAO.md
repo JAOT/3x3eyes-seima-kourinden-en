@@ -358,6 +358,19 @@ Regras aprendidas:
 - `CHANGELOG.md` criado (histórico das versões e secção "Unreleased").
 - Commits locais; sincronização com o GitHub só quando pedida.
 - Conversa exportada para `historico/sessao-2026-10-15_manual-kunlun-ram.zip`.
+- **Release v0.2.2-beta** (130597 bytes, CRC32 `E2FEF9BD`).
+
+### Dia 8 — 2026-10-15 a 2026-10-18
+- Templo de Nauthiz: ferramentas para guiar o utilizador a partir de save states — `analise/mapa_masmorra.py`
+  (mapa completo, blocos raros), `analise/caminho_masmorra.py` (caminho mais curto) e `analise/saidas_masmorra.py`
+  (escadas que sobem/descem, zona alcançável, estátuas).
+- Script de usar objetos nas masmorras (`$1F:92FC`): tabela por nº do mapa; posições das 9 estátuas e dos pedestais.
+- Ecrã negro em portas do Templo de Nauthiz: pilha cheia de `$04`; conserto manual em `$019A`. Ainda em investigação.
+- **Erro do patch:** o envio da fonte usava o canal de DMA 7, que o jogo usa para HDMA (efeitos de ecrã); passou
+  para o canal 6. O deslize dos retratos voltou à velocidade original. (O texto que reaparece entre painéis de
+  narração é do jogo original.)
+- **Release v0.2.3-beta** (130597 bytes, CRC32 `1B66CBD3`).
+- Conversa exportada para `historico/sessao-2026-10-18_nauthiz-hdma.zip`.
 
 ---
 
