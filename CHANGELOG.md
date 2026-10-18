@@ -5,11 +5,12 @@ All notable changes to the English translation patch. Versions match the GitHub 
 ## Unreleased
 
 ### Bug fixes
-- **Text flashing during screen transitions** (e.g. the narration after the Nauthiz battle: the old text
-  reappeared for an instant at the end of each fade-out) — a bug of the translation patch. The patch uploaded the
-  English font with DMA channel 7, which the game uses for HDMA screen effects, so each upload corrupted the
-  effect. The font upload now uses channel 6, which the game does not use. Other HDMA effects now also play as in
-  the original, e.g. the top-to-bottom wipe of the character portraits, which was cut short before. Affected versions: v0.1-beta to v0.2.2-beta.
+- **HDMA screen effects cut short** — a bug of the translation patch. The patch uploaded the English font with
+  DMA channel 7, which the game uses for HDMA screen effects, so each upload disturbed the effect; for example, the
+  top-to-bottom wipe of the character portraits was cut short and the portraits appeared too fast. The font upload
+  now uses channel 6, which the game does not use. Affected versions: v0.1-beta to v0.2.2-beta.
+  (The brief reappearance of the old text between narration panels, e.g. after the Nauthiz battle, also happens in
+  the original game and is not a bug of the patch.)
 
 ## v0.2.2-beta — 2026-10-15
 
